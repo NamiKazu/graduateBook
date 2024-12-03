@@ -1,0 +1,282 @@
+
+% 各种引用
+\section{引用}[Cite]
+
+\sindex[china]{du!段誉}引文标注遵照GB/T7714-2005，采用顺序编码制。正文中引用文献的标示应置于所引内容最后一个字的右上角，所引文献编号用阿拉伯数字置于方括号“[ ]”中，用小4号字体的上角标。要求：
+
+（1）引用单篇文献时，如“二次铣削\cite{cnproceed}”。
+
+（2）同一处引用多篇文献时，各篇文献的序号在方括号内全部列出，各序号间用“，”，如
+遇连续序号，可标注讫序号。如，…形成了多种数学模型\cite{cnarticle,cnproceed}…
+注意此处添加\cs{inlinecite} inlinecite 中文空格\inlinecite{cnarticle,cnproceed}，可以在cfg文件中修改空格类型。
+
+（3）多次引用同一文献时，在文献序号的“[ ]”后标注引文页码。如，…间质细胞CAMP含量
+测定\cite[100-197]{cnarticle}…。…含量测定方法规定
+\cite[92]{cnarticle}…。
+
+
+
+% 定义定理
+\section{定理和定义等}[Theorem]
+\begin{theorem}[\cite{cnproceed}]
+宇宙大爆炸是一种爆炸。
+\end{theorem}
+
+% 表格
+\begin{table}[htbp]
+\bicaption[table1]{}{符合研究生院绘图规范的表格}{Table$\!$}{Table in agreement of the standard from graduate school}
+\vspace{0.5em}\centering\wuhao
+\begin{tabular}{ccccc}
+\toprule
+$D$(in) & $P_u$(lbs) & $u_u$(in) & $\beta$ & $G_f$(psi.in)\\
+\midrule
+    5 & 269.8 & 0.000674 & 1.79 & 0.04089\\
+10 & 421.0 & 0.001035 & 3.59 & 0.04089\\
+20 & 640.2 & 0.001565 & 7.18 & 0.04089\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+% 长表格
+\vspace{-1.5bp}
+\ltfontsize{\wuhao[1.667]}
+\wuhao[1.667]\begin{longtable}{ccc}%
+\longbionenumcaption{}{{\wuhao 中国省级行政单位一览}\label{table2}}{Table$\!$}{}{{\wuhao Overview of the provincial administrative unit of China}}{-0.5em}{3.15bp}\\
+%\caption{\wuhao 中国省级行政单位一览}\label{table2}\\
+\toprule 名称 & 简称 & 省会或首府\\ \midrule
+\endfirsthead
+\multicolumn{3}{r}{表~\thetable（续表）}\vspace{0.5em}\\
+\toprule 名称 & 简称 & 省会或首府\\ \midrule
+\endhead
+\midrule[0.5pt]
+\endfoot
+\bottomrule
+\endlastfoot
+北京市 & 京 & 北京\\
+天津市 & 津 & 天津\\
+河北省 & 冀 & 石家庄市\\
+山西省 & 晋 & 太原市\\
+内蒙古自治区 & 蒙 & 呼和浩特市\\
+辽宁省 & 辽 & 沈阳市\\
+吉林省 & 吉 & 长春市\\
+黑龙江省 & 黑 & 哈尔滨市\\
+上海市 & 沪/申 & 上海\\
+江苏省 & 苏 & 南京市\\
+浙江省 & 浙 & 杭州市\\
+安徽省 & 皖 & 合肥市\\
+福建省 & 闽 & 福州市\\
+江西省 & 赣 & 南昌市\\
+山东省 & 鲁 & 济南市\\
+河南省 & 豫 & 郑州市\\
+湖北省 & 鄂 & 武汉市\\
+湖南省 & 湘 & 长沙市\\
+广东省 & 粤 & 广州市\\
+广西壮族自治区 & 桂 & 南宁市\\
+海南省 & 琼 & 海口市\\
+重庆市 & 渝 & 重庆\\
+四川省 & 川/蜀 & 成都市\\
+贵州省 & 黔/贵 & 贵阳市\\
+云南省 & 云/滇 & 昆明市\\
+西藏自治区 & 藏 & 拉萨市\\
+陕西省 & 陕/秦 & 西安市\\
+甘肃省 & 甘/陇 & 兰州市\\
+青海省 & 青 & 西宁市\\
+宁夏回族自治区 & 宁 & 银川市\\
+新疆维吾尔自治区 & 新 & 乌鲁木齐市\\
+香港特别行政区 & 港 & 香港\\
+澳门特别行政区 & 澳 & 澳门\\
+台湾省 & 台 & 台北市\\
+\end{longtable}\normalsize
+\vspace{-1em}
+
+
+
+
+% 图片
+\begin{figure}[h]
+\centering
+\includegraphics[width = 0.4\textwidth]{golfer}
+\caption{打高尔夫球的人，硕士论文要求只用汉语}
+\end{figure}
+
+
+\begin{figure}[htbp]
+\centering
+\begin{minipage}{0.4\textwidth}
+\centering
+\includegraphics[width=\textwidth]{golfer}
+\bicaption[golfer2]{}{打高尔夫球的人}{Fig.$\!$}{The person playing golf}
+\end{minipage}
+\centering
+\begin{minipage}{0.4\textwidth}
+\centering
+\includegraphics[width=\textwidth]{golfer}
+\bicaption[golfer3]{}{打高尔夫球的人。注意，这里默认居中}{Fig.$\!$}{The person playing golf. Please note that, it is vertically center aligned by default.}
+\end{minipage}
+\end{figure}
+
+
+\begin{figure}[htbp]
+\centering
+\begin{minipage}[t]{0.4\textwidth}
+\centering
+\includegraphics[width=\textwidth]{golfer}
+\bicaption[golfer5]{}{打高尔夫球的人}{Fig.$\!$}{The person playing golf}
+\end{minipage}
+\centering
+\begin{minipage}[t]{0.4\textwidth}
+\centering
+\includegraphics[width=\textwidth]{golfer}
+\bicaption[golfer8]{}{打高尔夫球的人。注意，此图是顶部对齐}{Fig.$\!$}{The person playing golf. Please note that, it is vertically top aligned.}
+\end{minipage}
+\end{figure}
+
+\begin{figure}[htbp]
+\centering
+\begin{minipage}[t]{0.4\textwidth}
+\centering
+\includegraphics[width=\textwidth,height=\textwidth]{golfer}
+\bicaption[golfer9]{}{打高尔夫球的人。注意，此图对齐方式是图片底部对齐}{Fig.$\!$}{The person playing golf. Please note that, it is vertically bottom aligned for figure.}
+\end{minipage}
+\centering
+\begin{minipage}[t]{0.4\textwidth}
+\centering
+\includegraphics[width=\textwidth]{golfer}
+\bicaption[golfer6]{}{打高尔夫球的人}{Fig.$\!$}{The person playing golf}
+\end{minipage}
+\end{figure}
+
+\begin{figure}[!h]
+\setlength{\subfigcapskip}{-1bp}
+\centering
+\begin{minipage}{\textwidth}
+\centering
+\subfigure{\label{golfer41}}\addtocounter{subfigure}{-2}
+\subfigure[The person playing golf]{\subfigure[打高尔夫球的人~1]{\includegraphics[width=0.4\textwidth]{golfer}}}
+\hspace{2em}
+\subfigure{\label{golfer42}}\addtocounter{subfigure}{-2}
+\subfigure[The person playing golf]{\subfigure[打高尔夫球的人~2]{\includegraphics[width=0.4\textwidth]{golfer}}}
+\end{minipage}
+\centering
+\begin{minipage}{\textwidth}
+\centering
+\subfigure{\label{golfer43}}\addtocounter{subfigure}{-2}
+\subfigure[The person playing golf]{\subfigure[打高尔夫球的人~3]{\includegraphics[width=0.4\textwidth]{golfer}}}
+\hspace{2em}
+\subfigure{\label{golfer44}}\addtocounter{subfigure}{-2}
+\subfigure[The person playing golf. Here, 'hang indent' and 'center last line' are not stipulated in the regulation.]{\subfigure[打高尔夫球的人~4。注意，规范中没有明确规定要悬挂缩进、最后一行居中。]{\includegraphics[width=0.4\textwidth]{golfer}}}
+\end{minipage}
+\vspace{0.2em}
+\bicaption[golfer4]{}{打高尔夫球的人}{Fig.$\!$}{The person playing gol}
+\end{figure}
+
+\begin{figure}[t]
+\centering
+\begin{minipage}{.7\linewidth}
+    \setlength{\subfigcapskip}{-1bp}
+    \centering
+    \begin{minipage}{\textwidth}
+    \centering
+    \subfigure{\label{golfer45}}\addtocounter{subfigure}{-2}
+    \subfigure[The person playing golf]{\subfigure[打高尔夫球的人~1]{\includegraphics[width=0.4\textwidth]{golfer}}}
+    \hspace{4em}
+    \subfigure{\label{golfer46}}\addtocounter{subfigure}{-2}
+    \subfigure[The person playing golf]{\subfigure[打高尔夫球的人~2]{\includegraphics[width=0.4\textwidth]{golfer}}}
+    \end{minipage}
+    \vskip 0.2em
+\wuhao 注意：这里是中文图注添加位置（我工要求，图注在图题之上）。
+    \vspace{0.2em}
+\bicaption[golfer47]{}{打高尔夫球的人。注意，此处我工有另外一处要求，子图图题可以位于主图题之下。但由于没有明确说明位于下方具体是什么格式，所以这里不给出举例。}{Fig.$\!$}{The person playing golf. Please note that, although it is appropriate to put subfigures' captions under this caption as stipulated in regulation, but its format is not clearly stated.}
+\end{minipage}
+\end{figure}
+
+\begin{figure}[t]
+\centering
+\begin{tikzpicture}
+    \node[anchor=south west,inner sep=0] (image) at (0,0) {\includegraphics[width=0.3\textwidth]{golfer}};
+    \begin{scope}[x={(image.south east)},y={(image.north west)}]
+        \node at (0.3,0.5) {a)};
+        \node at (0.8,0.2) {b)};
+    \end{scope}
+\end{tikzpicture}
+\bicaption[golfer0]{}{打高尔夫球球的人（博士论文双语题注）}{Fig.$\!$}{The person playing golf (Doctoral thesis)}
+\vskip -0.4em
+\hspace{2em}
+\begin{minipage}[t]{0.3\textwidth}
+\wuhao \setlist[description]{font=\normalfont}
+    \begin{description}
+        \item[(a)]子图图题
+    \end{description}
+\end{minipage}
+\hspace{2em}
+\begin{minipage}[t]{0.3\textwidth}
+\wuhao \setlist[description]{font=\normalfont}
+    \begin{description}
+        \item[(b)]子图图题
+        \item[(b)]Subfigure caption
+    \end{description}
+\end{minipage}
+\end{figure}
+
+
+
+\clearpage
+
+如果不想让图片浮动到下一章节，那么在此处使用\cs{clearpage}命令。
+
+
+
+
+\subsection{列宽可调表格的绘制方法}[Methods of drawing tables with adjustable-width columns]
+论文中能用到列宽可调表格的情况共有两种，一种是当插入的表格某一单元格内容过长以至
+于一行放不下的情况，另一种是当对公式中首次出现的物理量符号进行注释的情况，这两种
+情况都需要调用~tabularx~宏包。下面将分别对这两种情况下可调表格的绘制方法进行阐述
+。
+\subsubsection{表格内某单元格内容过长的情况}[The condition when the contents in
+some cells of tables are too long]
+首先给出这种情况下的一个例子如表~\ref{table3}~所示。
+\begin{table}[htbp]
+  \centering
+\bicaption[table3]{}{最小的三个正整数的英文表示法}{Table$\!$}{The English construction of the smallest three positive integral numbers}\vspace{0.5em}\wuhao
+\begin{tabularx}{0.7\textwidth}{llX}
+\toprule
+Value & Name & Alternate names, and names for sets of the given size\\
+\midrule
+1 & One & ace, single, singleton, unary, unit, unity\\
+2 & Two & binary, brace, couple, couplet, distich, deuce, double, doubleton, duad, duality, duet, duo, dyad, pair, snake eyes, span, twain, twosome, yoke\\
+3 & Three & deuce-ace, leash, set, tercet, ternary, ternion, terzetto, threesome, tierce, trey, triad, trine, trinity, trio, triplet, troika, hat-trick\\
+\bottomrule
+\end{tabularx}
+\end{table}
+tabularx环境共有两个必选参数：第1个参数用来确定表格的总宽度，第2个参数用来确定每
+列格式，其中标为X的项表示该列的宽度可调，其宽度值由表格总宽度确定。标为X的列一般
+选为单元格内容过长而无法置于一行的列，这样使得该列内容能够根据表格总宽度自动分行
+。若列格式中存在不止一个X项，则这些标为X的列的列宽相同，因此，一般不将内容较短的
+列设为X。标为X的列均为左对齐，因此其余列一般选为l（左对齐），这样可使得表格美观
+，但也可以选为c或r。
+
+\subsubsection{对物理量符号进行注释的情况}[The condition when physical symbols
+need to be annotated]
+
+为使得对公式中物理量符号注释的转行与破折号“———”后第一个字对齐，此处最好采用表格
+环境。此表格无任何线条，左对齐，且在破折号处对齐，一共有“式中”二字、物理量符号和
+注释三列，表格的总宽度可选为文本宽度，因此应该采用\verb|tabularx|环境。由
+\verb|tabularx|环境生成的对公式中物理量符号进行注释的公式如式(\ref{eq:1})所示。
+\begin{equation}\label{eq:1}
+\ddot{\boldsymbol{\rho}}-\frac{\mu}{R_{t}^{3}}\left(3\mathbf{R_{t}}\frac{\mathbf{R_{t}\rho}}{R_{t}^{2}}-\boldsymbol{\rho}\right)=\mathbf{a}
+\end{equation}
+\begin{tabularx}{\textwidth}{@{}l@{\quad}r@{———}X@{}}
+式中& $\boldsymbol{\rho}$ &追踪飞行器与目标飞行器之间的相对位置矢量；\\
+&  $\boldsymbol{\ddot{\rho}}$&追踪飞行器与目标飞行器之间的相对加速度；\\
+&  $\mathbf{a}$   &推力所产生的加速度；\\
+&  $\mathbf{R_t}$ & 目标飞行器在惯性坐标系中的位置矢量；\\
+&  $\omega_{t}$ & 目标飞行器的轨道角速度；\\
+&  $\mathbf{g}$ & 重力加速度，$=\frac{\mu}{R_{t}^{3}}\left(
+3\mathbf{R_{t}}\frac{\mathbf{R_{t}\rho}}{R_{t}^{2}}-\boldsymbol{\rho}\right)=\omega_{t}^{2}\frac{R_{t}}{p}\left(
+3\mathbf{R_{t}}\frac{\mathbf{R_{t}\rho}}{R_{t}^{2}}-\boldsymbol{\rho}\right)$，这里~$p$~是目标飞行器的轨道半通径。
+\end{tabularx}\vspace{3.15bp}
+由此方法生成的注释内容应紧邻待注释公式并置于其下方，因此不能将代码放入
+\verb|table|浮动环境中。但此方法不能实现自动转页接排，可能会在当前页剩余空间不够
+时，全部移动到下一页而导致当前页出现很大空白。因此在需要转页处理时，还请您手动将
+需要转页的代码放入一个新的\verb|tabularx|环境中，将原来的一个\verb|tabularx|环境
+拆分为两个\verb|tabularx|环境。
