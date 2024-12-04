@@ -608,6 +608,8 @@ OUTPUT body/regu.aux
 INPUT ./body/regu.tex
 INPUT ./body/regu.tex
 INPUT body/regu.tex
+INPUT ./figures/开发审查流程.png
+INPUT ./figures/开发审查流程.png
 INPUT ./body/introduction.tex
 INPUT ./body/introduction.tex
 OUTPUT body/introduction.aux
