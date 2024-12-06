@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.11.30)  4 DEC 2024 21:29
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.11.30)  5 DEC 2024 21:28
 entering extended mode
  \write18 enabled.
  Source specials enabled.
@@ -2101,7 +2101,33 @@ File: figures/开发审查流程.png Graphic file (type bmp)
 
 
 
-] [2]) [3]
+] [2]
+
+Package natbib Warning: Citation `待填，参考bbreg边界框' on page 3 undefined on input l
+ine 59.
+
+
+Package natbib Warning: Citation `待填' on page 3 undefined on input line 59.
+
+
+Package natbib Warning: Citation `待填，参考杨' on page 3 undefined on input line 59.
+
+
+
+Package natbib Warning: Citation `综述中' on page 3 undefined on input line 64.
+
+
+Package natbib Warning: Citation `综述中' on page 3 undefined on input line 64.
+
+
+Package natbib Warning: Citation `综述中' on page 3 undefined on input line 64.
+
+[3]
+
+Package natbib Warning: Citation `面向对象软件耦合度量方法' on page 4 undefined on input li
+ne 76.
+
+) [4]
 \openout2 = `body/introduction.aux'.
 
  (./body/introduction.tex
@@ -2116,13 +2142,13 @@ File: figures/ast示例.png Graphic file (type bmp)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[4
+[5
 
 
 
 
 
-] [5]
+] [6]
 Underfull \hbox (badness 10000) in paragraph at lines 85--89
 [][]\TU/SongtiSCLight(0)/m/n/12.045 第 二 次 遍 历 的 主 要 目 的 是 提 取 方 法 之 间 的 调 用 关 系
 。|  提 取 \TU/TeXGyreTermesX(0)/m/n/12.045 FUNC-
@@ -2135,23 +2161,23 @@ Underfull \hbox (badness 5802) in paragraph at lines 85--89
 45 ，|  该 节 点 标 签 表 示 的 是 调 用 语 句，|
  []
 
-[6]
+[7]
 File: figures/全局变量提取流程图.png Graphic file (type bmp)
 <figures/全局变量提取流程图.png>
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[7]
-Missing character: There is no � (U+FFFD) in font [TeXGyreTermesX-Regular.otf]/
-OT:script=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no � (U+FFFD) in font [TeXGyreTermesX-Regular.otf]/
-OT:script=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no � (U+FFFD) in font [TeXGyreTermesX-Regular.otf]/
-OT:script=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no � (U+FFFD) in font [TeXGyreTermesX-Regular.otf]/
-OT:script=latn;language=dflt;mapping=tex-text;!
 [8]
+Missing character: There is no � (U+FFFD) in font [TeXGyreTermesX-Regular.otf]/
+OT:script=latn;language=dflt;mapping=tex-text;!
+Missing character: There is no � (U+FFFD) in font [TeXGyreTermesX-Regular.otf]/
+OT:script=latn;language=dflt;mapping=tex-text;!
+Missing character: There is no � (U+FFFD) in font [TeXGyreTermesX-Regular.otf]/
+OT:script=latn;language=dflt;mapping=tex-text;!
+Missing character: There is no � (U+FFFD) in font [TeXGyreTermesX-Regular.otf]/
+OT:script=latn;language=dflt;mapping=tex-text;!
+[9]
 Missing character: There is no � (U+FFFD) in font [TeXGyreTermesX-Regular.otf]/
 OT:script=latn;language=dflt;mapping=tex-text;!
 Missing character: There is no � (U+FFFD) in font [TeXGyreTermesX-Regular.otf]/
@@ -2176,68 +2202,52 @@ Missing character: There is no ǉ (U+01C9) in font [TeXGyreTermesX-Regular.otf]/
 OT:script=latn;language=dflt;mapping=tex-text;!
 Missing character: There is no � (U+FFFD) in font [TeXGyreTermesX-Regular.otf]/
 OT:script=latn;language=dflt;mapping=tex-text;!
-[9] [10]
+[10] [11]
 File: figures/扇入扇出.png Graphic file (type bmp)
 <figures/扇入扇出.png>
- [11]
+ [12]
 第3章
-[12
+[13
 
 
 ]
 File: figures/依赖关系示例.png Graphic file (type bmp)
 <figures/依赖关系示例.png>
- [13]
+ [14]
 File: figures/数据挖掘挖到的方法对.png Graphic file (type bmp)
 <figures/数据挖掘挖到的方法对.png>
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[14] [15] [16]
+[15] [16] [17]
 第4章
-[17
+[18
 
 
-]) [18]
+]) [19]
 \openout2 = `back/conclusion.aux'.
 
- (./back/conclusion.tex) [19
+ (./back/conclusion.tex) [20
 
 
 
 
 
 
-] (./thesis.bbl
-
-LaTeX Warning: Empty `thebibliography' environment on input line 14.
-
-) [20
+] (./thesis.bbl) [21
 
 
 
 
-]
-
-./thesis.tex:151: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.151 \include
-              {back/acknowledgements} %致谢
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[21
+] [22
 
 
 ]
 \openout2 = `back/acknowledgements.aux'.
 
- (./back/acknowledgements.tex) [22
+
+(./back/acknowledgements.tex) [23
 
 
 
@@ -2245,6 +2255,9 @@ If that doesn't work, type  X <return>  to quit.
 \tf@thm=\write9
 \openout9 = `thesis.thm'.
 
+
+
+Package natbib Warning: There were undefined citations.
 
 
 Package glossaries Warning: No \printglossary or \printglossaries found. 
@@ -2263,15 +2276,15 @@ LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.47188pt have occurred.
 
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 6FA17C9A13AB9525F20D8B0885C4D4A0;7979.
+(rerunfilecheck)             Checksum: 4C01CEC70FA1F2A1F067FD25A3CE2EA6;7979.
  ) 
 Here is how much of TeX's memory you used:
- 44634 strings out of 474773
- 949345 string characters out of 5757723
- 1946839 words of memory out of 5000000
- 65920 multiletter control sequences out of 15000+600000
- 602878 words of font info for 198 fonts, out of 8000000 for 9000
+ 44640 strings out of 474773
+ 949538 string characters out of 5757723
+ 1947839 words of memory out of 5000000
+ 65925 multiletter control sequences out of 15000+600000
+ 602886 words of font info for 199 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  107i,12n,111p,2550b,872s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on thesis.pdf (29 pages).
+Output written on thesis.pdf (30 pages).
