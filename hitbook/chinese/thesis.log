@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.11.30)  7 DEC 2024 22:47
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.11.30)  12 DEC 2024 22:06
 entering extended mode
  \write18 enabled.
  Source specials enabled.
@@ -1800,24 +1800,14 @@ File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
 Package translations Info: No language package found. I am going to use `englis
 h' as default language. on input line 104.
  (./thesis.aux (./body/regu.aux)
-(./body/introduction.aux
-
-LaTeX Warning: Label `table1' multiply defined.
-
-
-LaTeX Warning: Label `table1' multiply defined.
-
-
-LaTeX Warning: Label `table1' multiply defined.
-
-) (./back/conclusion.aux) (./back/acknowledgements.aux))
+(./body/introduction.aux) (./back/conclusion.aux) (./back/acknowledgements.aux)
+)
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 104.
 LaTeX Font Info:    Trying to load font information for OML+ntxmi on input line
  104.
-
-(/usr/local/texlive/2024/texmf-dist/tex/latex/newtx/omlntxmi.fd
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/newtx/omlntxmi.fd
 File: omlntxmi.fd 2015/08/25 Fontinst v1.933 font definitions for OML/ntxmi.
 )
 LaTeX Font Info:    ... okay on input line 104.
@@ -2111,33 +2101,33 @@ File: figures/开发审查流程.png Graphic file (type bmp)
 
 
 
-] [2]
+] [2] [3]
+./body/regu.tex:78: Misplaced alignment tab character &.
+<recently read> &
+                 
+l.78 ...damber and Kemerer套件（CK套件）和Li and Henry（L&
+                                                  H）套件。
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
 
-Package natbib Warning: Citation `待填，参考bbreg边界框' on page 3 undefined on input l
-ine 59.
+[4]
+./body/regu.tex:101: Misplaced alignment tab character &.
+<recently read> &
+                 
+l.101 ...993Object}，主要用于评估程序的复杂度、维护性以及开发成本等度量套件。L&
+                                                  H套件中有一部分指标和CK套件是一样的,除此之外，还...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
 
-
-Package natbib Warning: Citation `待填' on page 3 undefined on input line 59.
-
-
-Package natbib Warning: Citation `待填，参考杨' on page 3 undefined on input line 59.
-
-
-
-Package natbib Warning: Citation `综述中' on page 3 undefined on input line 64.
-
-
-Package natbib Warning: Citation `综述中' on page 3 undefined on input line 64.
-
-
-Package natbib Warning: Citation `综述中' on page 3 undefined on input line 64.
-
-[3]
-
-Package natbib Warning: Citation `面向对象软件耦合度量方法' on page 4 undefined on input li
-ne 76.
-
-) [4]
+) [5]
 \openout2 = `body/introduction.aux'.
 
  (./body/introduction.tex
@@ -2152,13 +2142,13 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[5
+[6
 
 
 
 
 
-] [6]
+] [7]
 ./body/introduction.tex:92: Undefined control sequence.
 l.92     \KwLine
                 
@@ -2375,15 +2365,15 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[7] [8]
+[8] [9]
 File: figures/全局变量提取流程图.png Graphic file (type bmp)
 <figures/全局变量提取流程图.png>
- [9
+ [10
 
-] [10]
+] [11]
 Package hyperref Info: bookmark level for unknown equation defaults to 0 on inp
 ut line 198.
- [11]
+ [12]
 ./body/introduction.tex:238: Misplaced alignment tab character &.
 l.238 {LCOM3} &
                 = & \frac{n}{n-1} \times {LCOM2}  & = & \frac{n - \frac{e}{a...
@@ -2424,271 +2414,97 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-[12]
-./body/introduction.tex:286: Argument of \Hy@tempa has an extra }.
-<inserted text> 
-                \par 
-l.286 \vspace{0.5em}
-                    \centering\wuhao
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
-\@captype {\def \reserved@a *{\@vspacer }\reserved@a }\def \reserved@b \ETC.
-./body/introduction.tex:286: Paragraph ended before \Hy@tempa was complete.
-<to be read again> 
-                   \par 
-l.286 \vspace{0.5em}
-                    \centering\wuhao
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-./body/introduction.tex:286: Missing { inserted.
-\sbox  ...box {\color@setgroup #2\color@endgroup }
-                                                  
-l.286 \vspace{0.5em}
-                    \centering\wuhao
-Where was the left brace? You said something like `\def\a}',
-which I'm going to interpret as `\def\a{}'.
-
-./body/introduction.tex:286: Missing \endgroup inserted.
-<inserted text> 
-                \endgroup 
-l.286 \vspace{0.5em}
-                    \centering\wuhao
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-./body/introduction.tex:286: Missing } inserted.
-<inserted text> 
-                }
-l.286 \vspace{0.5em}
-                    \centering\wuhao
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-[13]
+[13] [14]
 File: figures/扇入扇出.png Graphic file (type bmp)
 <figures/扇入扇出.png>
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[14]
-./body/introduction.tex:355: Argument of \Hy@tempa has an extra }.
-<inserted text> 
-                \par 
-l.355 \vspace{0.5em}
-                    \centering\wuhao
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
-\@captype {\def \reserved@a *{\@vspacer }\reserved@a }\def \reserved@b \ETC.
-./body/introduction.tex:355: Paragraph ended before \Hy@tempa was complete.
-<to be read again> 
-                   \par 
-l.355 \vspace{0.5em}
-                    \centering\wuhao
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-./body/introduction.tex:355: Missing { inserted.
-\sbox  ...box {\color@setgroup #2\color@endgroup }
-                                                  
-l.355 \vspace{0.5em}
-                    \centering\wuhao
-Where was the left brace? You said something like `\def\a}',
-which I'm going to interpret as `\def\a{}'.
-
-./body/introduction.tex:355: Missing \endgroup inserted.
-<inserted text> 
-                \endgroup 
-l.355 \vspace{0.5em}
-                    \centering\wuhao
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-./body/introduction.tex:355: Missing } inserted.
-<inserted text> 
-                }
-l.355 \vspace{0.5em}
-                    \centering\wuhao
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-[15]
-./body/introduction.tex:393: Argument of \Hy@tempa has an extra }.
-<inserted text> 
-                \par 
-l.393 \vspace{0.5em}
-                    \centering\wuhao
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
-\@captype {\def \reserved@a *{\@vspacer }\reserved@a }\def \reserved@b \ETC.
-./body/introduction.tex:393: Paragraph ended before \Hy@tempa was complete.
-<to be read again> 
-                   \par 
-l.393 \vspace{0.5em}
-                    \centering\wuhao
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-./body/introduction.tex:393: Missing { inserted.
-\sbox  ...box {\color@setgroup #2\color@endgroup }
-                                                  
-l.393 \vspace{0.5em}
-                    \centering\wuhao
-Where was the left brace? You said something like `\def\a}',
-which I'm going to interpret as `\def\a{}'.
-
-./body/introduction.tex:393: Missing \endgroup inserted.
-<inserted text> 
-                \endgroup 
-l.393 \vspace{0.5em}
-                    \centering\wuhao
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-./body/introduction.tex:393: Missing } inserted.
-<inserted text> 
-                }
-l.393 \vspace{0.5em}
-                    \centering\wuhao
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-./body/introduction.tex:410: Argument of \Hy@tempa has an extra }.
-<inserted text> 
-                \par 
-l.410 \vspace{0.5em}
-                    \centering\wuhao
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
-\@captype {\def \reserved@a *{\@vspacer }\reserved@a }\def \reserved@b \ETC.
-./body/introduction.tex:410: Paragraph ended before \Hy@tempa was complete.
-<to be read again> 
-                   \par 
-l.410 \vspace{0.5em}
-                    \centering\wuhao
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-./body/introduction.tex:410: Missing { inserted.
-\sbox  ...box {\color@setgroup #2\color@endgroup }
-                                                  
-l.410 \vspace{0.5em}
-                    \centering\wuhao
-Where was the left brace? You said something like `\def\a}',
-which I'm going to interpret as `\def\a{}'.
-
-./body/introduction.tex:410: Missing \endgroup inserted.
-<inserted text> 
-                \endgroup 
-l.410 \vspace{0.5em}
-                    \centering\wuhao
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-./body/introduction.tex:410: Missing } inserted.
-<inserted text> 
-                }
-l.410 \vspace{0.5em}
-                    \centering\wuhao
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-[16] [17]
+[15] [16] [17] [18] [19]
 第3章
-[18
+[20
 
 
 ]
 File: figures/依赖关系示例.png Graphic file (type bmp)
 <figures/依赖关系示例.png>
- [19]
+ [21]
 File: figures/数据挖掘挖到的方法对.png Graphic file (type bmp)
 <figures/数据挖掘挖到的方法对.png>
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[20] [21] [22]
+[22] [23] [24]
 第4章
-) [23
+) [25
 
 
-] [24]
+] [26]
 \openout2 = `back/conclusion.aux'.
 
- (./back/conclusion.tex) [25
+ (./back/conclusion.tex) [27
 
 
 
 
 
 
-] (./thesis.bbl) [26
+] (./thesis.bbl
+./thesis.bbl:25: Misplaced alignment tab character &.
+l.25 International Conference on Applications &
+                                                Techniques in Information Se...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./thesis.bbl:79: Misplaced alignment tab character &.
+l.79 \newblock Journal of Systems &
+                                    Software, 2015, 108\allowbreak (oct.): 1...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./thesis.bbl:97: Misplaced alignment tab character &.
+l.97 ...onal Conference on Computational Science &
+                                                   Its Applications.
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+[28
 
 
 
 
-] [27
+]
+./thesis.bbl:135: Misplaced alignment tab character &.
+l.135 \newblock Journal of Systems &
+                                     Software, 1993, 23\allowbreak (2): 111-...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+) [29] [30
 
 
 ]
 \openout2 = `back/acknowledgements.aux'.
 
-
-(./back/acknowledgements.tex) [28
+ (./back/acknowledgements.tex) [31
 
 
 
@@ -2696,9 +2512,6 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 \tf@thm=\write9
 \openout9 = `thesis.thm'.
 
-
-
-Package natbib Warning: There were undefined citations.
 
 
 Package glossaries Warning: No \printglossary or \printglossaries found. 
@@ -2716,19 +2529,16 @@ L3 programming layer <2022/08/05>
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.47188pt have occurred.
 
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 80D886625FF8F0EEE72EE682FDDE3DD9;9621.
+(rerunfilecheck)             Checksum: D9740B5FA33FAB8887EA2016972F0A55;9621.
  ) 
 Here is how much of TeX's memory you used:
- 44762 strings out of 474773
- 953007 string characters out of 5757723
- 1946839 words of memory out of 5000000
- 66030 multiletter control sequences out of 15000+600000
- 616676 words of font info for 240 fonts, out of 8000000 for 9000
+ 44837 strings out of 474773
+ 955602 string characters out of 5757723
+ 1949839 words of memory out of 5000000
+ 66106 multiletter control sequences out of 15000+600000
+ 616668 words of font info for 239 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 107i,19n,111p,2550b,872s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 107i,19n,111p,2550b,1047s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on thesis.pdf (35 pages).
+Output written on thesis.pdf (38 pages).

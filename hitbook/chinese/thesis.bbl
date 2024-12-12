@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{19}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{#1}
 \expandafter\ifx\csname urlstyle\endcsname\relax\else
@@ -11,6 +11,57 @@
   \let\eprint\href
 \fi
 
+\bibitem[Sheneamer et~al.(2018)Sheneamer, Abdullah, Roy, Swarup, Kalita, and
+  Jugal]{Sheneamer2018A}
+SHENEAMER, ABDULLAH, ROY, et~al.
+\newblock A detection framework for semantic code clones and obfuscated
+  code\allowbreak[J].
+\newblock Expert Systems with Application, 2018.
+
+\bibitem[Li et~al.(2014)Li, Kwon, Kwon, and Lee]{2014A}
+LI H, KWON H, KWON J, et~al.
+\newblock A scalable approach for vulnerability discovery based on security
+  patches\allowbreak[C]//\allowbreak
+International Conference on Applications & Techniques in Information Security.
+\newblock 2014.
+
+\bibitem[Shahriar et~al.(2012)Shahriar and Zulkernine]{2012Mitigating}
+SHAHRIAR H, ZULKERNINE M.
+\newblock Mitigating program security vulnerabilities: Approaches and
+  challenges\allowbreak[J].
+\newblock ACM Computing Surveys, 2012, 44\allowbreak (3): 1-46.
+
+\bibitem[Baset et~al.(2017)Baset and Denning]{2017IDE}
+BASET A~Z, DENNING T.
+\newblock Ide plugins for detecting input-validation
+  vulnerabilities\allowbreak[J].
+\newblock IEEE, 2017.
+
+\bibitem[Baloglu(2016)]{2016How}
+BALOGLU B.
+\newblock How to find and fix software vulnerabilities with coverity static
+  analysis\allowbreak[C]//\allowbreak
+Cybersecurity Development.
+\newblock 2016.
+
+\bibitem[Spanos et~al.(2017)Spanos, Angelis, and Toloudis]{2017Assessment}
+SPANOS G, ANGELIS L, TOLOUDIS D.
+\newblock Assessment of vulnerability severity using text mining\allowbreak[J].
+\newblock ACM, 2017: 1-6.
+
+\bibitem[Spanos et~al.(2018)Spanos and Angelis]{2018A}
+SPANOS G, ANGELIS L.
+\newblock A multi-target approach to estimate software vulnerability
+  characteristics and severity scores\allowbreak[J].
+\newblock Journal of Systems and Software, 2018, 146\allowbreak (DEC.):
+  152-166.
+
+\bibitem[Kudjo et~al.(2020)Kudjo, Chen, Mensah, Amankwah, and Kudjo]{2020The}
+KUDJO P~K, CHEN J, MENSAH S, et~al.
+\newblock The effect of bellwether analysis on software vulnerability severity
+  prediction models\allowbreak[J].
+\newblock Software Quality Journal, 2020, 28\allowbreak (1): 1-34.
+
 \bibitem[Nuñez-Varela et~al.(2017)Nuñez-Varela, Pérez-Gonzalez,
   Martínez-Perez, and Soubervielle-Montalvo]{NUNEZVARELA2017164}
 NUñEZ-VARELA A~S, PéREZ-GONZALEZ H~G, MARTíNEZ-PEREZ F~E, et~al.
@@ -19,5 +70,68 @@ NUñEZ-VARELA A~S, PéREZ-GONZALEZ H~G, MARTíNEZ-PEREZ F~E, et~al.
 \newblock
   \url{https://www.sciencedirect.com/science/article/pii/S0164121217300663}.
 \newblock DOI: \doi{https://doi.org/10.1016/j.jss.2017.03.044}.
+
+\bibitem[Qu et~al.(2015)Qu, Guan, Zheng, Liu, Wang, Hou, and
+  Yang]{2015Exploring}
+QU Y, GUAN X, ZHENG Q, et~al.
+\newblock Exploring community structure of software call graph and its
+  applications in class cohesion measurement\allowbreak[J].
+\newblock Journal of Systems & Software, 2015, 108\allowbreak (oct.): 193-210.
+
+\bibitem[Nakamura et~al.(2012)Nakamura and Hamagami]{2012A}
+NAKAMURA M, HAMAGAMI T.
+\newblock A software quality evaluation method using the change of source code
+  metrics\allowbreak[J].
+\newblock IEEE, 2012.
+
+\bibitem[Misra et~al.(2012)Misra, Akman, and Colomo-Palacios]{2012Framework}
+MISRA S, AKMAN I, COLOMO-PALACIOS R.
+\newblock Framework for evaluation and validation of software complexity
+  measures\allowbreak[J].
+\newblock Iet Software, 2012, 6\allowbreak (4): 323-334.
+
+\bibitem[Misra et~al.(2012)Misra, Koyuncu, Crasso, Mateos, and
+  Zunino]{2012Asuite}
+MISRA S, KOYUNCU M, CRASSO M, et~al.
+\newblock A suite of cognitive complexity metrics\allowbreak[C]//\allowbreak
+International Conference on Computational Science & Its Applications.
+\newblock 2012.
+
+\bibitem[Concas et~al.(2010)Concas, Marchesi, Murgia, Pinna, and
+  Tonelli]{2010Assessing}
+CONCAS G, MARCHESI M, MURGIA A, et~al.
+\newblock Assessing traditional and new metrics for object-oriented
+  systems\allowbreak[J].
+\newblock ACM, 2010.
+
+\bibitem[陈振强\ 等(2003)陈振强 and 徐宝文]{陈振强2003}
+陈振强, 徐宝文.
+\newblock 一种基于依赖性分析的类内聚度度量方法\allowbreak[J].
+\newblock 软件学报, 2003, 14\allowbreak (11): 8.
+
+\bibitem[Qu et~al.(2015)Qu, Guan, Zheng, Liu, Wang, Hou, and Yang]{QU2015193}
+QU Y, GUAN X, ZHENG Q, et~al.
+\newblock Exploring community structure of software call graph and its
+  applications in class cohesion measurement\allowbreak[J/OL].
+\newblock Journal of Systems and Software, 2015, 108: 193-210.
+\newblock
+  \url{https://www.sciencedirect.com/science/article/pii/S0164121215001259}.
+\newblock DOI: \doi{https://doi.org/10.1016/j.jss.2015.06.015}.
+
+\bibitem[马健\ 等(2018)马健, 刘峰, and 樊建平]{马健2018}
+马健, 刘峰, 樊建平.
+\newblock 面向对象软件耦合度量方法\allowbreak[J].
+\newblock 北京邮电大学学报, 2018, 41\allowbreak (1): 6.
+
+\bibitem[Ardito et~al.(2020)Ardito, Coppola, Barbato, and Verga]{Ardito2020}
+ARDITO L, COPPOLA R, BARBATO L, et~al.
+\newblock A tool-based perspective on software code maintainability metrics: A
+  systematic literature review\allowbreak[J].
+\newblock Scientific Programming, 2020\allowbreak (8840389).
+
+\bibitem[Li et~al.(1993)Li and Henry]{1993Object}
+LI W, HENRY S.
+\newblock Object-oriented metrics that predict maintainability\allowbreak[J].
+\newblock Journal of Systems & Software, 1993, 23\allowbreak (2): 111-122.
 
 \end{thebibliography}

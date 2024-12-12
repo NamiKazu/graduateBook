@@ -19,50 +19,44 @@ Reallocated global_strs (elt_size=200001) to 20 items from 10.
 Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: reference.bib
-Warning--I didn't find a database entry for "待填，参考bbreg边界框"
-Warning--I didn't find a database entry for "待填"
-Warning--I didn't find a database entry for "待填，参考杨"
-Warning--I didn't find a database entry for "综述中"
-Warning--I didn't find a database entry for "面向对象软件耦合度量方法"
-You've used 1 entry,
+You've used 19 entries,
             5374 wiz_defined-function locations,
-            1062 strings with 8188 characters,
-and the built_in function-call counts, 16208 in all, are:
-= -- 411
-> -- 1843
-< -- 2252
-+ -- 618
-- -- 191
-* -- 103
-:= -- 2257
-add.period$ -- 5
-call.type$ -- 1
-change.case$ -- 10
-chr.to.int$ -- 571
-cite$ -- 1
-duplicate$ -- 27
-empty$ -- 158
-format.name$ -- 37
-if$ -- 4159
+            1169 strings with 11192 characters,
+and the built_in function-call counts, 161752 in all, are:
+= -- 3433
+> -- 18640
+< -- 23322
++ -- 6599
+- -- 1420
+* -- 941
+:= -- 22442
+add.period$ -- 61
+call.type$ -- 19
+change.case$ -- 149
+chr.to.int$ -- 5784
+cite$ -- 19
+duplicate$ -- 481
+empty$ -- 1415
+format.name$ -- 599
+if$ -- 42008
 int.to.chr$ -- 1
-int.to.str$ -- 2
+int.to.str$ -- 20
 missing$ -- 0
-newline$ -- 21
-num.names$ -- 3
-pop$ -- 770
+newline$ -- 116
+num.names$ -- 57
+pop$ -- 8497
 preamble$ -- 1
-purify$ -- 1
+purify$ -- 19
 quote$ -- 0
-skip$ -- 1755
+skip$ -- 16587
 stack$ -- 0
-substring$ -- 911
-swap$ -- 1
-text.length$ -- 27
+substring$ -- 7708
+swap$ -- 19
+text.length$ -- 443
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 11
+type$ -- 209
 warning$ -- 0
-while$ -- 29
+while$ -- 464
 width$ -- 0
-write$ -- 31
-(There were 5 warnings)
+write$ -- 279
