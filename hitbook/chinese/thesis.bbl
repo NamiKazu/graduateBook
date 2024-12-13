@@ -1,4 +1,4 @@
-\begin{thebibliography}{19}
+\begin{thebibliography}{20}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{#1}
 \expandafter\ifx\csname urlstyle\endcsname\relax\else
@@ -133,5 +133,10 @@ ARDITO L, COPPOLA R, BARBATO L, et~al.
 LI W, HENRY S.
 \newblock Object-oriented metrics that predict maintainability\allowbreak[J].
 \newblock Journal of Systems & Software, 1993, 23\allowbreak (2): 111-122.
+
+\bibitem[Arnold(1996)]{Arnold1996}
+ARNOLD R~S.
+\newblock Software change impact analysis\allowbreak[M].
+\newblock Washington, DC, USA: IEEE Computer Society Press, 1996.
 
 \end{thebibliography}

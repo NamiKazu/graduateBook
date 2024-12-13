@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.11.30)  12 DEC 2024 22:06
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.11.30)  13 DEC 2024 21:34
 entering extended mode
  \write18 enabled.
  Source specials enabled.
@@ -2102,10 +2102,10 @@ File: figures/开发审查流程.png Graphic file (type bmp)
 
 
 ] [2] [3]
-./body/regu.tex:78: Misplaced alignment tab character &.
+./body/regu.tex:80: Misplaced alignment tab character &.
 <recently read> &
                  
-l.78 ...damber and Kemerer套件（CK套件）和Li and Henry（L&
+l.80 ...damber and Kemerer套件（CK套件）和Li and Henry（L&
                                                   H）套件。
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2115,10 +2115,10 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 [4]
-./body/regu.tex:101: Misplaced alignment tab character &.
+./body/regu.tex:103: Misplaced alignment tab character &.
 <recently read> &
                  
-l.101 ...993Object}，主要用于评估程序的复杂度、维护性以及开发成本等度量套件。L&
+l.103 ...993Object}，主要用于评估程序的复杂度、维护性以及开发成本等度量套件。L&
                                                   H套件中有一部分指标和CK套件是一样的,除此之外，还...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2127,7 +2127,18 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-) [5]
+
+Package natbib Warning: Citation `2013Large' on page 5 undefined on input line 
+126.
+
+[5] [6] [7] [8]
+File: figures/章节安排.png Graphic file (type bmp)
+<figures/章节安排.png>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[9]) [10]
 \openout2 = `body/introduction.aux'.
 
  (./body/introduction.tex
@@ -2142,13 +2153,13 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[6
+[11
 
 
 
 
 
-] [7]
+] [12]
 ./body/introduction.tex:92: Undefined control sequence.
 l.92     \KwLine
                 
@@ -2365,15 +2376,15 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[8] [9]
+[13] [14]
 File: figures/全局变量提取流程图.png Graphic file (type bmp)
 <figures/全局变量提取流程图.png>
- [10
+ [15
 
-] [11]
+] [16]
 Package hyperref Info: bookmark level for unknown equation defaults to 0 on inp
 ut line 198.
- [12]
+ [17]
 ./body/introduction.tex:238: Misplaced alignment tab character &.
 l.238 {LCOM3} &
                 = & \frac{n}{n-1} \times {LCOM2}  & = & \frac{n - \frac{e}{a...
@@ -2414,37 +2425,37 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-[13] [14]
+[18] [19]
 File: figures/扇入扇出.png Graphic file (type bmp)
 <figures/扇入扇出.png>
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[15] [16] [17] [18] [19]
+[20] [21] [22] [23] [24]
 第3章
-[20
+[25
 
 
 ]
 File: figures/依赖关系示例.png Graphic file (type bmp)
 <figures/依赖关系示例.png>
- [21]
+ [26]
 File: figures/数据挖掘挖到的方法对.png Graphic file (type bmp)
 <figures/数据挖掘挖到的方法对.png>
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[22] [23] [24]
+[27] [28] [29]
 第4章
-) [25
+) [30
 
 
-] [26]
+] [31]
 \openout2 = `back/conclusion.aux'.
 
- (./back/conclusion.tex) [27
+ (./back/conclusion.tex) [32
 
 
 
@@ -2482,7 +2493,7 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-[28
+[33
 
 
 
@@ -2498,13 +2509,13 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-) [29] [30
+) [34] [35
 
 
 ]
 \openout2 = `back/acknowledgements.aux'.
 
- (./back/acknowledgements.tex) [31
+ (./back/acknowledgements.tex) [36
 
 
 
@@ -2512,6 +2523,9 @@ might try typing `S' now just to see what is salvageable.
 \tf@thm=\write9
 \openout9 = `thesis.thm'.
 
+
+
+Package natbib Warning: There were undefined citations.
 
 
 Package glossaries Warning: No \printglossary or \printglossaries found. 
@@ -2530,15 +2544,15 @@ LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.47188pt have occurred.
 
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: D9740B5FA33FAB8887EA2016972F0A55;9621.
+(rerunfilecheck)             Checksum: 3358B27709B1449FDB3E9DECEE27C4EF;9948.
  ) 
 Here is how much of TeX's memory you used:
- 44837 strings out of 474773
- 955602 string characters out of 5757723
+ 44861 strings out of 474773
+ 956082 string characters out of 5757723
  1949839 words of memory out of 5000000
- 66106 multiletter control sequences out of 15000+600000
- 616668 words of font info for 239 fonts, out of 8000000 for 9000
+ 66129 multiletter control sequences out of 15000+600000
+ 616676 words of font info for 240 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  107i,19n,111p,2550b,1047s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on thesis.pdf (38 pages).
+Output written on thesis.pdf (43 pages).
