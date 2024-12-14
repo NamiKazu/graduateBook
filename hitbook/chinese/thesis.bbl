@@ -1,4 +1,4 @@
-\begin{thebibliography}{20}
+\begin{thebibliography}{39}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{#1}
 \expandafter\ifx\csname urlstyle\endcsname\relax\else
@@ -134,9 +134,143 @@ LI W, HENRY S.
 \newblock Object-oriented metrics that predict maintainability\allowbreak[J].
 \newblock Journal of Systems & Software, 1993, 23\allowbreak (2): 111-122.
 
+\bibitem[Chen et~al.(2013)Chen, Iqbal, Abdrakhmanov, Parlar, and
+  Wassyng]{2013Large}
+CHEN W, IQBAL A, ABDRAKHMANOV A, et~al.
+\newblock Large-scale enterprise systems: Changes and impacts\allowbreak[J].
+\newblock lecture notes in business information processing, 2013.
+
 \bibitem[Arnold(1996)]{Arnold1996}
 ARNOLD R~S.
 \newblock Software change impact analysis\allowbreak[M].
 \newblock Washington, DC, USA: IEEE Computer Society Press, 1996.
+
+\bibitem[Zhang et~al.(2004)Zhang, Gupta, and Zhang]{2004Efficient}
+ZHANG X, GUPTA R, ZHANG Y.
+\newblock Efficient forward computation of dynamic slices using reduced ordered
+  binary decision diagrams\allowbreak[C]//\allowbreak
+Software Engineering, 2004. ICSE 2004. Proceedings.
+\newblock 2004.
+
+\bibitem[Gallagher et~al.(1991)Gallagher and Lyle]{1991Using}
+GALLAGHER K~B, LYLE J~R.
+\newblock Using program slicing in software maintenance\allowbreak[J].
+\newblock IEEE Transactions on Software Engineering, 1991, 17\allowbreak (8):
+  751-761.
+
+\bibitem[JitenderKumarChhabra et~al.(2018)JitenderKumarChhabra,
+  MrinaalMalhotra, JitenderKumarChhabra, MrinaalMalhotra, JitenderKumarChhabra,
+  MrinaalMalhotra, JitenderKumarChhabra, MrinaalMalhotra, JitenderKumarChhabra,
+  and MrinaalMalhotra]{JitenderKumarChhabra2018Improved}
+JITENDERKUMARCHHABRA, MRINAALMALHOTRA, JITENDERKUMARCHHABRA, et~al.
+\newblock Improved computation of change impact analysis in software using all
+  applicable dependencies\allowbreak[J].
+\newblock Springer, Singapore, 2018.
+
+\bibitem[Gethers et~al.(2011)Gethers, Kagdi, Dit, and Poshyvanyk]{2011An}
+GETHERS M, KAGDI H, DIT B, et~al.
+\newblock An adaptive approach to impact analysis from change requests to
+  source code\allowbreak[C]//\allowbreak
+IEEE/ACM International Conference on Automated Software Engineering.
+\newblock 2011.
+
+\bibitem[Sun et~al.(2013)Sun, Li, Wen, and Zhang]{2013Analyzing}
+SUN X, LI B, WEN W, et~al.
+\newblock Analyzing impact rules of different change types to support change
+  impact analysis\allowbreak[J].
+\newblock International Journal of Software Engineering & Knowledge
+  Engineering, 2013, 23\allowbreak (03): 259-288.
+
+\bibitem[Department et~al.(2013)Department, of, Software, Engineering,
+  University, of, Szeged, Szeged, and Hungary]{Department2013Impact}
+DEPARTMENT, OF, SOFTWARE, et~al.
+\newblock Impact analysis in the presence of dependence clusters using static
+  execute after in webkit\allowbreak[J].
+\newblock Journal of Software: Evolution and Process, 2013, 26\allowbreak (6):
+  569-588.
+
+\bibitem[Sun et~al.(2010)Sun, Li, Tao, Wen, and Zhang]{5676283}
+SUN X, LI B, TAO C, et~al.
+\newblock Change impact analysis based on a taxonomy of change
+  types\allowbreak[C/OL]//\allowbreak
+2010 IEEE 34th Annual Computer Software and Applications Conference.
+\newblock 2010: 373-382.
+\newblock DOI: \doi{10.1109/COMPSAC.2010.45}.
+
+\bibitem[Shakirat et~al.(2021)Shakirat, Bajeh, Aro, Adewole, and
+  Mathematical]{2021Improving}
+SHAKIRAT Y, BAJEH A, ARO T~O, et~al.
+\newblock Improving the accuracy of static source code based software change
+  impact analysis through hybrid techniques: A review\allowbreak[J].
+\newblock Universiti Malaysia Pahang Publishing, 2021\allowbreak (1).
+
+\bibitem[Huang et~al.(2007)Huang and Song]{2007Precise}
+HUANG L, SONG Y~T.
+\newblock Precise dynamic impact analysis with dependency analysis for
+  object-oriented programs\allowbreak[C]//\allowbreak
+Acis International Conference on Software Engineering Research.
+\newblock 2007.
+
+\bibitem[Cai et~al.(2015)Cai and Santelices]{2015Acom}
+CAI H, SANTELICES R.
+\newblock A comprehensive study of the predictive accuracy of dynamic
+  change-impact analysis\allowbreak[J].
+\newblock Journal of Systems and Software, 2015, 103: 248-265.
+
+\bibitem[Cai et~al.(2014)Cai, Santelices, and Xu]{2014Estimating}
+CAI H, SANTELICES R, XU T.
+\newblock Estimating the accuracy of dynamic change-impact analysis using
+  sensitivity analysis\allowbreak[C]//\allowbreak
+Eighth International Conference on Software Security & Reliability.
+\newblock 2014.
+
+\bibitem[Cai et~al.(2016)Cai and Thain]{2016DistIA}
+CAI H, THAIN D.
+\newblock Distia: a cost-effective dynamic impact analysis for distributed
+  programs\allowbreak[C]//\allowbreak
+the 31st IEEE/ACM International Conference.
+\newblock 2016.
+
+\bibitem[Basri et~al.(2016)Basri, Kama, Adli, and Haneem]{2016Using}
+BASRI S, KAMA N, ADLI S, et~al.
+\newblock Using static and dynamic impact analysis for effort
+  estimation\allowbreak[J].
+\newblock Iet Software, 2016, 10\allowbreak (4): 89-95.
+
+\bibitem[Markus et~al.(2017)Markus, Borg, Krzysztof, Wnuk, Björn, Regnell,
+  Per, and Runeson]{Markus2017Supporting}
+MARKUS, BORG, KRZYSZTOF, et~al.
+\newblock Supporting change impact analysis using a recommendation system: An
+  industrial case study in a safety-critical context\allowbreak[J].
+\newblock IEEE Transactions on Software Engineering, 2017.
+
+\bibitem[Hattori et~al.(2008)Hattori, Jr, Cardoso, and Sampaio]{2008Mining}
+HATTORI L, JR G~P~D~S, CARDOSO F, et~al.
+\newblock Mining software repositories for software change impact analysis: a
+  case study\allowbreak[C]//\allowbreak
+Brazilian Symposium on Databases.
+\newblock 2008.
+
+\bibitem[Zanjani et~al.(2014)Zanjani, Swartzendruber, and Kagdi]{2014Impact}
+ZANJANI M~B, SWARTZENDRUBER G, KAGDI H.
+\newblock Impact analysis of change requests on source code based on
+  interaction and commit histories\allowbreak[C]//\allowbreak
+ACM.
+\newblock 2014.
+
+\bibitem[Rolfsnes et~al.(2016)Rolfsnes, Alesio, Behjati, Moonen, and
+  Binkley]{2016Generalizing}
+ROLFSNES T, ALESIO S~D, BEHJATI R, et~al.
+\newblock Generalizing the analysis of evolutionary coupling for software
+  change impact analysis\allowbreak[C]//\allowbreak
+IEEE International Conference on Software Analysis.
+\newblock 2016.
+
+\bibitem[Huang et~al.(2021)Huang, Jiang, Luo, Chen, and Huang]{2021Change}
+HUANG Y, JIANG J, LUO X, et~al.
+\newblock Change-patterns mapping: A boosting way for change impact
+  analysis\allowbreak[J].
+\newblock IEEE Transactions on Software Engineering, 2021, PP\allowbreak (99):
+  1-1.
 
 \end{thebibliography}

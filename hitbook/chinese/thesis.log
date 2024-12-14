@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.11.30)  13 DEC 2024 21:34
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.11.30)  14 DEC 2024 22:23
 entering extended mode
  \write18 enabled.
  Source specials enabled.
@@ -2127,18 +2127,19 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
+[5] [6] [7]
 
-Package natbib Warning: Citation `2013Large' on page 5 undefined on input line 
-126.
+Package natbib Warning: Citation `ROSE2005Mining' on page 8 undefined on input 
+line 168.
 
-[5] [6] [7] [8]
+
+Package natbib Warning: Citation `2014ImpactMiner' on page 8 undefined on input
+ line 170.
+
+[8] [9]
 File: figures/章节安排.png Graphic file (type bmp)
 <figures/章节安排.png>
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[9]) [10]
+ [10]) [11]
 \openout2 = `body/introduction.aux'.
 
  (./body/introduction.tex
@@ -2153,13 +2154,13 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[11
+[12
 
 
 
 
 
-] [12]
+] [13]
 ./body/introduction.tex:92: Undefined control sequence.
 l.92     \KwLine
                 
@@ -2376,15 +2377,15 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[13] [14]
+[14] [15]
 File: figures/全局变量提取流程图.png Graphic file (type bmp)
 <figures/全局变量提取流程图.png>
- [15
+ [16
 
-] [16]
+] [17]
 Package hyperref Info: bookmark level for unknown equation defaults to 0 on inp
 ut line 198.
- [17]
+ [18]
 ./body/introduction.tex:238: Misplaced alignment tab character &.
 l.238 {LCOM3} &
                 = & \frac{n}{n-1} \times {LCOM2}  & = & \frac{n - \frac{e}{a...
@@ -2425,37 +2426,37 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-[18] [19]
+[19] [20]
 File: figures/扇入扇出.png Graphic file (type bmp)
 <figures/扇入扇出.png>
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[20] [21] [22] [23] [24]
+[21] [22] [23] [24] [25] [26]
 第3章
-[25
+[27
 
 
 ]
 File: figures/依赖关系示例.png Graphic file (type bmp)
 <figures/依赖关系示例.png>
- [26]
+ [28]
 File: figures/数据挖掘挖到的方法对.png Graphic file (type bmp)
 <figures/数据挖掘挖到的方法对.png>
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[27] [28] [29]
+[29] [30] [31]
 第4章
-) [30
+) [32
 
 
-] [31]
+] [33]
 \openout2 = `back/conclusion.aux'.
 
- (./back/conclusion.tex) [32
+ (./back/conclusion.tex) [34
 
 
 
@@ -2493,7 +2494,7 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-[33
+[35
 
 
 
@@ -2509,13 +2510,40 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-) [34] [35
+
+Underfull \hbox (badness 10000) in paragraph at lines 165--169
+[][]\TU/TeXGyreTermesX(0)/m/n/12.045 JITENDERKUMARCHHABRA, MRINAALMALHOTRA, JIT
+ENDERKU-
+ []
+
+./thesis.bbl:181: Misplaced alignment tab character &.
+l.181 ...ational Journal of Software Engineering &
+                                                   Knowledge
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+[36]
+./thesis.bbl:224: Misplaced alignment tab character &.
+l.224 ...ational Conference on Software Security &
+                                                   Reliability.
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+[37]) [38] [39
 
 
 ]
 \openout2 = `back/acknowledgements.aux'.
 
- (./back/acknowledgements.tex) [36
+ (./back/acknowledgements.tex) [40
 
 
 
@@ -2547,12 +2575,12 @@ Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: 3358B27709B1449FDB3E9DECEE27C4EF;9948.
  ) 
 Here is how much of TeX's memory you used:
- 44861 strings out of 474773
- 956082 string characters out of 5757723
+ 44939 strings out of 474773
+ 958780 string characters out of 5757723
  1949839 words of memory out of 5000000
- 66129 multiletter control sequences out of 15000+600000
+ 66207 multiletter control sequences out of 15000+600000
  616676 words of font info for 240 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 107i,19n,111p,2550b,1047s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 107i,19n,111p,2550b,1099s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on thesis.pdf (43 pages).
+Output written on thesis.pdf (47 pages).

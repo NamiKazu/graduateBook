@@ -19,44 +19,50 @@ Reallocated global_strs (elt_size=200001) to 20 items from 10.
 Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: reference.bib
-You've used 20 entries,
+Repeated entry---line 641 of file reference.bib
+ : @inproceedings{2011An
+ :                      ,
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "ROSE2005Mining"
+You've used 39 entries,
             5374 wiz_defined-function locations,
-            1176 strings with 11310 characters,
-and the built_in function-call counts, 166056 in all, are:
-= -- 3515
-> -- 19117
-< -- 23944
-+ -- 6778
-- -- 1440
-* -- 966
-:= -- 23036
-add.period$ -- 64
-call.type$ -- 20
-change.case$ -- 153
-chr.to.int$ -- 5934
-cite$ -- 20
-duplicate$ -- 503
-empty$ -- 1472
-format.name$ -- 613
-if$ -- 43143
+            1287 strings with 15513 characters,
+and the built_in function-call counts, 349306 in all, are:
+= -- 7037
+> -- 40809
+< -- 50861
++ -- 14230
+- -- 2982
+* -- 1881
+:= -- 48234
+add.period$ -- 122
+call.type$ -- 39
+change.case$ -- 319
+chr.to.int$ -- 12519
+cite$ -- 39
+duplicate$ -- 988
+empty$ -- 2784
+format.name$ -- 1289
+if$ -- 90862
 int.to.chr$ -- 1
-int.to.str$ -- 21
+int.to.str$ -- 40
 missing$ -- 0
-newline$ -- 121
-num.names$ -- 60
-pop$ -- 8714
+newline$ -- 226
+num.names$ -- 117
+pop$ -- 18832
 preamble$ -- 1
-purify$ -- 20
+purify$ -- 39
 quote$ -- 0
-skip$ -- 17047
+skip$ -- 35897
 stack$ -- 0
-substring$ -- 7890
-swap$ -- 20
-text.length$ -- 457
+substring$ -- 16265
+swap$ -- 39
+text.length$ -- 926
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 216
+type$ -- 425
 warning$ -- 0
-while$ -- 479
+while$ -- 963
 width$ -- 0
-write$ -- 291
+write$ -- 540
+(There was 1 error message)
