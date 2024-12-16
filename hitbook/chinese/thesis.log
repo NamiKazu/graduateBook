@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.11.30)  15 DEC 2024 19:44
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.11.30)  16 DEC 2024 22:18
 entering extended mode
  \write18 enabled.
  Source specials enabled.
@@ -2132,10 +2132,6 @@ might try typing `S' now just to see what is salvageable.
 Package natbib Warning: Citation `ROSE2005Mining' on page 8 undefined on input 
 line 168.
 
-
-Package natbib Warning: Citation `2014ImpactMiner' on page 8 undefined on input
- line 170.
-
 [8] [9]
 File: figures/章节安排.png Graphic file (type bmp)
 <figures/章节安排.png>
@@ -2455,25 +2451,42 @@ Overfull \hbox (4.81847pt too wide) in paragraph at lines 463--473
 [28
 
 
-]
+] [29]
+./body/introduction.tex:554: Extra }, or forgotten \right.
+l.554 ...ne } \in \left(I M S_{R E T U R N}^{(N)}}
+                                                  -I M S_{R E T U R N}^{(N-1...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+[30]
 File: figures/依赖关系示例.png Graphic file (type bmp)
 <figures/依赖关系示例.png>
- [29]
+ [31]
+File: figures/代码克隆流程.png Graphic file (type bmp)
+<figures/代码克隆流程.png>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[32] [33] [34]
 File: figures/数据挖掘挖到的方法对.png Graphic file (type bmp)
 <figures/数据挖掘挖到的方法对.png>
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[30] [31] [32]
+[35] [36] [37]
 第4章
-) [33
+) [38
 
 
-] [34]
+] [39]
 \openout2 = `back/conclusion.aux'.
 
- (./back/conclusion.tex) [35
+ (./back/conclusion.tex) [40
 
 
 
@@ -2511,7 +2524,7 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-[36
+[41
 
 
 
@@ -2543,7 +2556,7 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-[37]
+[42]
 ./thesis.bbl:224: Misplaced alignment tab character &.
 l.224 ...ational Conference on Software Security &
                                                    Reliability.
@@ -2554,13 +2567,13 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-[38]) [39] [40
+[43]) [44] [45
 
 
 ]
 \openout2 = `back/acknowledgements.aux'.
 
- (./back/acknowledgements.tex) [41
+ (./back/acknowledgements.tex) [46
 
 
 
@@ -2589,15 +2602,15 @@ LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.47188pt have occurred.
 
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 09DED7D08261F2B3E0B4971798ECB062;10139.
+(rerunfilecheck)             Checksum: ACB42B4923BA2588969E9B08AB0C8D2F;10115.
  ) 
 Here is how much of TeX's memory you used:
- 44939 strings out of 474773
- 958780 string characters out of 5757723
+ 44997 strings out of 474773
+ 961863 string characters out of 5757723
  1949839 words of memory out of 5000000
- 66207 multiletter control sequences out of 15000+600000
+ 66265 multiletter control sequences out of 15000+600000
  616676 words of font info for 240 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  107i,19n,111p,2550b,1099s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on thesis.pdf (48 pages).
+Output written on thesis.pdf (53 pages).

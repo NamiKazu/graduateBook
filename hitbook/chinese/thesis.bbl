@@ -1,4 +1,4 @@
-\begin{thebibliography}{39}
+\begin{thebibliography}{40}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{#1}
 \expandafter\ifx\csname urlstyle\endcsname\relax\else
@@ -265,6 +265,12 @@ ROLFSNES T, ALESIO S~D, BEHJATI R, et~al.
   change impact analysis\allowbreak[C]//\allowbreak
 IEEE International Conference on Software Analysis.
 \newblock 2016.
+
+\bibitem[Dit et~al.(2014)Dit, Wagner, Wen, Wang, Linares-Vásquez, Poshyvanyk,
+  and Kagdi]{2014ImpactMiner}
+DIT B, WAGNER M, WEN S, et~al.
+\newblock Impactminer: a tool for change impact analysis\allowbreak[J].
+\newblock ACM, 2014: 540-543.
 
 \bibitem[Huang et~al.(2021)Huang, Jiang, Luo, Chen, and Huang]{2021Change}
 HUANG Y, JIANG J, LUO X, et~al.
