@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.11.30)  16 DEC 2024 22:18
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.11.30)  17 DEC 2024 22:01
 entering extended mode
  \write18 enabled.
  Source specials enabled.
@@ -2472,21 +2472,248 @@ File: figures/代码克隆流程.png Graphic file (type bmp)
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [32] [33] [34]
+
+Package natbib Warning: Citation `2013ClaSP' on page 35 undefined on input line
+ 632.
+
+
+Package natbib Warning: Citation `2013ClaSP' on page 35 undefined on input line
+ 634.
+
+
+Package natbib Warning: Citation `2013ClaSP' on page 35 undefined on input line
+ 636.
+
+
+Package natbib Warning: Citation `2013ClaSP' on page 35 undefined on input line
+ 638.
+
+
+Package natbib Warning: Citation `2013ClaSP' on page 35 undefined on input line
+ 640.
+
+./body/introduction.tex:659: Missing $ inserted.
+<inserted text> 
+                $
+l.659 1 &  \langle
+                   (a)(ab)(bc)\rangle\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./body/introduction.tex:660: Missing $ inserted.
+<inserted text> 
+                $
+l.660 2
+        & \langle (a)(abc) \rangle\\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./body/introduction.tex:660: Missing $ inserted.
+<inserted text> 
+                $
+l.660 2 & \langle
+                  (a)(abc) \rangle\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./body/introduction.tex:661: Missing $ inserted.
+<inserted text> 
+                $
+l.661 3
+        & \langle (d)(a)(ab)(bc) \rangle\\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./body/introduction.tex:661: Missing $ inserted.
+<inserted text> 
+                $
+l.661 3 & \langle
+                  (d)(a)(ab)(bc) \rangle\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./body/introduction.tex:662: Missing $ inserted.
+<inserted text> 
+                $
+l.662 4
+        & \langle  (d)(ad)\rangle\\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./body/introduction.tex:662: Missing $ inserted.
+<inserted text> 
+                $
+l.662 4 & \langle
+                   (d)(ad)\rangle\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./body/introduction.tex:663: Missing $ inserted.
+<inserted text> 
+                $
+l.663 \bottomrule
+                 
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 667--668
+[][]\TU/SongtiSCLight(0)/m/n/12.045 在 这 个 例 子 中，|  第 一 个 序 列 中 有 \TU/TeXGyreTer
+mesX(0)/m/n/12.045 3 \TU/SongtiSCLight(0)/m/n/12.045 个 项 集，|  分 别 是 \TU/TeXGyre
+TermesX(0)/m/n/12.045 (a)\TU/SongtiSCLight(0)/m/n/12.045 ，|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 667--668
+\TU/TeXGyreTermesX(0)/m/n/12.045 (ab) \TU/SongtiSCLight(0)/m/n/12.045 和 \TU/TeX
+GyreTermesX(0)/m/n/12.045 (bc)\TU/SongtiSCLight(0)/m/n/12.045 ，|  以 此 类 推。|  这 
+个 例 子 中 的 闭 合 频 繁 序 列 $\OML/ntxmi/m/it/12.045 FCS \U/ntxmia/m/it/12.045 =
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 667--668
+\LMS/ntxsy/m/n/12.045 fh¹\OML/ntxmi/m/it/12.045 a\LMS/ntxsy/m/n/12.045 ºi\OML/n
+txmi/m/it/12.045 ; \LMS/ntxsy/m/n/12.045 h¹\OML/ntxmi/m/it/12.045 d\LMS/ntxsy/m
+/n/12.045 º¹\OML/ntxmi/m/it/12.045 a\LMS/ntxsy/m/n/12.045 ºi\OML/ntxmi/m/it/12.
+045 ; \LMS/ntxsy/m/n/12.045 h¹\OML/ntxmi/m/it/12.045 a\LMS/ntxsy/m/n/12.045 º¹\
+OML/ntxmi/m/it/12.045 ab\LMS/ntxsy/m/n/12.045 ºi\OML/ntxmi/m/it/12.045 ; \LMS/n
+txsy/m/n/12.045 h¹\OML/ntxmi/m/it/12.045 a\LMS/ntxsy/m/n/12.045 º¹\OML/ntxmi/m/
+it/12.045 bc\LMS/ntxsy/m/n/12.045 ºi\OML/ntxmi/m/it/12.045 ; \LMS/ntxsy/m/n/12.
+045 h¹\OML/ntxmi/m/it/12.045 a\LMS/ntxsy/m/n/12.045 º¹\OML/ntxmi/m/it/12.045 ab
+\LMS/ntxsy/m/n/12.045 º¹\OML/ntxmi/m/it/12.045 bc\LMS/ntxsy/m/n/12.045 ºig$\TU/
+SongtiSCLight(0)/m/n/12.045 ，|  共 \TU/TeXGyreTermesX(0)/m/n/12.045 5 \TU/Songti
+SCLight(0)/m/n/12.045 个，|  而 频 繁 序 列
+ []
+
+[35]
+
+./body/introduction.tex:679: LaTeX Error: Environment algorithmic undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.679 \begin{algorithmic}
+                         
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./body/introduction.tex:682: Undefined control sequence.
+l.682 \State
+             $F_1 \gets \{\text{频繁 1-序列}\}$ \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./body/introduction.tex:683: Undefined control sequence.
+<recently read> \State 
+                       
+l.683 \State
+             $FCC \gets \emptyset$, $FCS \gets \emptyset$  \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./body/introduction.tex:688: Undefined control sequence.
+<argument>  \State 
+                   $F_{ie} \gets \{\text {频繁 1-序列的长大于i的扩展序列 } \}$ \\ \State ...
+l.688 \EndFor
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./body/introduction.tex:688: Undefined control sequence.
+<recently read> \State 
+                       
+l.688 \EndFor
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./body/introduction.tex:688: Undefined control sequence.
+<recently read> \State 
+                       
+l.688 \EndFor
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./body/introduction.tex:688: Undefined control sequence.
+<recently read> \EndFor 
+                        
+l.688 \EndFor
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./body/introduction.tex:689: Undefined control sequence.
+l.689 \State
+             $FCS \gets \text{N-ClosedStep}(FCC)$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+./body/introduction.tex:690: LaTeX Error: \begin{lrbox} on input line 678 ended
+ by \end{algorithmic}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.690 \end{algorithmic}
+                       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[36] [37] [38]
 File: figures/数据挖掘挖到的方法对.png Graphic file (type bmp)
 <figures/数据挖掘挖到的方法对.png>
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[35] [36] [37]
+[39] [40] [41]
 第4章
-) [38
+) [42
 
 
-] [39]
+] [43]
 \openout2 = `back/conclusion.aux'.
 
- (./back/conclusion.tex) [40
+ (./back/conclusion.tex) [44
 
 
 
@@ -2524,7 +2751,7 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-[41
+[45
 
 
 
@@ -2556,7 +2783,7 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-[42]
+[46]
 ./thesis.bbl:224: Misplaced alignment tab character &.
 l.224 ...ational Conference on Software Security &
                                                    Reliability.
@@ -2567,13 +2794,13 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-[43]) [44] [45
+[47]) [48] [49
 
 
 ]
 \openout2 = `back/acknowledgements.aux'.
 
- (./back/acknowledgements.tex) [46
+ (./back/acknowledgements.tex) [50
 
 
 
@@ -2605,12 +2832,12 @@ Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: ACB42B4923BA2588969E9B08AB0C8D2F;10115.
  ) 
 Here is how much of TeX's memory you used:
- 44997 strings out of 474773
- 961863 string characters out of 5757723
+ 45010 strings out of 474773
+ 962182 string characters out of 5757723
  1949839 words of memory out of 5000000
- 66265 multiletter control sequences out of 15000+600000
- 616676 words of font info for 240 fonts, out of 8000000 for 9000
+ 66276 multiletter control sequences out of 15000+600000
+ 616692 words of font info for 242 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  107i,19n,111p,2550b,1099s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on thesis.pdf (53 pages).
+Output written on thesis.pdf (57 pages).

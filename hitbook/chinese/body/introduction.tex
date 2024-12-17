@@ -623,6 +623,121 @@ funcD，funcB 调用了 funcC。在对 funcC 进行变更影响分析时，会�
 
 
 \subsection{基于ClaSP算法的代码克隆检测方法}
+序列数据挖掘（Sequence Data Mining，SDM）是时序数据挖掘领域的一个重要研究方向，旨在从给定的输入数据库中，探索在大量对象之间随时间频繁出现的模式。判断一个模式是否具有意义的阈值被称为最小支持度。SDM 已被广泛研究，并在多个领域得到了应用，如 DNA 序列中的基序发现、顾客购买序列分析、网页点击流分析等。本文利用数据挖掘算法，提取代码克隆序列。
+
+（1）数据挖掘领域基本概念
+
+数据挖掘领域中有一些基本概念：
+
+项集\cite{2013ClaSP}：设有一个集合 \( I = \{i_1, i_2, \dots, i_n\} \)，其中 \( i_i \) 表示一个项。项集即为这个项的非空子集。一个项可以出现在多个项集中，但同一项集中的每个项只能出现一次，即不允许项集包含重复的项。
+
+序列\cite{2013ClaSP}：序列是一个由项集组成的有序列表，记作 \( s = (s_1, s_2, \dots, s_n) \)，其中每个 \( s_i \) 是项集。每个项集 \( s_i \) 可以进一步表示为 \( (x_1, x_2, \dots, x_m) \)，其中 \( x_m \) 是项。
+
+子序列\cite{2013ClaSP}：考虑两个序列 \( \alpha = (a_1, a_2, \dots, a_n) \) 和 \( \beta = (b_1, b_2, \dots, b_m) \)，如果存在一组整数 \( 1 \leq j_1 < j_2 < \dots < j_n \leq m \)，使得序列 \( (a_{j_1}, a_{j_2}, \dots, a_{j_n}) \) 是序列 \( \beta \) 的子序列，则称序列 \( \alpha \) 为序列 \( \beta \) 的子序列，序列 \( \beta \) 为序列 \( \alpha \) 的超序列。
+
+序列数据库\cite{2013ClaSP}：序列数据库是由一组元组 \( \langle \text{sid}, s \rangle \) 构成的集合，其中 \( \text{sid} \) 为序列的标识符，\( s \) 为序列。如果序列 \( \alpha \) 是元组 \( \langle \text{sid}, s \rangle \) 中序列 \( s \) 的子序列，则称该元组包含序列 \( \alpha \)。序列数据库中包含序列 \( \alpha \) 的元组的数量被称为序列 \( \alpha \) 的支持度。
+
+频繁子序列\cite{2013ClaSP}：给定一个正整数 \( \text{min\_support} \) 作为支持度阈值，如果序列 \( \alpha \) 的支持度大于或等于 \( \text{min\_support} \)，即 \( \text{support}(\alpha) \geq \text{min\_support} \)，则称序列 \( \alpha \) 为频繁子序列。所有频繁子序列的集合记为 \( FS \)。
+
+
+序列支持度：记作 \( \sigma(\alpha, D) \)，是指在输入数据库 \( D \) 中包含序列 \( \alpha \) 的序列的总数。如果一个模式或序列至少出现给定的用户指定阈值 \( \text{min\_support} \)，即最小支持度，则称其为频繁序列。\( FS \) 是所有频繁序列的集合。频繁序列挖掘的问题就是在给定的输入数据库中，找到满足最小支持度阈值的频繁序列集合 \( FS \)。
+
+
+闭合序列：如果一个频繁序列 \( \alpha \) 没有其他超序列与其具有相同的支持度，则称 \( \alpha \) 为闭合序列。否则，如果一个频繁序列 \( \beta \) 存在一个超序列 \( \gamma \)，使得它们具有完全相同的支持度，则称 \( \beta \) 为非闭合序列，并且 \( \gamma \) 吸收 \( \beta \)。所有频繁闭合序列的集合记作 \( FCS \)。更正式地说，若对所有 \( \beta \in FS \)，有 \( \alpha \subseteq \beta \) 且 \( \sigma(\alpha, D) = \sigma(\beta, D) \)，则 \( \alpha \in FCS \)。
+
+闭合序列挖掘的问题就是在给定的输入数据库中，找到满足最小支持度阈值的闭合序列集合 \( FCS \)。显然，频繁闭合序列的集合要小于所有频繁序列的集合。这是因为在频繁模式的集合中，很多模式可能是冗余的。例如，某些频繁模式的支持度相同，且其中一个是另一个的超序列。对于这些模式而言，冗余的超序列模式没有提供比其子序列模式更多的信息。闭合频繁模式的引入可以去除这些冗余，保留那些最具代表性和信息量的模式。
+
+这里举例说明，表为序列数据库示例，这里设定最小支持度阈值为2。
+
+\begin{table}[htbp]
+\caption{序列数据库示例}
+\vspace{0.5em}\centering\wuhao
+\begin{tabular}{cccc}
+\toprule
+序列id（sid） & 序列 \\
+\midrule
+1 &  \langle (a)(ab)(bc)\rangle\\
+2 & \langle (a)(abc) \rangle\\
+3 & \langle (d)(a)(ab)(bc) \rangle\\
+4 & \langle  (d)(ad)\rangle\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+在这个例子中，第一个序列中有3个项集，分别是(a)，(ab)和(bc)，以此类推。这个例子中的闭合频繁序列\( FCS = \{ \langle (a)\rangle, \langle (d)(a)\rangle, \langle (a)(ab)\rangle, \langle (a)(bc)\rangle, \langle (a)(ab)(bc)\rangle \}\)， 共5个，而频繁序列有27个。因此识别闭合频繁模式具有重要的压缩性，并且模式信息也是不丢失的。
+
+本文中，克隆代码的指纹是一个项，每个文件是一个序列，所有文件作为序列数据库，在数据库上运行ClaSP算法挖掘所有的频繁项集，即克隆代码。
+
+（2）ClaSP算法
+
+ClaSP算法主要分为两步，首先生成频繁序列，作为频繁闭合的候选FCC（Frequent Closed Candidates）。第二步执行剪枝，从候选中剔除所有非闭合的序列，最终得到精确的FCS。
+
+主要的算法流程如3-1所示
+
+\begin{algorithm}
+\caption{ClaSP算法}
+\begin{algorithmic}
+\KwIn{序列数据库}
+\KwOut{频繁闭合序列集 $FCS$}
+\State $F_1 \gets \{\text{频繁 1-序列}\}$ \\
+\State $FCC \gets \emptyset$, $FCS \gets \emptyset$  \\
+\For{\textnormal{all} $i \in F_1$} {
+    \State $F_{ie} \gets \{\text{频繁 1-序列的长大于i的扩展序列 } \}$ \\
+    \State $FCC_i \gets \text{DFS-PRUNING}(i, F_1, F_{ie})$ \\
+    \State $FCC \gets FCC \cup FCC_i$\\}
+\EndFor
+\State $FCS \gets \text{N-ClosedStep}(FCC)$
+\end{algorithmic}
+\end{algorithm}
+
+
+首先找到所有的频繁的1-序列（即长度为1的序列），然后，对于所有频繁的1序列，递归地调用DFS-Pruning方法来探索相应的子树（通过进行深度优先搜索）。对所有频率为1的序列进行此处理，得到FCC，最后，算法结束去除FCC中出现的非封闭序列。
+
+
+\begin{algorithm}[htbp]
+\caption{DFS-Pruning算法伪代码}
+\KwIn{当前模式 $p$, 候选项集 $S_n$ 和 $I_n$}
+\KwOut{更新后的频繁模式集 $FCC$}
+
+$Stemp \gets \emptyset$ 
+$Itemp \gets \emptyset$ 
+$F_i \gets \emptyset$ 
+$P_s \gets \emptyset$ 
+$P_i \gets \emptyset$ \\
+\If{$\neg \text{checkAvoidable}(p, I(D_p))$}{
+    \For{all $i \in S_n$}{
+        \If{$p' = (s_1, s_2, \dots, s_n, \{i\})$ is frequent}{
+            $Stemp \gets Stemp \cup \{i\}$ \\
+            $P_s \gets P_s \cup \{p'\}$ \\
+        }
+    }
+    $F_i \gets F_i \cup P_s \cup \text{ExpSiblings}(P_s, Stemp, Stemp)$ \\
+    \For{all $i \in I_n$}{
+        \If{$p' = (s_1, s_2, \dots, s_n \cup \{i\})$ is frequent}{
+            $Itemp \gets Itemp \cup \{i\}$ \\
+            $P_i \gets P_i \cup \{p'\}$ \\
+        }
+    }
+    $F_i \gets F_i \cup P_i \cup \text{ExpSiblings}(P_s, Stemp, Itemp)$ \\
+}
+\Return{$F_i$} \\
+\end{algorithm}
+    
+
+在递归遍历过程中，DFS-Pruning 算法通过递归生成候选模式（包括 s-扩展和 i-扩展，分别在模式末尾和任意位置添加新元素）并检查其支持度，最终返回以当前模式 $p$ 为前缀的所有频繁模式集。算法输入包括当前频繁模式 $p$ 以及用于执行扩展操作的候选项集 $S_n$ 和 $I_n$。
+
+在 s-扩展阶段，算法遍历 $S_n$ 中的每个候选项 $i$，检查扩展后的模式是否为频繁模式。若为频繁模式，则将其加入 $Stemp$ 和 $P_s$ 中，并通过递归调用 ExpSiblings 方法继续扩展。i-扩展部分则类似，遍历 $I_n$ 中的候选项，检查并加入频繁扩展模式到 $Itemp$ 和 $P_i$ 中，最终进行 i-扩展的剪枝处理。
+
+最终，算法返回以模式 $p$ 为前缀的所有频繁模式集 $F_i$，其中包括通过 s-扩展和 i-扩展生成的所有频繁模式。这些操作通过递归遍历模式树，确保高效地发现所有频繁模式。
+
+
+剪枝时，通过检查对应模式的子序列和超序列的支持度，将序列的节点进行合并，防止继续遍历冗余节点。最终得到的FCS即为所有克隆代码集。
+
+（3）合并碎片
+
+由于先前的代码分段处理导致克隆代码呈现为片段间的克隆关系，实际上这些克隆关系表现为碎片化的形式。为了恢复代码的完整性，进一步对这些碎片进行合并。具体而言，基于每段代码的位置信息，将属于同一方法的碎片进行合理整合，从而重建方法间的克隆关系。通过这种方式，最终得到的是方法与方法之间的克隆关系，反映了不同方法之间的相似性。
+
+这种方法间的克隆关系不仅揭示了代码的重复性，还反映了不同方法之间在代码修改过程中的潜在影响。方法与方法之间的克隆关系可以被视为一种变更传播的路径，指示了某一方法的修改可能如何影响其他方法。因此，提取出的这些克隆关系实际反映和代表了方法之间的变更影响关系。
 
 \section{基于数据挖掘的变更影响分析}
 \subsection{代码变更历史提取}
