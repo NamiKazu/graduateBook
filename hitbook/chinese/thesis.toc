@@ -33,29 +33,29 @@
 \contentsline {subsection}{\numberline {3.3.2}基于ClaSP算法的代码克隆检测方法}{34}{subsection.3.3.2}%
 \contentsline {section}{\numberline {3.4}基于数据挖掘的变更影响分析}{38}{section.3.4}%
 \contentsline {subsection}{\numberline {3.4.1}代码变更历史提取}{38}{subsection.3.4.1}%
-\contentsline {subsection}{\numberline {3.4.2}基于频繁模式挖掘的变更影响关系提取}{39}{subsection.3.4.2}%
-\contentsline {section}{\numberline {3.5}基于深度学习的变更影响分析}{39}{section.3.5}%
-\contentsline {subsection}{\numberline {3.5.1}数据集的采集与预处理}{40}{subsection.3.5.1}%
-\contentsline {subsection}{\numberline {3.5.2}基于codebert的变更影响关系预测}{40}{subsection.3.5.2}%
-\contentsline {section}{\numberline {3.6}实验结果与分析}{41}{section.3.6}%
-\contentsline {subsection}{\numberline {3.6.1}实验数据集描述与分析}{41}{subsection.3.6.1}%
-\contentsline {subsection}{\numberline {3.6.2}实验设置}{41}{subsection.3.6.2}%
-\contentsline {subsection}{\numberline {3.6.3}实验结果与分析}{41}{subsection.3.6.3}%
-\contentsline {section}{\numberline {3.7}本章小结}{41}{section.3.7}%
-\contentsline {chapter}{\numberline {第4章}代码审查图生成}{42}{chapter.4}%
-\contentsline {section}{\numberline {4.1}引言}{42}{section.4.1}%
-\contentsline {section}{\numberline {4.2}基于方法功能标签的方法聚类}{42}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}基于大语言模型的方法功能标签生成}{42}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}基于功能标签的方法聚类}{42}{subsection.4.2.2}%
-\contentsline {section}{\numberline {4.3}代码审查图}{42}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}代码审查图构建}{42}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}代码审查图可视化}{42}{subsection.4.3.2}%
-\contentsline {section}{\numberline {4.4}实验结果与分析}{43}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}实验数据集描述与分析}{43}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}实验设置}{43}{subsection.4.4.2}%
-\contentsline {subsection}{\numberline {4.4.3}实验结果与分析}{43}{subsection.4.4.3}%
-\contentsline {section}{\numberline {4.5}本章小结}{43}{section.4.5}%
-\contentsline {chapter}{\heiti 结\hspace {\ccwd }论}{44}{section*.13}%
-\contentsline {chapter}{\heiti 参考文献}{45}{section*.16}%
-\contentsline {chapter}{\heiti 哈尔滨工业大学学位论文原创性声明和使用权限}{49}{section*.18}%
-\contentsline {chapter}{\heiti 致\hspace {\ccwd }谢}{50}{section*.20}%
+\contentsline {subsection}{\numberline {3.4.2}基于共现关联挖掘的变更影响关系提取}{40}{subsection.3.4.2}%
+\contentsline {section}{\numberline {3.5}基于深度学习的变更影响分析}{41}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}数据集来源和收集}{41}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.2}基于代码预训练模型的变更影响关系预测}{42}{subsection.3.5.2}%
+\contentsline {section}{\numberline {3.6}实验结果与分析}{43}{section.3.6}%
+\contentsline {subsection}{\numberline {3.6.1}实验数据集描述与分析}{43}{subsection.3.6.1}%
+\contentsline {subsection}{\numberline {3.6.2}实验设置}{43}{subsection.3.6.2}%
+\contentsline {subsection}{\numberline {3.6.3}实验结果与分析}{43}{subsection.3.6.3}%
+\contentsline {section}{\numberline {3.7}本章小结}{44}{section.3.7}%
+\contentsline {chapter}{\numberline {第4章}代码审查图生成}{45}{chapter.4}%
+\contentsline {section}{\numberline {4.1}引言}{45}{section.4.1}%
+\contentsline {section}{\numberline {4.2}基于方法功能标签的方法聚类}{45}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}基于大语言模型的方法功能标签生成}{45}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}基于功能标签的方法聚类}{45}{subsection.4.2.2}%
+\contentsline {section}{\numberline {4.3}代码审查图}{45}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}代码审查图构建}{45}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}代码审查图可视化}{45}{subsection.4.3.2}%
+\contentsline {section}{\numberline {4.4}实验结果与分析}{46}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}实验数据集描述与分析}{46}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}实验设置}{46}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}实验结果与分析}{46}{subsection.4.4.3}%
+\contentsline {section}{\numberline {4.5}本章小结}{46}{section.4.5}%
+\contentsline {chapter}{\heiti 结\hspace {\ccwd }论}{47}{section*.13}%
+\contentsline {chapter}{\heiti 参考文献}{48}{section*.16}%
+\contentsline {chapter}{\heiti 哈尔滨工业大学学位论文原创性声明和使用权限}{52}{section*.18}%
+\contentsline {chapter}{\heiti 致\hspace {\ccwd }谢}{53}{section*.20}%
