@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.11.30)  19 DEC 2024 23:00
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.11.30)  20 DEC 2024 21:47
 entering extended mode
  \write18 enabled.
  Source specials enabled.
@@ -2472,26 +2472,6 @@ File: figures/代码克隆流程.png Graphic file (type bmp)
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [32] [33] [34]
-
-Package natbib Warning: Citation `2013ClaSP' on page 35 undefined on input line
- 633.
-
-
-Package natbib Warning: Citation `2013ClaSP' on page 35 undefined on input line
- 635.
-
-
-Package natbib Warning: Citation `2013ClaSP' on page 35 undefined on input line
- 637.
-
-
-Package natbib Warning: Citation `2013ClaSP' on page 35 undefined on input line
- 639.
-
-
-Package natbib Warning: Citation `2013ClaSP' on page 35 undefined on input line
- 641.
-
 ./body/introduction.tex:660: Missing $ inserted.
 <inserted text> 
                 $
@@ -2762,13 +2742,16 @@ File: figures/数据挖掘挖到的方法对.png Graphic file (type bmp)
 <figures/数据挖掘挖到的方法对.png>
  [47] [48]
 第4章
-) [49
+[49
 
 
-] [50]
+] [50] [51]
+File: figures/G6图数据示例.jpg Graphic file (type bmp)
+<figures/G6图数据示例.jpg>
+ [52]) [53]
 \openout2 = `back/conclusion.aux'.
 
- (./back/conclusion.tex) [51
+ (./back/conclusion.tex) [54
 
 
 
@@ -2806,7 +2789,7 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-[52
+[55
 
 
 
@@ -2838,7 +2821,7 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-[53]
+[56]
 ./thesis.bbl:224: Misplaced alignment tab character &.
 l.224 ...ational Conference on Software Security &
                                                    Reliability.
@@ -2849,13 +2832,13 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-[54]) [55] [56
+[57]) [58] [59
 
 
 ]
 \openout2 = `back/acknowledgements.aux'.
 
- (./back/acknowledgements.tex) [57
+ (./back/acknowledgements.tex) [60
 
 
 
@@ -2883,16 +2866,19 @@ L3 programming layer <2022/08/05>
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.47188pt have occurred.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 3A08968142E9EAD72B5181C93348BC06;10115.
+(rerunfilecheck)             Checksum: F0A6B23A01AE522E166641893131FB41;10099.
  ) 
 Here is how much of TeX's memory you used:
- 45055 strings out of 474773
- 963615 string characters out of 5757723
+ 45072 strings out of 474773
+ 963989 string characters out of 5757723
  1949839 words of memory out of 5000000
- 66317 multiletter control sequences out of 15000+600000
+ 66333 multiletter control sequences out of 15000+600000
  616692 words of font info for 242 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  107i,19n,111p,2550b,1099s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on thesis.pdf (64 pages).
+Output written on thesis.pdf (67 pages).

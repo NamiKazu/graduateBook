@@ -668,6 +668,8 @@ INPUT ./figures/克隆代码片段.jpg
 INPUT ./figures/克隆代码片段.jpg
 INPUT ./figures/数据挖掘挖到的方法对.png
 INPUT ./figures/数据挖掘挖到的方法对.png
+INPUT ./figures/G6图数据示例.jpg
+INPUT ./figures/G6图数据示例.jpg
 INPUT ./back/conclusion.tex
 INPUT ./back/conclusion.tex
 OUTPUT back/conclusion.aux

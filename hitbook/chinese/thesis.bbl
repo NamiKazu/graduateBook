@@ -1,4 +1,4 @@
-\begin{thebibliography}{40}
+\begin{thebibliography}{42}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{#1}
 \expandafter\ifx\csname urlstyle\endcsname\relax\else
@@ -278,5 +278,17 @@ HUANG Y, JIANG J, LUO X, et~al.
   analysis\allowbreak[J].
 \newblock IEEE Transactions on Software Engineering, 2021, PP\allowbreak (99):
   1-1.
+
+\bibitem[Gomariz et~al.(2013)Gomariz, Campos, Marin, and Goethals]{2013ClaSP}
+GOMARIZ A, CAMPOS M, MARIN R, et~al.
+\newblock Clasp: An efficient algorithm for mining frequent closed
+  sequences\allowbreak[Z].
+\newblock 2013.
+
+\bibitem[花子涵\ 等(2024)花子涵, 杨立, 陆俊逸, and
+  左春]{花子涵2024代码审查自动化研究综述}
+花子涵, 杨立, 陆俊逸, 等.
+\newblock 代码审查自动化研究综述\allowbreak[J].
+\newblock 软件学报, 2024, 35\allowbreak (7): 3265-3290.
 
 \end{thebibliography}
