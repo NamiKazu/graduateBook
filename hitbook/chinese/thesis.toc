@@ -39,23 +39,23 @@
 \contentsline {subsection}{\numberline {3.5.2}基于代码预训练模型的变更影响关系预测}{42}{subsection.3.5.2}%
 \contentsline {section}{\numberline {3.6}实验结果与分析}{43}{section.3.6}%
 \contentsline {subsection}{\numberline {3.6.1}实验数据集描述与分析}{43}{subsection.3.6.1}%
-\contentsline {subsection}{\numberline {3.6.2}实验设置}{43}{subsection.3.6.2}%
-\contentsline {subsection}{\numberline {3.6.3}实验结果与分析}{43}{subsection.3.6.3}%
-\contentsline {section}{\numberline {3.7}本章小结}{44}{section.3.7}%
-\contentsline {chapter}{\numberline {第4章}代码审查图生成}{45}{chapter.4}%
-\contentsline {section}{\numberline {4.1}引言}{45}{section.4.1}%
-\contentsline {section}{\numberline {4.2}基于方法功能标签的方法聚类}{45}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}基于大语言模型的方法功能标签生成}{45}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}基于功能标签的方法聚类}{45}{subsection.4.2.2}%
-\contentsline {section}{\numberline {4.3}代码审查图}{45}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}代码审查图构建}{45}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}代码审查图可视化}{45}{subsection.4.3.2}%
-\contentsline {section}{\numberline {4.4}实验结果与分析}{46}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}实验数据集描述与分析}{46}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}实验设置}{46}{subsection.4.4.2}%
-\contentsline {subsection}{\numberline {4.4.3}实验结果与分析}{46}{subsection.4.4.3}%
-\contentsline {section}{\numberline {4.5}本章小结}{46}{section.4.5}%
-\contentsline {chapter}{\heiti 结\hspace {\ccwd }论}{47}{section*.13}%
-\contentsline {chapter}{\heiti 参考文献}{48}{section*.16}%
-\contentsline {chapter}{\heiti 哈尔滨工业大学学位论文原创性声明和使用权限}{52}{section*.18}%
-\contentsline {chapter}{\heiti 致\hspace {\ccwd }谢}{53}{section*.20}%
+\contentsline {subsection}{\numberline {3.6.2}实验设置}{44}{subsection.3.6.2}%
+\contentsline {subsection}{\numberline {3.6.3}实验结果与分析}{44}{subsection.3.6.3}%
+\contentsline {section}{\numberline {3.7}本章小结}{48}{section.3.7}%
+\contentsline {chapter}{\numberline {第4章}代码审查图生成}{49}{chapter.4}%
+\contentsline {section}{\numberline {4.1}引言}{49}{section.4.1}%
+\contentsline {section}{\numberline {4.2}基于方法功能标签的方法聚类}{49}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}基于大语言模型的方法功能标签生成}{49}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}基于功能标签的方法聚类}{49}{subsection.4.2.2}%
+\contentsline {section}{\numberline {4.3}代码审查图}{49}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}代码审查图构建}{49}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}代码审查图可视化}{49}{subsection.4.3.2}%
+\contentsline {section}{\numberline {4.4}实验结果与分析}{50}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}实验数据集描述与分析}{50}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}实验设置}{50}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}实验结果与分析}{50}{subsection.4.4.3}%
+\contentsline {section}{\numberline {4.5}本章小结}{50}{section.4.5}%
+\contentsline {chapter}{\heiti 结\hspace {\ccwd }论}{51}{section*.13}%
+\contentsline {chapter}{\heiti 参考文献}{52}{section*.16}%
+\contentsline {chapter}{\heiti 哈尔滨工业大学学位论文原创性声明和使用权限}{56}{section*.18}%
+\contentsline {chapter}{\heiti 致\hspace {\ccwd }谢}{57}{section*.20}%
