@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.11.30)  20 DEC 2024 21:47
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.11.30)  21 DEC 2024 23:47
 entering extended mode
  \write18 enabled.
  Source specials enabled.
@@ -2688,23 +2688,19 @@ Missing character: There is no 现 ("73B0) in font ntx-Regular-tlf-ot1!
 [40] [41]
 File: figures/模型架构3.jpg Graphic file (type bmp)
 <figures/模型架构3.jpg>
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[42] [43]
-./body/introduction.tex:889: Missing $ inserted.
+ [42]
+./body/introduction.tex:883: Missing $ inserted.
 <inserted text> 
                 $
-l.889 Adam \beta
+l.883 Adam \beta
                 _1  & 0.95  \\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./body/introduction.tex:889: Missing $ inserted.
+./body/introduction.tex:883: Missing $ inserted.
 <inserted text> 
                 $
-l.889 Adam \beta_1  &
+l.883 Adam \beta_1  &
                       0.95  \\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2712,18 +2708,18 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./body/introduction.tex:890: Missing $ inserted.
+./body/introduction.tex:884: Missing $ inserted.
 <inserted text> 
                 $
-l.890 Adam \beta
+l.884 Adam \beta
                 _2 & 0.999  \\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./body/introduction.tex:890: Missing $ inserted.
+./body/introduction.tex:884: Missing $ inserted.
 <inserted text> 
                 $
-l.890 Adam \beta_2 &
+l.884 Adam \beta_2 &
                      0.999  \\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2731,27 +2727,78 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-[44]
+[43] [44] [45]
 File: figures/静态分析拒绝样例.jpg Graphic file (type bmp)
 <figures/静态分析拒绝样例.jpg>
- [45]
+ [46]
 File: figures/克隆代码片段.jpg Graphic file (type bmp)
 <figures/克隆代码片段.jpg>
- [46]
 File: figures/数据挖掘挖到的方法对.png Graphic file (type bmp)
 <figures/数据挖掘挖到的方法对.png>
- [47] [48]
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: figures/pushpop.jpg Graphic file (type bmp)
+<figures/pushpop.jpg>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[47] [48] [49]
 第4章
-[49
+[50
 
 
-] [50] [51]
+]
+
+Package natbib Warning: Citation `wan-etal-2023-gpt' on page 51 undefined on in
+put line 1049.
+
+File: figures/大模型预测.png Graphic file (type bmp)
+<figures/大模型预测.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[51]
+File: figures/分类示例.png Graphic file (type bmp)
+<figures/分类示例.png>
+ [52] [53] [54]
 File: figures/G6图数据示例.jpg Graphic file (type bmp)
 <figures/G6图数据示例.jpg>
- [52]) [53]
+ [55] [56] [57]
+File: figures/antiword审查图未上色.jpg Graphic file (type bmp)
+<figures/antiword审查图未上色.jpg>
+File: figures/aigri代码审查图-未上色.jpg Graphic file (type bmp)
+<figures/aigri代码审查图-未上色.jpg>
+File: figures/antiword代码审查图.jpg Graphic file (type bmp)
+<figures/antiword代码审查图.jpg>
+File: figures/aigri代码审查图.jpg Graphic file (type bmp)
+<figures/aigri代码审查图.jpg>
+ [58]
+File: figures/点击节点.png Graphic file (type bmp)
+<figures/点击节点.png>
+File: figures/子图.png Graphic file (type bmp)
+<figures/子图.png>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: figures/内聚度差例子.jpg Graphic file (type bmp)
+<figures/内聚度差例子.jpg>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[59]
+File: figures/扇出度最高.jpg Graphic file (type bmp)
+<figures/扇出度最高.jpg>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[60]) [61]
 \openout2 = `back/conclusion.aux'.
 
- (./back/conclusion.tex) [54
+ (./back/conclusion.tex) [62
 
 
 
@@ -2789,7 +2836,7 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-[55
+[63
 
 
 
@@ -2821,7 +2868,7 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-[56]
+[64]
 ./thesis.bbl:224: Misplaced alignment tab character &.
 l.224 ...ational Conference on Software Security &
                                                    Reliability.
@@ -2832,13 +2879,13 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-[57]) [58] [59
+[65]) [66] [67
 
 
 ]
 \openout2 = `back/acknowledgements.aux'.
 
- (./back/acknowledgements.tex) [60
+ (./back/acknowledgements.tex) [68
 
 
 
@@ -2870,15 +2917,15 @@ LaTeX Font Warning: Size substitutions with differences
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: F0A6B23A01AE522E166641893131FB41;10099.
+(rerunfilecheck)             Checksum: DA389C7DF5784AC3BDDD8A49DD780760;10155.
  ) 
 Here is how much of TeX's memory you used:
- 45072 strings out of 474773
- 963989 string characters out of 5757723
- 1949839 words of memory out of 5000000
- 66333 multiletter control sequences out of 15000+600000
- 616692 words of font info for 242 fonts, out of 8000000 for 9000
+ 45199 strings out of 474773
+ 966941 string characters out of 5757723
+ 1954839 words of memory out of 5000000
+ 66448 multiletter control sequences out of 15000+600000
+ 616700 words of font info for 243 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  107i,19n,111p,2550b,1099s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on thesis.pdf (67 pages).
+Output written on thesis.pdf (75 pages).

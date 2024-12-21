@@ -1,4 +1,4 @@
-\begin{thebibliography}{42}
+\begin{thebibliography}{43}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{#1}
 \expandafter\ifx\csname urlstyle\endcsname\relax\else
@@ -290,5 +290,11 @@ GOMARIZ A, CAMPOS M, MARIN R, et~al.
 花子涵, 杨立, 陆俊逸, 等.
 \newblock 代码审查自动化研究综述\allowbreak[J].
 \newblock 软件学报, 2024, 35\allowbreak (7): 3265-3290.
+
+\bibitem[Mazlami et~al.(2017)Mazlami, Cito, and Leitner]{2017Extraction}
+MAZLAMI G, CITO J, LEITNER P.
+\newblock Extraction of microservices from monolithic software
+  architectures\allowbreak[J].
+\newblock IEEE, 2017.
 
 \end{thebibliography}
