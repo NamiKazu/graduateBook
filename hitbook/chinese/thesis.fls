@@ -656,6 +656,8 @@ INPUT ./figures/全局变量提取流程图.png
 INPUT ./figures/全局变量提取流程图.png
 INPUT ./figures/扇入扇出.png
 INPUT ./figures/扇入扇出.png
+INPUT ./figures/扇出高例子.jpg
+INPUT ./figures/扇出高例子.jpg
 INPUT ./figures/依赖关系示例.png
 INPUT ./figures/依赖关系示例.png
 INPUT ./figures/代码克隆流程.png

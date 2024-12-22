@@ -61,15 +61,31 @@
   estudenttype={Master of Art},
   %
   % 关键词用“英文逗号”分割
-  ckeywords={代码质量分析, 变更影响, 代码审查},
-  ekeywords={code quality analysis, change impact, code review},
+  ckeywords={代码审查, 代码质量评估, 变更影响分析, 代码度量},
+  ekeywords={code review, code quality assessment, change impact analysis, Code Metrics},
 }
 
 \begin{cabstract}
 
-摘要的字数（以汉字计），硕士学位论文一般为500 $\sim$ 1000字，
+  随着软件系统规模和复杂性的不断增加，传统依赖经验丰富的专家进行人工代码审查的方法，已难以应对日益复杂的代码审查需求。因此，自动化代码质量评估方法的重要性愈加突出。特别是在大型软件系统中，随着开发团队的不断扩大和系统复杂度的提升，代码结构往往在漫长的维护过程中逐渐退化，模块化设计逐步被复杂的代码结构所取代，导致系统的维护和管理变得愈加困难。此外，软件系统的维护过程中，代码变更几乎是不可避免的，而这些变更可能对现有代码的质量和系统整体结构产生深远影响，从而加剧系统的维护难度。
+
+  本文面向代码质量评估，深入研究代码变更影响分析方法，并结合质量评估度量，通过代码审查图的方式展示C/C++项目的质量评估结果。方便开发人员从宏观的角度理解软件架构和代码质量。
+
+  首先，本文基于代码中间表示对软件质量度量指标进行计算，基于clang提取软件项目的抽象语法树，进一步从抽象语法树中提取方法摘要表和全局变量信息表。这些代码中间表示蕴含了代码调用等互相依赖的特征，基于这些中间表示，本文从内聚度、耦合性、代码复杂度和代码缺陷四个角度，提取了相关的代码质量评估度量和信息。这些度量不仅为开发人员提供了对代码质量的深入洞察，也为后续的代码优化和维护决策提供了优化角度。
+
+  其次，本文进一步研究了代码变更影响分析方法，以帮助开发人员更好地了解软件项目在维护过程中可能出现的相互影响的情况。变更影响分析方法能够预测代码变更可能带来的影响，帮助开发人员做出更加合理的设计和优化决策，减少变更带来的风险。本文首先实现了基于传统依赖关系闭包的变更影响分析方法，随后提出了三种新的变更影响分析方法，分别基于代码克隆、数据挖掘和深度学习技术。实验结果表明，这三种新方法相较于传统的依赖关系闭包方法具有更优的效果，并能够有效弥补传统方法的不足之处。
+
+  最后，为了便于开发人员和审查人员从宏观角度全面了解软件项目的架构，本文将代码质量分析结果通过代码审查图的形式展示给用户，此外，还生成了详细的代码质量检测报告。研究表明，代码审查图能够帮助开发人员快速聚焦于特定开发模块，使其在不需要掌握过多代码上下文的情况下，便能了解代码的整体架构。同时，代码质量检测报告以清单形式展示了项目中各项质量指标，为开发人员提供了清晰的项目质量状况概览。
 \end{cabstract}
 
 \begin{eabstract}
-   An abstract 
+  As the scale and complexity of software systems continue to increase, the traditional method of relying on experienced experts for manual code reviews has become inadequate to handle the increasingly complex code review demands. As a result, the importance of automated code quality assessment methods has become more prominent. In large software systems, as development teams expand and system complexity increases, the code structure often deteriorates over time during maintenance, with modular design being gradually replaced by complex code structures. This leads to greater difficulty in maintaining and managing the system. Furthermore, code changes are almost inevitable during the maintenance of software systems, and these changes can have a profound impact on the quality of the existing code and the overall system structure, thus exacerbating the difficulty of system maintenance.
+
+  This paper focuses on code quality assessment, conducting in-depth research on change impact analysis methods, and combines quality assessment metrics to present the quality evaluation results of C/C++ projects in the form of code review graphs. This approach allows developers to better understand the software architecture and code quality from a macro perspective.
+  
+  First, this paper calculates software quality metrics based on intermediate code representations, extracting the abstract syntax tree of software projects using Clang, and further extracting method summary tables and global variable information tables from the abstract syntax tree. These intermediate code representations capture dependencies such as code calls, and based on these representations, this paper extracts relevant code quality metrics and information from the perspectives of cohesion, coupling, code complexity, and code defects. These metrics provide developers with deep insights into code quality and offer optimization directions for subsequent code optimization and maintenance decisions.
+  
+  Second, this paper further explores change impact analysis methods to help developers better understand the potential interdependencies that may arise during the maintenance of software projects. Change impact analysis methods can predict the possible effects of code changes, helping developers make more reasonable design and optimization decisions, thereby reducing the risks brought by changes. The paper first implements the traditional change impact analysis method based on dependency closure, and then proposes three new change impact analysis methods based on code cloning, data mining, and deep learning techniques. Experimental results show that these three new methods outperform the traditional dependency closure approach and effectively address its shortcomings.
+  
+  Finally, to help developers and reviewers gain a comprehensive understanding of the software project's architecture from a macro perspective, this paper presents the results of code quality analysis in the form of code review graphs. Additionally, detailed code quality inspection reports are generated. The study shows that code review graphs can help developers quickly focus on specific development modules, enabling them to understand the overall code architecture without needing to grasp excessive code context. Meanwhile, the code quality inspection report presents project quality indicators in a checklist format, providing developers with a clear overview of the project's quality status.
 \end{eabstract}

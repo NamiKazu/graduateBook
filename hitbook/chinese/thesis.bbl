@@ -1,4 +1,4 @@
-\begin{thebibliography}{43}
+\begin{thebibliography}{47}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{#1}
 \expandafter\ifx\csname urlstyle\endcsname\relax\else
@@ -10,6 +10,16 @@
   \def\doi#1{\href{https://doi.org/#1}{\nolinkurl{#1}}}
   \let\eprint\href
 \fi
+
+\bibitem[Kumar et~al.(2012)Kumar and Gill]{2012Maintenance}
+KUMAR A, GILL B~S.
+\newblock Maintenance vs. reengineering software systems\allowbreak[J].
+\newblock Global Journal of Computer Science & Technology, 2012.
+
+\bibitem[Pahl et~al.(2016)Pahl and Jamshidi]{2016Microservices}
+PAHL C, JAMSHIDI P.
+\newblock Microservices: A systematic mapping study\allowbreak[J].
+\newblock SCITEPRESS - Science and Technology Publications, Lda, 2016.
 
 \bibitem[Sheneamer et~al.(2018)Sheneamer, Abdullah, Roy, Swarup, Kalita, and
   Jugal]{Sheneamer2018A}
@@ -279,6 +289,11 @@ HUANG Y, JIANG J, LUO X, et~al.
 \newblock IEEE Transactions on Software Engineering, 2021, PP\allowbreak (99):
   1-1.
 
+\bibitem[迟曲(2011)]{迟曲2011关于软件设计的模块独立性分析}
+迟曲.
+\newblock 关于软件设计的模块独立性分析\allowbreak[J].
+\newblock 数字技术与应用, 2011\allowbreak (3): 2.
+
 \bibitem[Gomariz et~al.(2013)Gomariz, Campos, Marin, and Goethals]{2013ClaSP}
 GOMARIZ A, CAMPOS M, MARIN R, et~al.
 \newblock Clasp: An efficient algorithm for mining frequent closed
@@ -296,5 +311,18 @@ MAZLAMI G, CITO J, LEITNER P.
 \newblock Extraction of microservices from monolithic software
   architectures\allowbreak[J].
 \newblock IEEE, 2017.
+
+\bibitem[Wan et~al.(2023)Wan, Cheng, Mao, Liu, Song, Li, and
+  Kurohashi]{wan-etal-2023-gpt}
+WAN Z, CHENG F, MAO Z, et~al.
+\newblock {GPT}-{RE}: In-context learning for relation extraction using large
+  language models\allowbreak[C/OL]//\allowbreak
+BOUAMOR H, PINO J, BALI K.
+\newblock Proceedings of the 2023 Conference on Empirical Methods in Natural
+  Language Processing.
+\newblock Singapore: Association for Computational Linguistics, 2023:
+  3534-3547.
+\newblock \url{https://aclanthology.org/2023.emnlp-main.214}.
+\newblock DOI: \doi{10.18653/v1/2023.emnlp-main.214}.
 
 \end{thebibliography}
