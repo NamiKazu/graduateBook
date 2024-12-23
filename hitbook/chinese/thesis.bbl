@@ -1,4 +1,4 @@
-\begin{thebibliography}{49}
+\begin{thebibliography}{56}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{#1}
 \expandafter\ifx\csname urlstyle\endcsname\relax\else
@@ -281,11 +281,11 @@ ROLFSNES T, ALESIO S~D, BEHJATI R, et~al.
 IEEE International Conference on Software Analysis.
 \newblock 2016.
 
-\bibitem[Dit et~al.(2014)Dit, Wagner, Wen, Wang, Linares-Vásquez, Poshyvanyk,
-  and Kagdi]{2014ImpactMiner}
-DIT B, WAGNER M, WEN S, et~al.
-\newblock Impactminer: a tool for change impact analysis\allowbreak[J].
-\newblock ACM, 2014: 540-543.
+\bibitem[Zimmermann et~al.(2005)Zimmermann, Zeller, Weissgerber, and
+  Diehl]{2005Mining}
+ZIMMERMANN T, ZELLER A, WEISSGERBER P, et~al.
+\newblock Mining version histories to guide software changes\allowbreak[J].
+\newblock IEEE Transactions on Software Engineering, 2005.
 
 \bibitem[Huang et~al.(2021)Huang, Jiang, Luo, Chen, and Huang]{2021Change}
 HUANG Y, JIANG J, LUO X, et~al.
@@ -300,6 +300,52 @@ LATTNER C, AMINI M, BONDHUGULA U, et~al.
 \newblock Mlir: A compiler infrastructure for the end of moore's
   law\allowbreak[Z].
 \newblock 2020.
+
+\bibitem[llvm-admin team(2024)]{clang}
+LLVM-ADMIN TEAM.
+\newblock Clang, a c language family frontend for llvm.\allowbreak[EB/OL].
+\newblock 2024.
+\newblock \url{https://clang.llvm.org/}.
+
+\bibitem[llvm-admin team(2024)]{libclang}
+LLVM-ADMIN TEAM.
+\newblock libclang: C interface to clang.\allowbreak[EB/OL].
+\newblock 2024.
+\newblock \url{https://clang.llvm.org/doxygen/group__CINDEX.html}.
+
+\bibitem[Adjoyan et~al.(2014)Adjoyan, Seriai, and Shatnawi]{2014Service}
+ADJOYAN S, SERIAI A~D, SHATNAWI A.
+\newblock Service identification based on quality metrics object - oriented
+  legacy system migration towards soa\allowbreak[C]//\allowbreak
+International Conference on Software Engineering & Knowledge Engineering.
+\newblock 2014.
+
+\bibitem[Abdelkader et~al.(2013)Abdelkader, Malki, and Benslimane]{2013Ahe}
+ABDELKADER M, MALKI M, BENSLIMANE S~M.
+\newblock A heuristic approach to locate candidate web service in legacy
+  software\allowbreak[J].
+\newblock International Journal of Computer Applications in Technology, 2013,
+  47\allowbreak (2/3): 152-161.
+
+\bibitem[Chidamber et~al.(1994)Chidamber and Kemerer]{1994Ametr}
+CHIDAMBER S~R, KEMERER C~F.
+\newblock A metrics suite for object oriented design\allowbreak[J].
+\newblock Software Engineering IEEE Transactions on, 1994, 20\allowbreak (6):
+  476 - 493.
+
+\bibitem[Hendersonsellers et~al.(1996)Hendersonsellers, Constantine, and
+  Graham]{1996Coupling}
+HENDERSONSELLERS B, CONSTANTINE L~L, GRAHAM I~M.
+\newblock Coupling and cohesion (towards a valid metrics suite for
+  object-oriented analysis and design)\allowbreak[J].
+\newblock Object Oriented Systems, 1996, 3\allowbreak (3): 143-158.
+
+\bibitem[Hitz et~al.(1995)Hitz and Montazeri]{1995Measuring}
+HITZ M, MONTAZERI B.
+\newblock Measuring coupling and cohesion in object-oriented
+  systems\allowbreak[C]//\allowbreak
+Proc. Int. Symposium on Applied Corporate Computing, Oct. 25-27, 1995.
+\newblock 1995.
 
 \bibitem[迟曲(2011)]{迟曲2011关于软件设计的模块独立性分析}
 迟曲.

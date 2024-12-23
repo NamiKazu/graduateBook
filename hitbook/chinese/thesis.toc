@@ -21,10 +21,10 @@
 \contentsline {subsection}{\numberline {2.5.3}方法间耦合性分析}{21}{subsection.2.5.3}%
 \contentsline {subsection}{\numberline {2.5.4}方法扇入扇出度量分析}{22}{subsection.2.5.4}%
 \contentsline {subsection}{\numberline {2.5.5}结合静态检测工具提取缺陷}{23}{subsection.2.5.5}%
-\contentsline {section}{\numberline {2.6}实验结果与分析}{23}{section.2.6}%
-\contentsline {subsection}{\numberline {2.6.1}实验数据与评价指标}{23}{subsection.2.6.1}%
+\contentsline {section}{\numberline {2.6}实验结果与分析}{24}{section.2.6}%
+\contentsline {subsection}{\numberline {2.6.1}实验数据与评价指标}{24}{subsection.2.6.1}%
 \contentsline {subsection}{\numberline {2.6.2}实验结果与分析}{26}{subsection.2.6.2}%
-\contentsline {section}{\numberline {2.7}本章小结}{30}{section.2.7}%
+\contentsline {section}{\numberline {2.7}本章小结}{29}{section.2.7}%
 \contentsline {chapter}{\numberline {第3章}面向代码质量评估的变更影响分析方法研究}{31}{chapter.3}%
 \contentsline {section}{\numberline {3.1}引言}{31}{section.3.1}%
 \contentsline {section}{\numberline {3.2}基于依赖关系闭包的变更影响分析}{32}{section.3.2}%
@@ -57,5 +57,5 @@
 \contentsline {section}{\numberline {4.5}本章小结}{63}{section.4.5}%
 \contentsline {chapter}{\heiti 结\hspace {\ccwd }论}{65}{section*.13}%
 \contentsline {chapter}{\heiti 参考文献}{67}{section*.16}%
-\contentsline {chapter}{\heiti 哈尔滨工业大学学位论文原创性声明和使用权限}{71}{section*.18}%
-\contentsline {chapter}{\heiti 致\hspace {\ccwd }谢}{72}{section*.20}%
+\contentsline {chapter}{\heiti 哈尔滨工业大学学位论文原创性声明和使用权限}{72}{section*.18}%
+\contentsline {chapter}{\heiti 致\hspace {\ccwd }谢}{73}{section*.20}%
