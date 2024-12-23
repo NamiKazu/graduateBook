@@ -1,4 +1,4 @@
-\begin{thebibliography}{47}
+\begin{thebibliography}{49}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{#1}
 \expandafter\ifx\csname urlstyle\endcsname\relax\else
@@ -20,6 +20,21 @@ KUMAR A, GILL B~S.
 PAHL C, JAMSHIDI P.
 \newblock Microservices: A systematic mapping study\allowbreak[J].
 \newblock SCITEPRESS - Science and Technology Publications, Lda, 2016.
+
+\bibitem[Dai et~al.(2022)Dai, Wang, Jin, Gong, and Yang]{2022An}
+DAI P, WANG Y, JIN D, et~al.
+\newblock An improving approach to analyzing change impact of c
+  programs\allowbreak[J].
+\newblock Computer communications, 2022\allowbreak (Jan.): 182.
+
+\bibitem[Nuñez-Varela et~al.(2017)Nuñez-Varela, Pérez-Gonzalez,
+  Martínez-Perez, and Soubervielle-Montalvo]{NUNEZVARELA2017164}
+NUñEZ-VARELA A~S, PéREZ-GONZALEZ H~G, MARTíNEZ-PEREZ F~E, et~al.
+\newblock Source code metrics: A systematic mapping study\allowbreak[J/OL].
+\newblock Journal of Systems and Software, 2017, 128: 164-197.
+\newblock
+  \url{https://www.sciencedirect.com/science/article/pii/S0164121217300663}.
+\newblock DOI: \doi{https://doi.org/10.1016/j.jss.2017.03.044}.
 
 \bibitem[Sheneamer et~al.(2018)Sheneamer, Abdullah, Roy, Swarup, Kalita, and
   Jugal]{Sheneamer2018A}
@@ -72,15 +87,6 @@ KUDJO P~K, CHEN J, MENSAH S, et~al.
   prediction models\allowbreak[J].
 \newblock Software Quality Journal, 2020, 28\allowbreak (1): 1-34.
 
-\bibitem[Nuñez-Varela et~al.(2017)Nuñez-Varela, Pérez-Gonzalez,
-  Martínez-Perez, and Soubervielle-Montalvo]{NUNEZVARELA2017164}
-NUñEZ-VARELA A~S, PéREZ-GONZALEZ H~G, MARTíNEZ-PEREZ F~E, et~al.
-\newblock Source code metrics: A systematic mapping study\allowbreak[J/OL].
-\newblock Journal of Systems and Software, 2017, 128: 164-197.
-\newblock
-  \url{https://www.sciencedirect.com/science/article/pii/S0164121217300663}.
-\newblock DOI: \doi{https://doi.org/10.1016/j.jss.2017.03.044}.
-
 \bibitem[Qu et~al.(2015)Qu, Guan, Zheng, Liu, Wang, Hou, and
   Yang]{2015Exploring}
 QU Y, GUAN X, ZHENG Q, et~al.
@@ -118,6 +124,11 @@ CONCAS G, MARCHESI M, MURGIA A, et~al.
 陈振强, 徐宝文.
 \newblock 一种基于依赖性分析的类内聚度度量方法\allowbreak[J].
 \newblock 软件学报, 2003, 14\allowbreak (11): 8.
+
+\bibitem[Briand et~al.(1997)Briand, Morasca, and Basili]{1997Property}
+BRIAND L~C, MORASCA S, BASILI V~R.
+\newblock Property-based software engineering measurement\allowbreak[J].
+\newblock IEEE Press, 1997.
 
 \bibitem[Qu et~al.(2015)Qu, Guan, Zheng, Liu, Wang, Hou, and Yang]{QU2015193}
 QU Y, GUAN X, ZHENG Q, et~al.
@@ -241,12 +252,6 @@ CAI H, THAIN D.
 the 31st IEEE/ACM International Conference.
 \newblock 2016.
 
-\bibitem[Basri et~al.(2016)Basri, Kama, Adli, and Haneem]{2016Using}
-BASRI S, KAMA N, ADLI S, et~al.
-\newblock Using static and dynamic impact analysis for effort
-  estimation\allowbreak[J].
-\newblock Iet Software, 2016, 10\allowbreak (4): 89-95.
-
 \bibitem[Markus et~al.(2017)Markus, Borg, Krzysztof, Wnuk, Björn, Regnell,
   Per, and Runeson]{Markus2017Supporting}
 MARKUS, BORG, KRZYSZTOF, et~al.
@@ -288,6 +293,13 @@ HUANG Y, JIANG J, LUO X, et~al.
   analysis\allowbreak[J].
 \newblock IEEE Transactions on Software Engineering, 2021, PP\allowbreak (99):
   1-1.
+
+\bibitem[Lattner et~al.(2020)Lattner, Amini, Bondhugula, Cohen, Davis, Pienaar,
+  Riddle, Shpeisman, Vasilache, and Zinenko]{2020MLIR}
+LATTNER C, AMINI M, BONDHUGULA U, et~al.
+\newblock Mlir: A compiler infrastructure for the end of moore's
+  law\allowbreak[Z].
+\newblock 2020.
 
 \bibitem[迟曲(2011)]{迟曲2011关于软件设计的模块独立性分析}
 迟曲.

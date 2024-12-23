@@ -24,45 +24,45 @@ Repeated entry---line 641 of file reference.bib
  :                      ,
 I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "ROSE2005Mining"
-You've used 47 entries,
+You've used 49 entries,
             5374 wiz_defined-function locations,
-            1332 strings with 17094 characters,
-and the built_in function-call counts, 409977 in all, are:
-= -- 8445
-> -- 47648
-< -- 59454
-+ -- 16737
-- -- 3555
-* -- 2274
-:= -- 56757
-add.period$ -- 149
-call.type$ -- 47
-change.case$ -- 380
-chr.to.int$ -- 14675
-cite$ -- 47
-duplicate$ -- 1189
-empty$ -- 3382
-format.name$ -- 1552
-if$ -- 106590
+            1345 strings with 17538 characters,
+and the built_in function-call counts, 433341 in all, are:
+= -- 8829
+> -- 50476
+< -- 62953
++ -- 17697
+- -- 3756
+* -- 2367
+:= -- 59969
+add.period$ -- 155
+call.type$ -- 49
+change.case$ -- 398
+chr.to.int$ -- 15533
+cite$ -- 49
+duplicate$ -- 1238
+empty$ -- 3513
+format.name$ -- 1635
+if$ -- 112664
 int.to.chr$ -- 1
-int.to.str$ -- 48
+int.to.str$ -- 50
 missing$ -- 0
-newline$ -- 270
-num.names$ -- 142
-pop$ -- 21789
+newline$ -- 280
+num.names$ -- 148
+pop$ -- 23010
 preamble$ -- 1
-purify$ -- 47
+purify$ -- 49
 quote$ -- 0
-skip$ -- 42109
+skip$ -- 44626
 stack$ -- 0
-substring$ -- 19200
-swap$ -- 47
-text.length$ -- 1117
+substring$ -- 20251
+swap$ -- 49
+text.length$ -- 1172
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 513
+type$ -- 535
 warning$ -- 0
-while$ -- 1163
+while$ -- 1217
 width$ -- 0
-write$ -- 649
+write$ -- 671
 (There was 1 error message)
