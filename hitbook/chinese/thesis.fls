@@ -694,6 +694,8 @@ INPUT ./figures/内聚度差例子.jpg
 INPUT ./figures/内聚度差例子.jpg
 INPUT ./figures/扇出度最高.jpg
 INPUT ./figures/扇出度最高.jpg
+INPUT ./figures/质量评估报告.jpg
+INPUT ./figures/质量评估报告.jpg
 INPUT ./back/conclusion.tex
 INPUT ./back/conclusion.tex
 OUTPUT back/conclusion.aux

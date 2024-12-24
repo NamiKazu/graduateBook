@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.11.30)  23 DEC 2024 21:28
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.11.30)  24 DEC 2024 23:55
 entering extended mode
  \write18 enabled.
  Source specials enabled.
@@ -2085,11 +2085,11 @@ LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <7.52812> not available
 ] [4] (./thesis.toc [5
 
 
-])
+] [6])
 \tf@toc=\write8
 \openout8 = `thesis.toc'.
 
- [6]
+ [7]
 \openout2 = `body/regu.aux'.
 
  (./body/regu.tex
@@ -2127,15 +2127,15 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-[5] [6] [7] [8] [9]
+[5] [6] [7] [8] [9] [10]
 File: figures/章节安排.png Graphic file (type bmp)
 <figures/章节安排.png>
- [10]) [11]
+ [11]) [12]
 \openout2 = `body/introduction.aux'.
 
  (./body/introduction.tex
 第2章
-[12
+[13
 
 
 
@@ -2150,7 +2150,7 @@ File: figures/ast示例.png Graphic file (type bmp)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[13] [14]
+[14] [15]
 ./body/introduction.tex:64: Undefined control sequence.
 l.64     \KwLine
                 
@@ -2367,15 +2367,15 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[15] [16]
+[16] [17]
 File: figures/全局变量提取流程图.png Graphic file (type bmp)
 <figures/全局变量提取流程图.png>
- [17
+ [18
 
-] [18]
+] [19]
 Package hyperref Info: bookmark level for unknown equation defaults to 0 on inp
 ut line 161.
- [19]
+ [20]
 ./body/introduction.tex:201: Misplaced alignment tab character &.
 l.201 {LCOM3} &
                 = & \frac{n}{n-1} \times {LCOM2}  & = & \frac{n - \frac{e}{a...
@@ -2416,31 +2416,23 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-
-Package natbib Warning: Citation `1995Cohesion' on page 20 undefined on input l
-ine 215.
-
-
-Package natbib Warning: Citation `1995Cohesion' on page 20 undefined on input l
-ine 224.
-
-[20] [21]
+[21] [22]
 File: figures/扇入扇出.png Graphic file (type bmp)
 <figures/扇入扇出.png>
- [22] [23] [24] [25] [26] [27]
+ [23] [24] [25] [26] [27] [28]
 Overfull \hbox (4.81847pt too wide) in paragraph at lines 478--488
  [][][] 
  []
 
-[28]
+[29]
 File: figures/扇出高例子.jpg Graphic file (type bmp)
 <figures/扇出高例子.jpg>
- [29] [30]
+ [30] [31]
 第3章
-[31
+[32
 
 
-] [32]
+] [33]
 ./body/introduction.tex:570: Extra }, or forgotten \right.
 l.570 ...ne } \in \left(I M S_{R E T U R N}^{(N)}}
                                                   -I M S_{R E T U R N}^{(N-1...
@@ -2450,29 +2442,25 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-[33]
+[34]
 File: figures/依赖关系示例.png Graphic file (type bmp)
 <figures/依赖关系示例.png>
- [34]
+ [35]
 File: figures/代码克隆流程.png Graphic file (type bmp)
 <figures/代码克隆流程.png>
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[35] [36] [37]
-./body/introduction.tex:672: Missing $ inserted.
+ [36] [37] [38]
+./body/introduction.tex:666: Missing $ inserted.
 <inserted text> 
                 $
-l.672 1 &  \langle
+l.666 1 &  \langle
                    (a)(ab)(bc)\rangle\\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./body/introduction.tex:673: Missing $ inserted.
+./body/introduction.tex:667: Missing $ inserted.
 <inserted text> 
                 $
-l.673 2
+l.667 2
         & \langle (a)(abc) \rangle\\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2480,18 +2468,18 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./body/introduction.tex:673: Missing $ inserted.
+./body/introduction.tex:667: Missing $ inserted.
 <inserted text> 
                 $
-l.673 2 & \langle
+l.667 2 & \langle
                   (a)(abc) \rangle\\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./body/introduction.tex:674: Missing $ inserted.
+./body/introduction.tex:668: Missing $ inserted.
 <inserted text> 
                 $
-l.674 3
+l.668 3
         & \langle (d)(a)(ab)(bc) \rangle\\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2499,18 +2487,18 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./body/introduction.tex:674: Missing $ inserted.
+./body/introduction.tex:668: Missing $ inserted.
 <inserted text> 
                 $
-l.674 3 & \langle
+l.668 3 & \langle
                   (d)(a)(ab)(bc) \rangle\\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./body/introduction.tex:675: Missing $ inserted.
+./body/introduction.tex:669: Missing $ inserted.
 <inserted text> 
                 $
-l.675 4
+l.669 4
         & \langle  (d)(ad)\rangle\\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2518,18 +2506,18 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./body/introduction.tex:675: Missing $ inserted.
+./body/introduction.tex:669: Missing $ inserted.
 <inserted text> 
                 $
-l.675 4 & \langle
+l.669 4 & \langle
                    (d)(ad)\rangle\\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./body/introduction.tex:676: Missing $ inserted.
+./body/introduction.tex:670: Missing $ inserted.
 <inserted text> 
                 $
-l.676 \bottomrule
+l.670 \bottomrule
                  
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2538,50 +2526,35 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 680--681
+Underfull \hbox (badness 10000) in paragraph at lines 674--675
 [][]\TU/SongtiSCLight(0)/m/n/12.045 在 这 个 例 子 中，|  第 一 个 序 列 中 有 \TU/TeXGyreTer
 mesX(0)/m/n/12.045 3 \TU/SongtiSCLight(0)/m/n/12.045 个 项 集，|  分 别 是 \TU/TeXGyre
-TermesX(0)/m/n/12.045 (a)\TU/SongtiSCLight(0)/m/n/12.045 ，|
+TermesX(0)/m/n/12.045 (a)\TU/SongtiSCLight(0)/m/n/12.045 ，| \TU/TeXGyreTermesX(
+0)/m/n/12.045 (ab) \TU/SongtiSCLight(0)/m/n/12.045 和
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 680--681
-\TU/TeXGyreTermesX(0)/m/n/12.045 (ab) \TU/SongtiSCLight(0)/m/n/12.045 和 \TU/TeX
-GyreTermesX(0)/m/n/12.045 (bc)\TU/SongtiSCLight(0)/m/n/12.045 ，|  以 此 类 推。|  这 
-个 例 子 中 的 闭 合 频 繁 序 列 $\OML/ntxmi/m/it/12.045 FCS \U/ntxmia/m/it/12.045 =
+Underfull \hbox (badness 10000) in paragraph at lines 674--675
+\TU/TeXGyreTermesX(0)/m/n/12.045 (bc)\TU/SongtiSCLight(0)/m/n/12.045 ，|  以 此 类 
+推。|  根 据 上 述 概 念 计 算 得 到，|  这 个 例 子 中 的 闭 合 频 繁 序 列
  []
 
+[39]
 
-Underfull \hbox (badness 10000) in paragraph at lines 680--681
-\LMS/ntxsy/m/n/12.045 fh¹\OML/ntxmi/m/it/12.045 a\LMS/ntxsy/m/n/12.045 ºi\OML/n
-txmi/m/it/12.045 ; \LMS/ntxsy/m/n/12.045 h¹\OML/ntxmi/m/it/12.045 d\LMS/ntxsy/m
-/n/12.045 º¹\OML/ntxmi/m/it/12.045 a\LMS/ntxsy/m/n/12.045 ºi\OML/ntxmi/m/it/12.
-045 ; \LMS/ntxsy/m/n/12.045 h¹\OML/ntxmi/m/it/12.045 a\LMS/ntxsy/m/n/12.045 º¹\
-OML/ntxmi/m/it/12.045 ab\LMS/ntxsy/m/n/12.045 ºi\OML/ntxmi/m/it/12.045 ; \LMS/n
-txsy/m/n/12.045 h¹\OML/ntxmi/m/it/12.045 a\LMS/ntxsy/m/n/12.045 º¹\OML/ntxmi/m/
-it/12.045 bc\LMS/ntxsy/m/n/12.045 ºi\OML/ntxmi/m/it/12.045 ; \LMS/ntxsy/m/n/12.
-045 h¹\OML/ntxmi/m/it/12.045 a\LMS/ntxsy/m/n/12.045 º¹\OML/ntxmi/m/it/12.045 ab
-\LMS/ntxsy/m/n/12.045 º¹\OML/ntxmi/m/it/12.045 bc\LMS/ntxsy/m/n/12.045 ºig$\TU/
-SongtiSCLight(0)/m/n/12.045 ，|  共 \TU/TeXGyreTermesX(0)/m/n/12.045 5 \TU/Songti
-SCLight(0)/m/n/12.045 个，|  而 频 繁 序 列
- []
-
-[38]
-
-./body/introduction.tex:692: LaTeX Error: Environment algorithmic undefined.
+./body/introduction.tex:682: LaTeX Error: Environment algorithmic undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.692 \begin{algorithmic}
+l.682 \begin{algorithmic}
                          
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-./body/introduction.tex:695: Undefined control sequence.
-l.695 \State
+./body/introduction.tex:685: Undefined control sequence.
+l.685 \State
              $F_1 \gets \{\text{频繁 1-序列}\}$ \\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2589,10 +2562,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./body/introduction.tex:696: Undefined control sequence.
+./body/introduction.tex:686: Undefined control sequence.
 <recently read> \State 
                        
-l.696 \State
+l.686 \State
              $FCC \gets \emptyset$, $FCS \gets \emptyset$  \\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2600,10 +2573,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./body/introduction.tex:701: Undefined control sequence.
+./body/introduction.tex:691: Undefined control sequence.
 <argument>  \State 
                    $F_{ie} \gets \{\text {频繁 1-序列的长大于i的扩展序列 } \}$ \\ \State ...
-l.701 \EndFor
+l.691 \EndFor
              
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2611,10 +2584,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./body/introduction.tex:701: Undefined control sequence.
+./body/introduction.tex:691: Undefined control sequence.
 <recently read> \State 
                        
-l.701 \EndFor
+l.691 \EndFor
              
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2622,10 +2595,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./body/introduction.tex:701: Undefined control sequence.
+./body/introduction.tex:691: Undefined control sequence.
 <recently read> \State 
                        
-l.701 \EndFor
+l.691 \EndFor
              
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2633,10 +2606,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./body/introduction.tex:701: Undefined control sequence.
+./body/introduction.tex:691: Undefined control sequence.
 <recently read> \EndFor 
                         
-l.701 \EndFor
+l.691 \EndFor
              
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2644,8 +2617,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./body/introduction.tex:702: Undefined control sequence.
-l.702 \State
+./body/introduction.tex:692: Undefined control sequence.
+l.692 \State
              $FCS \gets \text{N-ClosedStep}(FCC)$
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2654,42 +2627,37 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-./body/introduction.tex:703: LaTeX Error: \begin{lrbox} on input line 691 ended
+./body/introduction.tex:693: LaTeX Error: \begin{lrbox} on input line 681 ended
  by \end{algorithmic}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.703 \end{algorithmic}
+l.693 \end{algorithmic}
                        
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[39] [40] [41] [42]
-Missing character: There is no 共 ("5171) in font ntx-Regular-tlf-ot1!
-Missing character: There is no 现 ("73B0) in font ntx-Regular-tlf-ot1!
-Missing character: There is no 共 ("5171) in font ntx-Regular-tlf-ot1!
-Missing character: There is no 现 ("73B0) in font ntx-Regular-tlf-ot1!
-Missing character: There is no 出 ("51FA) in font ntx-Regular-tlf-ot1!
-Missing character: There is no 现 ("73B0) in font ntx-Regular-tlf-ot1!
-[43] [44]
+[40] [41] [42] [43] [44] [45] [46]
 File: figures/模型架构3.jpg Graphic file (type bmp)
 <figures/模型架构3.jpg>
- [45]
-./body/introduction.tex:895: Missing $ inserted.
+ [47
+
+]
+./body/introduction.tex:893: Missing $ inserted.
 <inserted text> 
                 $
-l.895 Adam \beta
+l.893 Adam \beta
                 _1  & 0.95  \\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./body/introduction.tex:895: Missing $ inserted.
+./body/introduction.tex:893: Missing $ inserted.
 <inserted text> 
                 $
-l.895 Adam \beta_1  &
+l.893 Adam \beta_1  &
                       0.95  \\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2697,18 +2665,18 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./body/introduction.tex:896: Missing $ inserted.
+./body/introduction.tex:894: Missing $ inserted.
 <inserted text> 
                 $
-l.896 Adam \beta
+l.894 Adam \beta
                 _2 & 0.999  \\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./body/introduction.tex:896: Missing $ inserted.
+./body/introduction.tex:894: Missing $ inserted.
 <inserted text> 
                 $
-l.896 Adam \beta_2 &
+l.894 Adam \beta_2 &
                      0.999  \\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2716,10 +2684,12 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-[46] [47] [48]
+[48] [49] [50]
 File: figures/静态分析拒绝样例.jpg Graphic file (type bmp)
 <figures/静态分析拒绝样例.jpg>
- [49]
+ [51
+
+]
 File: figures/克隆代码片段.jpg Graphic file (type bmp)
 <figures/克隆代码片段.jpg>
 File: figures/数据挖掘挖到的方法对.png Graphic file (type bmp)
@@ -2733,9 +2703,11 @@ File: figures/pushpop.jpg Graphic file (type bmp)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[50] [51] [52]
+[52
+
+] [53] [54]
 第4章
-[53
+[55
 
 
 ]
@@ -2745,13 +2717,17 @@ File: figures/大模型预测.png Graphic file (type bmp)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[54]
+[56]
 File: figures/分类示例.png Graphic file (type bmp)
 <figures/分类示例.png>
- [55] [56] [57]
+ [57] [58] [59]
 File: figures/G6图数据示例.jpg Graphic file (type bmp)
 <figures/G6图数据示例.jpg>
- [58] [59] [60]
+ [60] [61
+
+] [62
+
+]
 File: figures/antiword审查图未上色.jpg Graphic file (type bmp)
 <figures/antiword审查图未上色.jpg>
 File: figures/aigri代码审查图-未上色.jpg Graphic file (type bmp)
@@ -2760,38 +2736,33 @@ File: figures/antiword代码审查图.jpg Graphic file (type bmp)
 <figures/antiword代码审查图.jpg>
 File: figures/aigri代码审查图.jpg Graphic file (type bmp)
 <figures/aigri代码审查图.jpg>
- [61]
+ [63]
 File: figures/点击节点.png Graphic file (type bmp)
 <figures/点击节点.png>
+ [64]
 File: figures/子图.png Graphic file (type bmp)
 <figures/子图.png>
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 File: figures/内聚度差例子.jpg Graphic file (type bmp)
 <figures/内聚度差例子.jpg>
+ [65
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[62]
+]
 File: figures/扇出度最高.jpg Graphic file (type bmp)
 <figures/扇出度最高.jpg>
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[63]) [64]
+File: figures/质量评估报告.jpg Graphic file (type bmp)
+<figures/质量评估报告.jpg>
+ [66]) [67]
 \openout2 = `back/conclusion.aux'.
 
- (./back/conclusion.tex [65
+
+(./back/conclusion.tex [68
 
 
 
 
 
 
-]) [66] (./thesis.bbl
+]) [69] (./thesis.bbl
 ./thesis.bbl:17: Misplaced alignment tab character &.
 l.17 ...block Global Journal of Computer Science &
                                                    Technology, 2012.
@@ -2828,7 +2799,7 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-[67
+[70
 
 
 
@@ -2854,7 +2825,7 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-[68]
+[71]
 Underfull \hbox (badness 10000) in paragraph at lines 186--190
 [][]\TU/TeXGyreTermesX(0)/m/n/12.045 JITENDERKUMARCHHABRA, MRINAALMALHOTRA, JIT
 ENDERKU-
@@ -2880,7 +2851,7 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-[69]
+[72]
 ./thesis.bbl:320: Misplaced alignment tab character &.
 l.320 ...onal Conference on Software Engineering &
                                                    Knowledge Engineering.
@@ -2891,13 +2862,13 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-[70]) [71] [72
+[73]) [74] [75
 
 
 ]
 \openout2 = `back/acknowledgements.aux'.
 
- (./back/acknowledgements.tex) [73
+ (./back/acknowledgements.tex) [76
 
 
 
@@ -2905,9 +2876,6 @@ might try typing `S' now just to see what is salvageable.
 \tf@thm=\write9
 \openout9 = `thesis.thm'.
 
-
-
-Package natbib Warning: There were undefined citations.
 
 
 Package glossaries Warning: No \printglossary or \printglossaries found. 
@@ -2925,16 +2893,19 @@ L3 programming layer <2022/08/05>
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.47188pt have occurred.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 8F6E07508345619B8B3880C46B134341;10155.
+(rerunfilecheck)             Checksum: B01F294C3A2C036FD8894B8ED16CCB4F;10409.
  ) 
 Here is how much of TeX's memory you used:
- 45200 strings out of 474773
- 964312 string characters out of 5757723
- 1954839 words of memory out of 5000000
- 66450 multiletter control sequences out of 15000+600000
- 616692 words of font info for 242 fonts, out of 8000000 for 9000
+ 45212 strings out of 474773
+ 964508 string characters out of 5757723
+ 1951839 words of memory out of 5000000
+ 66462 multiletter control sequences out of 15000+600000
+ 616684 words of font info for 241 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  107i,19n,111p,2550b,1125s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on thesis.pdf (82 pages).
+Output written on thesis.pdf (86 pages).

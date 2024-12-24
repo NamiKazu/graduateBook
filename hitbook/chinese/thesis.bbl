@@ -1,4 +1,4 @@
-\begin{thebibliography}{56}
+\begin{thebibliography}{57}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{#1}
 \expandafter\ifx\csname urlstyle\endcsname\relax\else
@@ -345,6 +345,13 @@ HITZ M, MONTAZERI B.
 \newblock Measuring coupling and cohesion in object-oriented
   systems\allowbreak[C]//\allowbreak
 Proc. Int. Symposium on Applied Corporate Computing, Oct. 25-27, 1995.
+\newblock 1995.
+
+\bibitem[Bieman et~al.(1995)Bieman and Kang]{1995Cohesion}
+BIEMAN J~M, KANG B~K.
+\newblock Cohesion and reuse in an object-oriented
+  system\allowbreak[C]//\allowbreak
+Proceedings of the 1995 Symposium on Software reusability.
 \newblock 1995.
 
 \bibitem[迟曲(2011)]{迟曲2011关于软件设计的模块独立性分析}
