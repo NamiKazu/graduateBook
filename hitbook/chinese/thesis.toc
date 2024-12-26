@@ -35,28 +35,28 @@
 \contentsline {section}{\numberline {3.4}基于数据挖掘的变更影响分析}{42}{section.3.4}%
 \contentsline {subsection}{\numberline {3.4.1}代码变更历史提取}{42}{subsection.3.4.1}%
 \contentsline {subsection}{\numberline {3.4.2}基于共现关联挖掘的变更影响关系提取}{43}{subsection.3.4.2}%
-\contentsline {section}{\numberline {3.5}基于深度学习的变更影响分析}{44}{section.3.5}%
-\contentsline {subsection}{\numberline {3.5.1}数据集来源和收集}{44}{subsection.3.5.1}%
-\contentsline {subsection}{\numberline {3.5.2}基于代码预训练模型的变更影响关系预测}{45}{subsection.3.5.2}%
+\contentsline {section}{\numberline {3.5}基于深度学习的变更影响分析}{45}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}数据集来源和收集}{45}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.2}基于代码预训练模型的变更影响关系预测}{46}{subsection.3.5.2}%
 \contentsline {section}{\numberline {3.6}实验结果与分析}{48}{section.3.6}%
 \contentsline {subsection}{\numberline {3.6.1}实验数据集描述}{48}{subsection.3.6.1}%
 \contentsline {subsection}{\numberline {3.6.2}实验设置与评价方式}{48}{subsection.3.6.2}%
 \contentsline {subsection}{\numberline {3.6.3}实验结果与实例分析}{49}{subsection.3.6.3}%
-\contentsline {section}{\numberline {3.7}本章小结}{53}{section.3.7}%
-\contentsline {chapter}{\numberline {第4章}代码审查图生成}{55}{chapter.4}%
-\contentsline {section}{\numberline {4.1}引言}{55}{section.4.1}%
-\contentsline {section}{\numberline {4.2}基于标签生成的方法模块分类}{56}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}基于大语言模型的方法模块标签生成}{56}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}基于原始标签的方法分类}{57}{subsection.4.2.2}%
-\contentsline {section}{\numberline {4.3}代码审查图}{57}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}代码审查图构建}{57}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}代码审查图可视化}{59}{subsection.4.3.2}%
-\contentsline {subsection}{\numberline {4.3.3}代码审查报告生成}{61}{subsection.4.3.3}%
-\contentsline {section}{\numberline {4.4}实验结果与分析}{61}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}实验环境与评价方法}{61}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}实验结果与实例分析}{62}{subsection.4.4.2}%
-\contentsline {section}{\numberline {4.5}本章小结}{66}{section.4.5}%
-\contentsline {chapter}{\heiti 结\hspace {\ccwd }论}{68}{section*.13}%
-\contentsline {chapter}{\heiti 参考文献}{70}{section*.16}%
-\contentsline {chapter}{\heiti 哈尔滨工业大学学位论文原创性声明和使用权限}{75}{section*.18}%
-\contentsline {chapter}{\heiti 致\hspace {\ccwd }谢}{76}{section*.20}%
+\contentsline {section}{\numberline {3.7}本章小结}{54}{section.3.7}%
+\contentsline {chapter}{\numberline {第4章}代码审查图生成}{56}{chapter.4}%
+\contentsline {section}{\numberline {4.1}引言}{56}{section.4.1}%
+\contentsline {section}{\numberline {4.2}基于标签生成的方法模块分类}{57}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}基于大语言模型的方法模块标签生成}{57}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}基于原始标签的方法分类}{58}{subsection.4.2.2}%
+\contentsline {section}{\numberline {4.3}代码审查图}{58}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}代码审查图构建}{58}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}代码审查图可视化}{60}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}代码审查报告生成}{62}{subsection.4.3.3}%
+\contentsline {section}{\numberline {4.4}实验结果与分析}{62}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}实验环境与评价方法}{62}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}实验结果与实例分析}{63}{subsection.4.4.2}%
+\contentsline {section}{\numberline {4.5}本章小结}{67}{section.4.5}%
+\contentsline {chapter}{\heiti 结\hspace {\ccwd }论}{69}{section*.13}%
+\contentsline {chapter}{\heiti 参考文献}{71}{section*.16}%
+\contentsline {chapter}{\heiti 哈尔滨工业大学学位论文原创性声明和使用权限}{76}{section*.18}%
+\contentsline {chapter}{\heiti 致\hspace {\ccwd }谢}{77}{section*.20}%
