@@ -52,11 +52,11 @@
 \contentsline {subsection}{\numberline {4.3.1}代码审查图构建}{60}{subsection.4.3.1}%
 \contentsline {subsection}{\numberline {4.3.2}代码审查图可视化}{62}{subsection.4.3.2}%
 \contentsline {subsection}{\numberline {4.3.3}代码审查报告生成}{64}{subsection.4.3.3}%
-\contentsline {section}{\numberline {4.4}实验结果与分析}{64}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}实验环境与评价方法}{64}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}实验结果与实例分析}{65}{subsection.4.4.2}%
-\contentsline {section}{\numberline {4.5}本章小结}{69}{section.4.5}%
-\contentsline {chapter}{\heiti 结\hspace {\ccwd }论}{71}{section*.13}%
-\contentsline {chapter}{\heiti 参考文献}{73}{section*.16}%
-\contentsline {chapter}{\heiti 哈尔滨工业大学学位论文原创性声明和使用权限}{78}{section*.18}%
-\contentsline {chapter}{\heiti 致\hspace {\ccwd }谢}{79}{section*.20}%
+\contentsline {section}{\numberline {4.4}实验结果与分析}{65}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}实验环境与评价方法}{65}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}实验结果与实例分析}{66}{subsection.4.4.2}%
+\contentsline {section}{\numberline {4.5}本章小结}{72}{section.4.5}%
+\contentsline {chapter}{\heiti 结\hspace {\ccwd }论}{74}{section*.13}%
+\contentsline {chapter}{\heiti 参考文献}{76}{section*.16}%
+\contentsline {chapter}{\heiti 哈尔滨工业大学学位论文原创性声明和使用权限}{81}{section*.18}%
+\contentsline {chapter}{\heiti 致\hspace {\ccwd }谢}{82}{section*.20}%
