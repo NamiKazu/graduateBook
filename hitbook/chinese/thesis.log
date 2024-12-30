@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.11.30)  28 DEC 2024 23:36
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.11.30)  30 DEC 2024 10:44
 entering extended mode
  \write18 enabled.
  Source specials enabled.
@@ -2832,13 +2832,12 @@ File: figures/模块分错.jpg Graphic file (type bmp)
  [71]
 File: figures/变更影响关系审查图.jpg Graphic file (type bmp)
 <figures/变更影响关系审查图.jpg>
+ [72]
 File: figures/质量评估报告.jpg Graphic file (type bmp)
 <figures/质量评估报告.jpg>
+) [73
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-) [72] [73]
+]
 \openout2 = `back/conclusion.aux'.
 
  (./back/conclusion.tex [74
@@ -2985,7 +2984,7 @@ Package rerunfilecheck Info: File `thesis.out' has not changed.
 Here is how much of TeX's memory you used:
  45333 strings out of 474773
  968706 string characters out of 5757723
- 1950839 words of memory out of 5000000
+ 1951839 words of memory out of 5000000
  66573 multiletter control sequences out of 15000+600000
  616684 words of font info for 241 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
