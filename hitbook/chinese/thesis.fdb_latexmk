@@ -1,23 +1,23 @@
 # Fdb version 4
-["bibtex thesis"] 1735289573.10343 "thesis.aux" "thesis.bbl" "thesis" 1735526666.10718 2
+["bibtex thesis"] 1735289573.10343 "thesis.aux" "thesis.bbl" "thesis" 1735748375.03931 2
   "./reference.bib" 1734956434.52745 24150 e6bfa65a51dde9262172d6c1c01e08ce ""
   "/usr/local/texlive/2024/texmf-dist/bibtex/bst/gbt7714/gbt7714-numerical.bst" 1664828645 46094 ad0aed08d79354f7f2e8883dbf55daa8 ""
-  "back/acknowledgements.aux" 1735526665.62375 2791 15d2da11302526d31f08d44b9a72a165 "pdflatex"
-  "back/conclusion.aux" 1735526664.56143 2779 837f650d750fb98abe02d79a27dcfc01 "pdflatex"
-  "body/introduction.aux" 1735526664.55048 21113 abd06cd0b7d4f6a946cde1eea7b6f143 "pdflatex"
-  "body/regu.aux" 1735526661.88484 5567 8fd5417d24ee924b6b11885df5bf1d98 "pdflatex"
-  "thesis.aux" 1735526665.62422 6721 157efb9d7a199d65489f9fcad06558c4 "pdflatex"
+  "back/acknowledgements.aux" 1735748374.50662 2791 2edd3472ce6932991ed24a6f42e7ac65 "pdflatex"
+  "back/conclusion.aux" 1735748373.31439 2779 9de40bba869932dc62d4fd395cdbd7fa "pdflatex"
+  "body/introduction.aux" 1735748372.77444 22477 83c1b69096f0c0f5bd56467300660d87 "pdflatex"
+  "body/regu.aux" 1735748370.02163 5569 c73e107ae8ee4eb99990eacca155be80 "pdflatex"
+  "thesis.aux" 1735748374.50706 6721 e4d6ae2bb95126c1d3e426406f0770ad "pdflatex"
   (generated)
   "thesis.bbl"
   "thesis.blg"
   (rewritten before read)
-["makeindex thesis.idx"] 1733296880.73461 "thesis.idx" "thesis.ind" "thesis" 1735526666.10329 0
-  "thesis.idx" 1735526660.97147 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+["makeindex thesis.idx"] 1733296880.73461 "thesis.idx" "thesis.ind" "thesis" 1735748375.0354 0
+  "thesis.idx" 1735748369.12879 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   (generated)
   "thesis.ilg"
   "thesis.ind"
   (rewritten before read)
-["pdflatex"] 1735526660.17308 "thesis.tex" "thesis.pdf" "thesis" 1735526666.10338 2
+["pdflatex"] 1735748368.33893 "thesis.tex" "thesis.pdf" "thesis" 1735748375.03552 2
   "/System/Library/Fonts/PingFang.ttc" 1693640113 77871956 3d22e380c15f04df909e9b516b18342c ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
@@ -286,14 +286,14 @@
   "/usr/local/texlive/2024/texmf-dist/web2c/texmf.cnf" 1708706663 41649 5d6ae549fbbcb850a863f69aa41f3d10 ""
   "/usr/local/texlive/2024/texmf-var/web2c/xetex/xelatex.fmt" 1732957517 10850201 a17b7cee86e012b735fce629f0e981e6 ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "back/acknowledgements.aux" 1735526665.62375 2791 15d2da11302526d31f08d44b9a72a165 "pdflatex"
-  "back/acknowledgements.tex" 1735113599.88627 79 0a8188d5256a66dc0b2fde07a004ceca ""
-  "back/conclusion.aux" 1735526664.56143 2779 837f650d750fb98abe02d79a27dcfc01 "pdflatex"
+  "back/acknowledgements.aux" 1735748374.50662 2791 2edd3472ce6932991ed24a6f42e7ac65 "pdflatex"
+  "back/acknowledgements.tex" 1735527667.42575 1048 be565ed29627b816e08520ad57b61177 ""
+  "back/conclusion.aux" 1735748373.31439 2779 9de40bba869932dc62d4fd395cdbd7fa "pdflatex"
   "back/conclusion.tex" 1735400173.7759 2896 1e57e72fa8a21e690efaa4f1fbe2a830 ""
-  "body/introduction.aux" 1735526664.55048 21113 abd06cd0b7d4f6a946cde1eea7b6f143 "pdflatex"
-  "body/introduction.tex" 1735526658.9123 136106 0b41dca583589247a859bb7e1de8db63 ""
-  "body/regu.aux" 1735526661.88484 5567 8fd5417d24ee924b6b11885df5bf1d98 "pdflatex"
-  "body/regu.tex" 1735442175.85317 31431 a13d31e354f47898f7bc918d272fdc55 ""
+  "body/introduction.aux" 1735748372.77444 22477 83c1b69096f0c0f5bd56467300660d87 "pdflatex"
+  "body/introduction.tex" 1735748367.05576 142348 2494bceeda2d8db762d83f574b84e70f ""
+  "body/regu.aux" 1735748370.02163 5569 c73e107ae8ee4eb99990eacca155be80 "pdflatex"
+  "body/regu.tex" 1735723515.96984 32354 032a8e27c9f9b6871c19ecba63960443 ""
   "figures/G6图数据示例.jpg" 1734696988.83053 13053 53adf5166cef696efa57a73156df892d ""
   "figures/LCOM3.jpg" 1735218143.9297 32144 9f8cd205c6367af5e7d840baed416c70 ""
   "figures/LCOM4.jpg" 1735219102.1738 43945 3bb740daee75dfee70e538100020cc97 ""
@@ -310,6 +310,7 @@
   "figures/代码开发流程.png" 1735117121.0742 123665 a93f2811f378f0aca6fc32a09b00f216 ""
   "figures/代码示例.png" 1733222505.86749 56405 726c522ccce61fbd6f5a1a63d4b44977 ""
   "figures/依赖关系示例.png" 1734837099.31384 118671 11896ccf67796d295e959dd6198afc87 ""
+  "figures/倾向与正确率.jpg" 1735742658.51942 33522 9138aa2253c1537989190dcf4f1926b5 ""
   "figures/克隆代码拒绝样例.jpg" 1735226182.21762 37102 7084cd60e76e8925ebd62f8f8f37c03e ""
   "figures/克隆代码示例.jpg" 1735223677.66263 407085 e475039f99e31dc53e7518cef2ec965c ""
   "figures/全局变量提取流程图.jpg" 1735203058.50805 56085 3ce640f846e5ffa6ba5c3b161102149f ""
@@ -320,6 +321,9 @@
   "figures/变更影响关系审查图.jpg" 1735364160.33877 15090 27f4aa2d5d4e11cfaa26187d07a9e602 ""
   "figures/大模型预测.png" 1734764908.09244 126706 26f22c5d99a465d03f0b8cc7a4f0f0e0 ""
   "figures/存在链式调用.jpg" 1735363518.66456 21535 d173c9a1902dde0203976ff34f2020d9 ""
+  "figures/应用展示审查图.jpg" 1735716117.59265 260816 4cbb2ec1637cc5d3618bcc0788bde6ac ""
+  "figures/应用查看节点信息.jpg" 1735719596.95765 337146 a226e9bb92e6ddc12f91d554024b61d0 ""
+  "figures/应用边信息.jpg" 1735721787.85676 171105 c23615448721c17538b215db5f9dceda ""
   "figures/扇入扇出.png" 1733222555.17183 48617 48775766e9e9b14dbd943bf76afad4fd ""
   "figures/扇出度最高.jpg" 1734787539.22121 53742 f309877204cc40777c3edef5e137c28d ""
   "figures/扇出高例子.jpg" 1734861994.08326 34683 f39ce048b4ebf70420a49fa2768a36c0 ""
@@ -333,12 +337,12 @@
   "hithesis.sty" 1732960906.59099 12575 7589aec198a460ba0295ef44e01a76ff ""
   "hithesisbook.cfg" 1732960906.54576 16065 61ba19c25fc19a6be2ea5248e3d77b55 ""
   "hithesisbook.cls" 1732960906.54487 61124 724c962265ce8065682ae8c37f0393ce ""
-  "thesis.aux" 1735526665.62422 6721 157efb9d7a199d65489f9fcad06558c4 "pdflatex"
+  "thesis.aux" 1735748374.50706 6721 e4d6ae2bb95126c1d3e426406f0770ad "pdflatex"
   "thesis.bbl" 1735289573.23645 16568 13a6015095147a1adf1640eb22b51b55 "bibtex thesis"
   "thesis.ind" 1733296880.8719 0 d41d8cd98f00b204e9800998ecf8427e "makeindex thesis.idx"
-  "thesis.out" 1735526665.62746 10420 11ad39ac5c66dd40029aa65af9982cb8 "pdflatex"
+  "thesis.out" 1735748374.51072 10714 032f93a9fcd9c27e8d2ae7e75b9077ae "pdflatex"
   "thesis.tex" 1733132321.21404 9316 0469b9fbd33a68f9b1cca6097611e909 ""
-  "thesis.toc" 1735526665.62772 5766 21664a59ccff31c770e93e0161744032 "pdflatex"
+  "thesis.toc" 1735748374.51103 6189 8384e5c35e195d6751684438d0ddb157 "pdflatex"
   (generated)
   "back/acknowledgements.aux"
   "back/conclusion.aux"

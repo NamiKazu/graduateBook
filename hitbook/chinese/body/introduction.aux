@@ -18,7 +18,7 @@
 \@writefile{lof}{\contentsline {figure}{\numberline {2-3}{\ignorespaces 全局变量提取流程图}}{18}{figure.2.3}\protected@file@percent }
 \citation{2014Service}
 \citation{2013Ahe}
-\@writefile{toc}{\contentsline {section}{\numberline {2.5}基于方法特征的代码度量提取}{19}{section.2.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2.5}基于代码中间表示的代码质量度量提取}{19}{section.2.5}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.5.1}基于内聚度缺乏度的内聚性分析}{19}{subsection.2.5.1}\protected@file@percent }
 \citation{1994Ametr}
 \citation{1996Coupling}
@@ -53,13 +53,13 @@
 \@writefile{lot}{\contentsline {table}{\numberline {2-7}{\ignorespaces FFmpegKit项目中不被用户接受的不良耦合实例}}{29}{table.2.7}\protected@file@percent }
 \@writefile{lof}{\contentsline {figure}{\numberline {2-9}{\ignorespaces vGetPropertyInfo方法结构}}{30}{figure.2.9}\protected@file@percent }
 \@writefile{toc}{\contentsline {section}{\numberline {2.7}本章小结}{31}{section.2.7}\protected@file@percent }
+\citation{2021Improving}
 \pp@pagectr{footnote}{3}{42}{32}
 \@writefile{toc}{\contentsline {chapter}{\numberline {第3章}面向代码质量评估的变更影响分析方法研究}{32}{chapter.3}\protected@file@percent }
 \@writefile{lof}{\addvspace {10.0pt}}
 \@writefile{lot}{\addvspace {10.0pt}}
 \@writefile{loa}{\addvspace {10\p@ }}
 \@writefile{toc}{\contentsline {section}{\numberline {3.1}引言}{32}{section.3.1}\protected@file@percent }
-\citation{2021Improving}
 \@writefile{toc}{\contentsline {section}{\numberline {3.2}基于依赖关系闭包的变更影响分析}{33}{section.3.2}\protected@file@percent }
 \@writefile{loe}{\contentsline {equation}{\numberline {3-1}}{34}{equation.3.2.1}\protected@file@percent }
 \@writefile{loe}{\contentsline {equation}{\numberline {3-2}}{35}{equation.3.2.2}\protected@file@percent }
@@ -103,65 +103,74 @@
 \@writefile{loe}{\contentsline {equation}{\numberline {3-14}}{49}{equation.3.6.14}\protected@file@percent }
 \@writefile{loe}{\contentsline {equation}{\numberline {3-15}}{49}{equation.3.6.15}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.6.3}实验结果与实例分析}{50}{subsection.3.6.3}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {3-4}{\ignorespaces 变更影响实验结果 - F-measure/召回率/精确度}}{50}{table.3.4}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {3-5}{\ignorespaces 变更影响实验结果-接受率}}{51}{table.3.5}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {3-4}{\ignorespaces 依赖闭包方法被用户拒绝实例}}{52}{figure.3.4}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {3-5}{\ignorespaces 包含克隆代码片段的一组方法实例}}{53}{figure.3.5}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {3-6}{\ignorespaces 被用户拒绝实例代码信息}}{53}{table.3.6}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {3-6}{\ignorespaces 被用户拒绝实例代码长度可视化}}{53}{figure.3.6}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {3-4}{\ignorespaces 变更影响实验结果 - F-measure/召回率/精确度}}{51}{table.3.4}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3-4}{\ignorespaces 依赖闭包方法被用户拒绝实例}}{51}{figure.3.4}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {3-5}{\ignorespaces 变更影响实验结果}}{52}{table.3.5}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3-5}{\ignorespaces 依赖闭包方法被用户拒绝实例}}{53}{figure.3.5}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3-6}{\ignorespaces 包含克隆代码片段的一组方法实例}}{53}{figure.3.6}\protected@file@percent }
 \@writefile{lof}{\contentsline {figure}{\numberline {3-7}{\ignorespaces 逻辑上有变更影响关系的方法对示例-incr和decr}}{54}{figure.3.7}\protected@file@percent }
 \@writefile{lof}{\contentsline {figure}{\numberline {3-8}{\ignorespaces 逻辑上有变更影响关系的方法对示例-subscribe和unsubscribe}}{55}{figure.3.8}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {3-7}{\ignorespaces 基于代码预训练模型的变更影响关系预测实验结果}}{56}{table.3.7}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {3-8}{\ignorespaces 基于代码预训练模型的变更影响关系预测实验结果}}{56}{table.3.8}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {3.7}本章小结}{57}{section.3.7}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {3-6}{\ignorespaces 基于代码预训练模型的变更影响关系预测实验结果}}{56}{table.3.6}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {3-7}{\ignorespaces 变更影响实验结果-接受率}}{57}{table.3.7}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {3-8}{\ignorespaces 被用户拒绝实例代码信息}}{57}{table.3.8}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3-9}{\ignorespaces 被用户拒绝实例代码长度可视化}}{57}{figure.3.9}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {3-9}{\ignorespaces 基于代码预训练模型的变更影响关系预测实验结果}}{58}{table.3.9}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3.7}本章小结}{58}{section.3.7}\protected@file@percent }
 \citation{花子涵2024代码审查自动化研究综述}
-\pp@pagectr{footnote}{4}{68}{58}
-\@writefile{toc}{\contentsline {chapter}{\numberline {第4章}代码审查图生成}{58}{chapter.4}\protected@file@percent }
+\pp@pagectr{footnote}{4}{70}{60}
+\@writefile{toc}{\contentsline {chapter}{\numberline {第4章}基于代码审查图的代码架构和质量信息可视化}{60}{chapter.4}\protected@file@percent }
 \@writefile{lof}{\addvspace {10.0pt}}
 \@writefile{lot}{\addvspace {10.0pt}}
 \@writefile{loa}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {4.1}引言}{58}{section.4.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4.1}引言}{60}{section.4.1}\protected@file@percent }
 \citation{2017Extraction}
 \citation{wan-etal-2023-gpt}
-\@writefile{toc}{\contentsline {section}{\numberline {4.2}基于标签生成的方法模块分类}{59}{section.4.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.1}基于大语言模型的方法模块标签生成}{59}{subsection.4.2.1}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {4-1}{\ignorespaces 基于大语言模型的方法模块标签生成研究方案}}{60}{figure.4.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.2}基于原始标签的方法分类}{60}{subsection.4.2.2}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {4-2}{\ignorespaces 分类后实际标签与原始标签不符示例}}{60}{figure.4.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {4.3}代码审查图}{60}{section.4.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.1}代码审查图构建}{60}{subsection.4.3.1}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {4-1}{\ignorespaces 代码审查图节点属性-基本信息}}{61}{table.4.1}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {4-2}{\ignorespaces 代码审查图节点属性-质量相关信息}}{61}{table.4.2}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {4-3}{\ignorespaces 代码审查图节点属性-全局变量信息}}{62}{table.4.3}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {4-4}{\ignorespaces 代码审查图边分类}}{62}{table.4.4}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.2}代码审查图可视化}{62}{subsection.4.3.2}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {4-3}{\ignorespaces G6图数据示例}}{63}{figure.4.3}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {4-5}{\ignorespaces 代码审查图交互和逻辑设计}}{64}{table.4.5}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.3}代码审查报告生成}{64}{subsection.4.3.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {4.4}实验结果与分析}{65}{section.4.4}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.1}实验环境与评价方法}{65}{subsection.4.4.1}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {4-6}{\ignorespaces 实验环境}}{65}{table.4.6}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.2}实验结果与实例分析}{66}{subsection.4.4.2}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {4-7}{\ignorespaces 变更影响接受率实验结果}}{66}{table.4.7}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {4-8}{\ignorespaces TheAlgorithms项目中预测与实际不符的实例统计}}{66}{table.4.8}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {4-4}{\ignorespaces 代码审查图}}{67}{figure.4.4}\protected@file@percent }
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces antiword-未划分模块}}{67}{figure.4.4}\protected@file@percent }
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces TheAlgorithms-未划分模块}}{67}{figure.4.4}\protected@file@percent }
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(c)}{\ignorespaces antiword-划分模块}}{67}{figure.4.4}\protected@file@percent }
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(d)}{\ignorespaces TheAlgorithms-划分模块}}{67}{figure.4.4}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {4-5}{\ignorespaces 点击节点展开节点信息}}{68}{figure.4.5}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {4-6}{\ignorespaces vDecodeDIB方法上下文}}{69}{figure.4.6}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {4-7}{\ignorespaces misc.c 文件对应的代码审查图}}{69}{figure.4.7}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {4-8}{\ignorespaces 内聚度良好和较差的例子}}{70}{figure.4.8}\protected@file@percent }
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces 内聚度差——存在链式调用}}{70}{figure.4.8}\protected@file@percent }
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces 内聚度良好——关联紧密}}{70}{figure.4.8}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {4-9}{\ignorespaces 扇出度较高的节点}}{71}{figure.4.9}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {4-10}{\ignorespaces 模块划分不合适的方法}}{71}{figure.4.10}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {4-11}{\ignorespaces 不良的变更影响关系}}{72}{figure.4.11}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {4-12}{\ignorespaces antiword项目代码质量评估报告节选}}{73}{figure.4.12}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {4.5}本章小结}{73}{section.4.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4.2}基于标签生成的方法模块分类}{61}{section.4.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.1}基于大语言模型的方法模块标签生成}{61}{subsection.4.2.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4-1}{\ignorespaces 基于大语言模型的方法模块标签生成研究方案}}{62}{figure.4.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.2}基于原始标签的方法分类}{62}{subsection.4.2.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4-2}{\ignorespaces 分类后实际标签与原始标签不符示例}}{62}{figure.4.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4.3}代码审查图}{62}{section.4.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.1}代码审查图构建}{62}{subsection.4.3.1}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {4-1}{\ignorespaces 代码审查图节点属性-基本信息}}{63}{table.4.1}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {4-2}{\ignorespaces 代码审查图节点属性-质量相关信息}}{63}{table.4.2}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {4-3}{\ignorespaces 代码审查图节点属性-全局变量信息}}{64}{table.4.3}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {4-4}{\ignorespaces 代码审查图边分类}}{64}{table.4.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.2}代码审查图可视化}{64}{subsection.4.3.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4-3}{\ignorespaces G6图数据示例}}{65}{figure.4.3}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {4-5}{\ignorespaces 代码审查图交互和逻辑设计}}{66}{table.4.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.3}代码审查报告生成}{66}{subsection.4.3.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4.4}实验结果与分析}{67}{section.4.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.1}实验环境与评价方法}{67}{subsection.4.4.1}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {4-6}{\ignorespaces 实验环境}}{67}{table.4.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.2}实验结果与实例分析}{68}{subsection.4.4.2}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {4-7}{\ignorespaces 变更影响接受率实验结果}}{68}{table.4.7}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {4-8}{\ignorespaces TheAlgorithms项目中预测与实际不符的实例统计}}{68}{table.4.8}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4-4}{\ignorespaces 代码审查图}}{69}{figure.4.4}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces antiword-未划分模块}}{69}{figure.4.4}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces TheAlgorithms-未划分模块}}{69}{figure.4.4}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(c)}{\ignorespaces antiword-划分模块}}{69}{figure.4.4}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(d)}{\ignorespaces TheAlgorithms-划分模块}}{69}{figure.4.4}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4-5}{\ignorespaces 点击节点展开节点信息}}{70}{figure.4.5}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4-6}{\ignorespaces vDecodeDIB方法上下文}}{71}{figure.4.6}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4-7}{\ignorespaces misc.c 文件对应的代码审查图}}{71}{figure.4.7}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4-8}{\ignorespaces 内聚度良好和较差的例子}}{72}{figure.4.8}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces 内聚度差——存在链式调用}}{72}{figure.4.8}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces 内聚度良好——关联紧密}}{72}{figure.4.8}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4-9}{\ignorespaces 扇出度较高的节点}}{73}{figure.4.9}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4-10}{\ignorespaces 模块划分不合适的方法}}{73}{figure.4.10}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4-11}{\ignorespaces 不良的变更影响关系}}{74}{figure.4.11}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4-12}{\ignorespaces antiword项目代码质量评估报告节选}}{75}{figure.4.12}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4.5}代码审查图的实际应用}{75}{section.4.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{辅助开发者的代码维护}{75}{paragraph*.13}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4-13}{\ignorespaces 导入项目生成代码审查图}}{75}{figure.4.13}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4-14}{\ignorespaces 定位开发任务涉及的方法，查看质量信息}}{76}{figure.4.14}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4-15}{\ignorespaces 查看方法对应边，按建议安全变更}}{76}{figure.4.15}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{作为审查工具帮助审查者进行审查}{77}{paragraph*.14}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{作为质量评估工具对软件代码进行整体的评估}{77}{paragraph*.15}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4.6}本章小结}{77}{section.4.6}\protected@file@percent }
 \@setckpt{body/introduction}{
-\setcounter{page}{74}
+\setcounter{page}{78}
 \setcounter{equation}{0}
 \setcounter{enumi}{0}
 \setcounter{enumii}{0}
@@ -171,12 +180,12 @@
 \setcounter{mpfootnote}{0}
 \setcounter{part}{0}
 \setcounter{chapter}{4}
-\setcounter{section}{5}
+\setcounter{section}{6}
 \setcounter{subsection}{0}
 \setcounter{subsubsection}{0}
 \setcounter{paragraph}{0}
 \setcounter{subparagraph}{0}
-\setcounter{figure}{12}
+\setcounter{figure}{15}
 \setcounter{table}{8}
 \setcounter{parentequation}{0}
 \setcounter{endNonectr}{27}
@@ -189,7 +198,7 @@
 \setcounter{Item}{0}
 \setcounter{Hfootnote}{0}
 \setcounter{Hy@AnnotLevel}{0}
-\setcounter{bookmark@seq@number}{60}
+\setcounter{bookmark@seq@number}{61}
 \setcounter{NAT@ctr}{0}
 \setcounter{cp@cntr}{0}
 \setcounter{subfigure}{0}
