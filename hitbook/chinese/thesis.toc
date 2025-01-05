@@ -36,15 +36,15 @@
 \contentsline {subsection}{\numberline {2.7.1}实验数据与评价方式}{33}{subsection.2.7.1}%
 \contentsline {paragraph}{实验数据}{33}{paragraph*.16}%
 \contentsline {paragraph}{评价指标}{34}{paragraph*.17}%
-\contentsline {subsection}{\numberline {2.7.2}实验设置与评价方式}{34}{subsection.2.7.2}%
-\contentsline {subsection}{\numberline {2.7.3}实验结果与分析}{35}{subsection.2.7.3}%
-\contentsline {paragraph}{实验设置}{35}{paragraph*.18}%
-\contentsline {subsection}{\numberline {2.7.4}实验结果与对比分析}{36}{subsection.2.7.4}%
+\contentsline {subsection}{\numberline {2.7.2}实验设置与实验过程}{34}{subsection.2.7.2}%
+\contentsline {paragraph}{实验设置}{34}{paragraph*.18}%
+\contentsline {paragraph}{实验过程}{35}{paragraph*.19}%
+\contentsline {subsection}{\numberline {2.7.3}实验结果与对比分析}{35}{subsection.2.7.3}%
 \contentsline {section}{\numberline {2.8}本章小结}{41}{section.2.8}%
 \contentsline {chapter}{\numberline {第3章}基于RAG的方法间变更影响分析}{42}{chapter.3}%
 \contentsline {section}{\numberline {3.1}引言}{42}{section.3.1}%
-\contentsline {paragraph}{数量属性}{42}{paragraph*.20}%
-\contentsline {paragraph}{类型属性}{44}{paragraph*.21}%
+\contentsline {paragraph}{数量属性}{42}{paragraph*.21}%
+\contentsline {paragraph}{类型属性}{44}{paragraph*.22}%
 \contentsline {section}{\numberline {3.2}本章小结}{44}{section.3.2}%
 \contentsline {chapter}{\numberline {第4章}基于代码审查图的代码架构和质量信息可视化}{45}{chapter.4}%
 \contentsline {section}{\numberline {4.1}引言}{45}{section.4.1}%
@@ -62,11 +62,11 @@
 \contentsline {subsection}{\numberline {4.4.1}实验环境与评价方法}{56}{subsection.4.4.1}%
 \contentsline {subsection}{\numberline {4.4.2}实验结果分析}{56}{subsection.4.4.2}%
 \contentsline {section}{\numberline {4.5}代码审查图的实际应用}{68}{section.4.5}%
-\contentsline {paragraph}{辅助开发者的代码维护}{68}{paragraph*.23}%
-\contentsline {paragraph}{作为审查工具帮助审查者进行审查}{70}{paragraph*.24}%
-\contentsline {paragraph}{作为质量评估工具对软件代码进行整体的评估}{70}{paragraph*.25}%
+\contentsline {paragraph}{辅助开发者的代码维护}{68}{paragraph*.24}%
+\contentsline {paragraph}{作为审查工具帮助审查者进行审查}{70}{paragraph*.25}%
+\contentsline {paragraph}{作为质量评估工具对软件代码进行整体的评估}{70}{paragraph*.26}%
 \contentsline {section}{\numberline {4.6}本章小结}{70}{section.4.6}%
-\contentsline {chapter}{\heiti 结\hspace {\ccwd }论}{71}{section*.26}%
-\contentsline {chapter}{\heiti 参考文献}{73}{section*.29}%
-\contentsline {chapter}{\heiti 哈尔滨工业大学学位论文原创性声明和使用权限}{78}{section*.31}%
-\contentsline {chapter}{\heiti 致\hspace {\ccwd }谢}{79}{section*.33}%
+\contentsline {chapter}{\heiti 结\hspace {\ccwd }论}{71}{section*.27}%
+\contentsline {chapter}{\heiti 参考文献}{73}{section*.30}%
+\contentsline {chapter}{\heiti 哈尔滨工业大学学位论文原创性声明和使用权限}{78}{section*.32}%
+\contentsline {chapter}{\heiti 致\hspace {\ccwd }谢}{79}{section*.34}%
