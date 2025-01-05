@@ -11,56 +11,64 @@
 \contentsline {section}{\numberline {1.3}本文的主要研究内容以及各章节安排}{10}{section.1.3}%
 \contentsline {subsection}{\numberline {1.3.1}主要研究内容}{10}{subsection.1.3.1}%
 \contentsline {subsection}{\numberline {1.3.2}章节安排}{11}{subsection.1.3.2}%
-\contentsline {chapter}{\numberline {第2章}代码中间表示与质量评估度量提取}{13}{chapter.2}%
+\contentsline {chapter}{\numberline {第2章}基于方法间关联关系的代码变更影响分析}{13}{chapter.2}%
 \contentsline {section}{\numberline {2.1}引言}{13}{section.2.1}%
-\contentsline {section}{\numberline {2.2}基于clang的抽象语法树生成方法}{13}{section.2.2}%
-\contentsline {section}{\numberline {2.3}方法调用链提取与分析}{15}{section.2.3}%
-\contentsline {section}{\numberline {2.4}全局变量定义-使用链提取与分析}{18}{section.2.4}%
-\contentsline {section}{\numberline {2.5}基于代码中间表示的代码质量度量提取}{19}{section.2.5}%
-\contentsline {subsection}{\numberline {2.5.1}基于内聚度缺乏度的内聚性分析}{19}{subsection.2.5.1}%
-\contentsline {subsection}{\numberline {2.5.2}基于连通性的内聚性分析}{21}{subsection.2.5.2}%
-\contentsline {subsection}{\numberline {2.5.3}方法间耦合性分析}{22}{subsection.2.5.3}%
-\contentsline {subsection}{\numberline {2.5.4}方法扇入扇出度量分析}{23}{subsection.2.5.4}%
-\contentsline {subsection}{\numberline {2.5.5}基于静态检测工具的代码缺陷检测}{24}{subsection.2.5.5}%
-\contentsline {section}{\numberline {2.6}实验结果与分析}{25}{section.2.6}%
-\contentsline {subsection}{\numberline {2.6.1}实验数据与评价方式}{25}{subsection.2.6.1}%
-\contentsline {subsection}{\numberline {2.6.2}实验结果与实例分析}{27}{subsection.2.6.2}%
-\contentsline {section}{\numberline {2.7}本章小结}{31}{section.2.7}%
-\contentsline {chapter}{\numberline {第3章}面向代码质量评估的变更影响分析方法研究}{32}{chapter.3}%
-\contentsline {section}{\numberline {3.1}引言}{32}{section.3.1}%
-\contentsline {section}{\numberline {3.2}基于依赖关系闭包的变更影响分析}{33}{section.3.2}%
-\contentsline {section}{\numberline {3.3}基于代码克隆的变更影响分析}{35}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}代码预处理和分块}{37}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}基于代码克隆检测的变更影响关系提取}{38}{subsection.3.3.2}%
-\contentsline {section}{\numberline {3.4}基于数据挖掘的变更影响分析}{42}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}代码变更历史提取}{42}{subsection.3.4.1}%
-\contentsline {subsection}{\numberline {3.4.2}基于共现关联挖掘的变更影响关系提取}{43}{subsection.3.4.2}%
-\contentsline {section}{\numberline {3.5}基于深度学习的变更影响分析}{45}{section.3.5}%
-\contentsline {subsection}{\numberline {3.5.1}数据集来源和收集}{45}{subsection.3.5.1}%
-\contentsline {subsection}{\numberline {3.5.2}基于代码预训练模型的变更影响关系预测}{46}{subsection.3.5.2}%
-\contentsline {section}{\numberline {3.6}实验结果与分析}{48}{section.3.6}%
-\contentsline {subsection}{\numberline {3.6.1}实验数据集描述}{48}{subsection.3.6.1}%
-\contentsline {subsection}{\numberline {3.6.2}实验设置与评价方式}{48}{subsection.3.6.2}%
-\contentsline {subsection}{\numberline {3.6.3}实验结果与实例分析}{50}{subsection.3.6.3}%
-\contentsline {section}{\numberline {3.7}本章小结}{58}{section.3.7}%
-\contentsline {chapter}{\numberline {第4章}基于代码审查图的代码架构和质量信息可视化}{60}{chapter.4}%
-\contentsline {section}{\numberline {4.1}引言}{60}{section.4.1}%
-\contentsline {section}{\numberline {4.2}基于标签生成的方法模块分类}{61}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}基于大语言模型的方法模块标签生成}{61}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}基于原始标签的方法分类}{62}{subsection.4.2.2}%
-\contentsline {section}{\numberline {4.3}代码审查图}{62}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}代码审查图构建}{62}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}代码审查图可视化}{64}{subsection.4.3.2}%
-\contentsline {subsection}{\numberline {4.3.3}代码审查报告生成}{66}{subsection.4.3.3}%
-\contentsline {section}{\numberline {4.4}实验结果与分析}{67}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}实验环境与评价方法}{67}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}实验结果与实例分析}{68}{subsection.4.4.2}%
-\contentsline {section}{\numberline {4.5}代码审查图的实际应用}{75}{section.4.5}%
-\contentsline {paragraph}{辅助开发者的代码维护}{75}{paragraph*.13}%
-\contentsline {paragraph}{作为审查工具帮助审查者进行审查}{77}{paragraph*.14}%
-\contentsline {paragraph}{作为质量评估工具对软件代码进行整体的评估}{77}{paragraph*.15}%
-\contentsline {section}{\numberline {4.6}本章小结}{77}{section.4.6}%
-\contentsline {chapter}{\heiti 结\hspace {\ccwd }论}{78}{section*.16}%
-\contentsline {chapter}{\heiti 参考文献}{80}{section*.19}%
-\contentsline {chapter}{\heiti 哈尔滨工业大学学位论文原创性声明和使用权限}{85}{section*.21}%
-\contentsline {chapter}{\heiti 致\hspace {\ccwd }谢}{86}{section*.23}%
+\contentsline {section}{\numberline {2.2}代码预处理和中间表示生成}{13}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}基于clang的抽象语法树生成}{13}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}方法调用链提取与分析}{16}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}全局变量定义-使用链提取与分析}{18}{subsection.2.2.3}%
+\contentsline {section}{\numberline {2.3}基于依赖关系的变更影响分析}{19}{section.2.3}%
+\contentsline {paragraph}{构建依赖图}{19}{paragraph*.11}%
+\contentsline {paragraph}{执行变更影响分析}{20}{paragraph*.12}%
+\contentsline {section}{\numberline {2.4}基于克隆关系的变更影响分析}{21}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}代码预处理和分块}{22}{subsection.2.4.1}%
+\contentsline {paragraph}{代码预处理}{22}{paragraph*.13}%
+\contentsline {paragraph}{代码分块}{23}{paragraph*.14}%
+\contentsline {paragraph}{代码指纹提取}{24}{paragraph*.15}%
+\contentsline {subsection}{\numberline {2.4.2}基于代码克隆检测的变更影响关系提取}{24}{subsection.2.4.2}%
+\contentsline {section}{\numberline {2.5}基于变更历史和共现关联关系的变更影响分析}{27}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}代码变更历史提取}{27}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.2}基于共现关联挖掘的变更影响关系提取}{28}{subsection.2.5.2}%
+\contentsline {section}{\numberline {2.6}实验结果与分析}{30}{section.2.6}%
+\contentsline {subsection}{\numberline {2.6.1}实验数据与评价方式}{30}{subsection.2.6.1}%
+\contentsline {paragraph}{实验数据}{30}{paragraph*.16}%
+\contentsline {paragraph}{评价指标}{31}{paragraph*.17}%
+\contentsline {paragraph}{实验设置}{32}{paragraph*.18}%
+\contentsline {subsection}{\numberline {2.6.2}实验结果与对比分析}{32}{subsection.2.6.2}%
+\contentsline {section}{\numberline {2.7}本章小结}{37}{section.2.7}%
+\contentsline {chapter}{\numberline {第3章}基于深度学习和RAG的方法间变更影响分析}{38}{chapter.3}%
+\contentsline {section}{\numberline {3.1}引言}{38}{section.3.1}%
+\contentsline {section}{\numberline {3.2}基于深度学习的变更影响分析}{38}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}数据集来源和收集}{38}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}基于代码预训练模型的变更影响关系预测}{39}{subsection.3.2.2}%
+\contentsline {section}{\numberline {3.3}实验结果与分析}{40}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}实验数据集描述}{40}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}实验设置与评价方式}{40}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}实验结果与分析}{41}{subsection.3.3.3}%
+\contentsline {paragraph}{数量属性}{42}{paragraph*.20}%
+\contentsline {paragraph}{类型属性}{44}{paragraph*.21}%
+\contentsline {section}{\numberline {3.4}本章小结}{44}{section.3.4}%
+\contentsline {chapter}{\numberline {第4章}基于代码审查图的代码架构和质量信息可视化}{46}{chapter.4}%
+\contentsline {section}{\numberline {4.1}引言}{46}{section.4.1}%
+\contentsline {section}{\numberline {4.2}基于代码中间表示的代码质量度量提取}{47}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}基于内聚度缺乏度的内聚性分析}{47}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}基于连通性的内聚性分析}{48}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}方法间耦合性分析}{49}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.4}方法扇入扇出度量分析}{51}{subsection.4.2.4}%
+\contentsline {subsection}{\numberline {4.2.5}基于静态检测工具的代码缺陷检测}{52}{subsection.4.2.5}%
+\contentsline {section}{\numberline {4.3}代码审查图}{52}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}代码审查图构建}{52}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}代码审查图可视化}{55}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}代码审查报告生成}{55}{subsection.4.3.3}%
+\contentsline {section}{\numberline {4.4}实验结果与分析}{57}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}实验环境与评价方法}{57}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}实验结果分析}{57}{subsection.4.4.2}%
+\contentsline {section}{\numberline {4.5}代码审查图的实际应用}{69}{section.4.5}%
+\contentsline {paragraph}{辅助开发者的代码维护}{69}{paragraph*.23}%
+\contentsline {paragraph}{作为审查工具帮助审查者进行审查}{71}{paragraph*.24}%
+\contentsline {paragraph}{作为质量评估工具对软件代码进行整体的评估}{71}{paragraph*.25}%
+\contentsline {section}{\numberline {4.6}本章小结}{71}{section.4.6}%
+\contentsline {chapter}{\heiti 结\hspace {\ccwd }论}{72}{section*.26}%
+\contentsline {chapter}{\heiti 参考文献}{74}{section*.29}%
+\contentsline {chapter}{\heiti 哈尔滨工业大学学位论文原创性声明和使用权限}{79}{section*.31}%
+\contentsline {chapter}{\heiti 致\hspace {\ccwd }谢}{80}{section*.33}%

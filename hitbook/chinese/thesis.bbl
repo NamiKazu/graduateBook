@@ -1,4 +1,4 @@
-\begin{thebibliography}{57}
+\begin{thebibliography}{55}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{#1}
 \expandafter\ifx\csname urlstyle\endcsname\relax\else
@@ -370,24 +370,5 @@ GOMARIZ A, CAMPOS M, MARIN R, et~al.
 花子涵, 杨立, 陆俊逸, 等.
 \newblock 代码审查自动化研究综述\allowbreak[J].
 \newblock 软件学报, 2024, 35\allowbreak (7): 3265-3290.
-
-\bibitem[Mazlami et~al.(2017)Mazlami, Cito, and Leitner]{2017Extraction}
-MAZLAMI G, CITO J, LEITNER P.
-\newblock Extraction of microservices from monolithic software
-  architectures\allowbreak[J].
-\newblock IEEE, 2017.
-
-\bibitem[Wan et~al.(2023)Wan, Cheng, Mao, Liu, Song, Li, and
-  Kurohashi]{wan-etal-2023-gpt}
-WAN Z, CHENG F, MAO Z, et~al.
-\newblock {GPT}-{RE}: In-context learning for relation extraction using large
-  language models\allowbreak[C/OL]//\allowbreak
-BOUAMOR H, PINO J, BALI K.
-\newblock Proceedings of the 2023 Conference on Empirical Methods in Natural
-  Language Processing.
-\newblock Singapore: Association for Computational Linguistics, 2023:
-  3534-3547.
-\newblock \url{https://aclanthology.org/2023.emnlp-main.214}.
-\newblock DOI: \doi{10.18653/v1/2023.emnlp-main.214}.
 
 \end{thebibliography}

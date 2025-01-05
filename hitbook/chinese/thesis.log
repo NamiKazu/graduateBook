@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.11.30)  2 JAN 2025 00:19
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.11.30)  5 JAN 2025 16:17
 entering extended mode
  \write18 enabled.
  Source specials enabled.
@@ -1800,14 +1800,15 @@ File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
 Package translations Info: No language package found. I am going to use `englis
 h' as default language. on input line 104.
  (./thesis.aux (./body/regu.aux)
-(./body/introduction.aux) (./back/conclusion.aux) (./back/acknowledgements.aux)
-)
+(./body/part1.aux) (./body/part2.aux) (./body/part3.aux) (./back/conclusion.aux
+) (./back/acknowledgements.aux))
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 104.
 LaTeX Font Info:    Trying to load font information for OML+ntxmi on input line
  104.
- (/usr/local/texlive/2024/texmf-dist/tex/latex/newtx/omlntxmi.fd
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/newtx/omlntxmi.fd
 File: omlntxmi.fd 2015/08/25 Fontinst v1.933 font definitions for OML/ntxmi.
 )
 LaTeX Font Info:    ... okay on input line 104.
@@ -2085,11 +2086,11 @@ LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <7.52812> not available
 ] [4] (./thesis.toc [5
 
 
-] [6])
+])
 \tf@toc=\write8
 \openout8 = `thesis.toc'.
 
- [7]
+ [6]
 \openout2 = `body/regu.aux'.
 
  (./body/regu.tex
@@ -2131,9 +2132,9 @@ might try typing `S' now just to see what is salvageable.
 File: figures/章节安排.png Graphic file (type bmp)
 <figures/章节安排.png>
  [11]) [12]
-\openout2 = `body/introduction.aux'.
+\openout2 = `body/part1.aux'.
 
- (./body/introduction.tex
+ (./body/part1.tex
 第2章
 [13
 
@@ -2151,8 +2152,8 @@ File: figures/ast示例.png Graphic file (type bmp)
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [14] [15]
-./body/introduction.tex:64: Undefined control sequence.
-l.64     \KwLine
+./body/part1.tex:68: Undefined control sequence.
+l.68     \KwLine
                 
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2191,10 +2192,10 @@ Package fontspec Info: Font family 'STFangsong(0)' created for font
 (fontspec)             <->"STFangsong/OT:language=dflt;embolden=2;"
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 
-./body/introduction.tex:84: Undefined control sequence.
+./body/part1.tex:88: Undefined control sequence.
 <argument>  $functions \gets \{\}$ \KwComment 
                                               {$\#$ 初始化方法摘要} \; \KwLine \KwC...
-l.84     \KwLine
+l.88     \KwLine
                 
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2202,10 +2203,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./body/introduction.tex:84: Undefined control sequence.
+./body/part1.tex:88: Undefined control sequence.
 <argument> ...KwComment {$\#$ 初始化方法摘要} \; \KwLine 
                                                   \KwComment {$\#$ 第一次扫描：收集方...
-l.84     \KwLine
+l.88     \KwLine
                 
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2213,10 +2214,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./body/introduction.tex:84: Undefined control sequence.
+./body/part1.tex:88: Undefined control sequence.
 <argument> ...$\#$ 初始化方法摘要} \; \KwLine \KwComment 
                                                   {$\#$ 第一次扫描：收集方法的定义} \; \F...
-l.84     \KwLine
+l.88     \KwLine
                 
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2224,10 +2225,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./body/introduction.tex:84: Undefined control sequence.
+./body/part1.tex:88: Undefined control sequence.
 <argument> ...ang.parse}(file).cursor$ \KwComment 
                                                   {$\#$ 获取AST的根cursor} \; \t...
-l.84     \KwLine
+l.88     \KwLine
                 
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2235,10 +2236,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./body/introduction.tex:84: Undefined control sequence.
+./body/part1.tex:88: Undefined control sequence.
 <argument> ... functions, file, True)} \KwComment 
                                                   {$\#$ 遍历AST，收集方法定义} \; 
-l.84     \KwLine
+l.88     \KwLine
                 
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2246,10 +2247,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./body/introduction.tex:84: Undefined control sequence.
+./body/part1.tex:88: Undefined control sequence.
 <recently read> \KwLine 
                         
-l.84     \KwLine
+l.88     \KwLine
                 
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2257,10 +2258,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./body/introduction.tex:84: Undefined control sequence.
+./body/part1.tex:88: Undefined control sequence.
 <argument> ...AST，收集方法定义} \; } \KwLine \KwComment 
                                                   {$\#$ 第二次扫描：分析方法调用情况} \; \...
-l.84     \KwLine
+l.88     \KwLine
                 
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2268,10 +2269,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./body/introduction.tex:84: Undefined control sequence.
+./body/part1.tex:88: Undefined control sequence.
 <argument> ...ang.parse}(file).cursor$ \KwComment 
                                                   {$\#$ 获取AST的根cursor} \; \t...
-l.84     \KwLine
+l.88     \KwLine
                 
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2279,10 +2280,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./body/introduction.tex:84: Undefined control sequence.
+./body/part1.tex:88: Undefined control sequence.
 <argument> ...functions, file, False)} \KwComment 
                                                   {$\#$ 分析方法调用} \; 
-l.84     \KwLine
+l.88     \KwLine
                 
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2290,10 +2291,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./body/introduction.tex:84: Undefined control sequence.
+./body/part1.tex:88: Undefined control sequence.
 <recently read> \KwLine 
                         
-l.84     \KwLine
+l.88     \KwLine
                 
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2301,10 +2302,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./body/introduction.tex:84: Undefined control sequence.
+./body/part1.tex:88: Undefined control sequence.
 <argument> ...$\#$ 分析方法调用} \; } \KwLine \KwReturn 
                                                   {return $functions$} \; 
-l.84     \KwLine
+l.88     \KwLine
                 
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2312,10 +2313,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./body/introduction.tex:84: Undefined control sequence.
+./body/part1.tex:88: Undefined control sequence.
 <recently read> \KwLine 
                         
-l.84     \KwLine
+l.88     \KwLine
                 
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2323,10 +2324,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./body/introduction.tex:101: Undefined control sequence.
+./body/part1.tex:105: Undefined control sequence.
 <argument> ... {collectionInfo}(node)$ \KwComment 
                                                   {$\#$ C收集方法信息} \; $functio...
-l.101     \end
+l.105     \end
               {algorithm}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2334,10 +2335,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./body/introduction.tex:101: Undefined control sequence.
+./body/part1.tex:105: Undefined control sequence.
 <argument> ...s.\text {add}(function)$ \KwComment 
                                                   {$\#$ 将方法添加到方法摘要} \; 
-l.101     \end
+l.105     \end
               {algorithm}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2345,10 +2346,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./body/introduction.tex:101: Undefined control sequence.
+./body/part1.tex:105: Undefined control sequence.
 <argument>  \texttt {parse(node)} \KwComment 
                                              {$\#$ 分析被调用的方法} \; 
-l.101     \end
+l.105     \end
               {algorithm}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2356,10 +2357,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./body/introduction.tex:101: Undefined control sequence.
+./body/part1.tex:105: Undefined control sequence.
 <argument> ... filePath, isFirstScan)} \KwComment 
                                                   {$\#$ 递归遍历子节点} \; 
-l.101     \end
+l.105     \end
               {algorithm}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2373,45 +2374,13 @@ File: figures/全局变量提取流程图.jpg Graphic file (type bmp)
  [18
 
 ] [19]
+File: figures/依赖关系示例.png Graphic file (type bmp)
+<figures/依赖关系示例.png>
 Package hyperref Info: bookmark level for unknown equation defaults to 0 on inp
-ut line 156.
-File: figures/内聚度示例.jpg Graphic file (type bmp)
-<figures/内聚度示例.jpg>
-File: figures/LCOM3.jpg Graphic file (type bmp)
-<figures/LCOM3.jpg>
+ut line 173.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[20]
-File: figures/LCOM4.jpg Graphic file (type bmp)
-<figures/LCOM4.jpg>
- [21]
-File: figures/TCCLCC.jpg Graphic file (type bmp)
-<figures/TCCLCC.jpg>
- [22]
-File: figures/扇入扇出.png Graphic file (type bmp)
-<figures/扇入扇出.png>
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[23] [24] [25] [26] [27] [28]
-Overfull \hbox (4.81847pt too wide) in paragraph at lines 474--484
- [][][] 
- []
-
-[29]
-File: figures/扇出高例子.jpg Graphic file (type bmp)
-<figures/扇出高例子.jpg>
- [30] [31]
-第3章
-[32
-
-
-] [33]
-./body/introduction.tex:566: Extra }, or forgotten \right.
-l.566 ...ne } \in \left(I M S_{R E T U R N}^{(N)}}
+./body/part1.tex:180: Extra }, or forgotten \right.
+l.180 ...ne } \in \left(I M S_{R E T U R N}^{(N)}}
                                                   -I M S_{R E T U R N}^{(N-1...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -2419,25 +2388,22 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-[34]
-File: figures/依赖关系示例.png Graphic file (type bmp)
-<figures/依赖关系示例.png>
- [35]
+[20] [21]
 File: figures/代码克隆流程.png Graphic file (type bmp)
 <figures/代码克隆流程.png>
- [36] [37] [38]
-./body/introduction.tex:661: Missing $ inserted.
+ [22] [23] [24]
+./body/part1.tex:288: Missing $ inserted.
 <inserted text> 
                 $
-l.661 1 &  \langle
+l.288 1 &  \langle
                    (a)(ab)(bc)\rangle\\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./body/introduction.tex:662: Missing $ inserted.
+./body/part1.tex:289: Missing $ inserted.
 <inserted text> 
                 $
-l.662 2
+l.289 2
         & \langle (a)(abc) \rangle\\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2445,18 +2411,18 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./body/introduction.tex:662: Missing $ inserted.
+./body/part1.tex:289: Missing $ inserted.
 <inserted text> 
                 $
-l.662 2 & \langle
+l.289 2 & \langle
                   (a)(abc) \rangle\\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./body/introduction.tex:663: Missing $ inserted.
+./body/part1.tex:290: Missing $ inserted.
 <inserted text> 
                 $
-l.663 3
+l.290 3
         & \langle (d)(a)(ab)(bc) \rangle\\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2464,18 +2430,18 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./body/introduction.tex:663: Missing $ inserted.
+./body/part1.tex:290: Missing $ inserted.
 <inserted text> 
                 $
-l.663 3 & \langle
+l.290 3 & \langle
                   (d)(a)(ab)(bc) \rangle\\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./body/introduction.tex:664: Missing $ inserted.
+./body/part1.tex:291: Missing $ inserted.
 <inserted text> 
                 $
-l.664 4
+l.291 4
         & \langle  (d)(ad)\rangle\\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2483,18 +2449,18 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./body/introduction.tex:664: Missing $ inserted.
+./body/part1.tex:291: Missing $ inserted.
 <inserted text> 
                 $
-l.664 4 & \langle
+l.291 4 & \langle
                    (d)(ad)\rangle\\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./body/introduction.tex:665: Missing $ inserted.
+./body/part1.tex:292: Missing $ inserted.
 <inserted text> 
                 $
-l.665 \bottomrule
+l.292 \bottomrule
                  
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2503,7 +2469,7 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 669--670
+Underfull \hbox (badness 10000) in paragraph at lines 296--297
 [][]\TU/SongtiSCLight(0)/m/n/12.045 在 这 个 例 子 中，|  第 一 个 序 列 中 有 \TU/TeXGyreTer
 mesX(0)/m/n/12.045 3 \TU/SongtiSCLight(0)/m/n/12.045 个 项 集，|  分 别 是 \TU/TeXGyre
 TermesX(0)/m/n/12.045 (a)\TU/SongtiSCLight(0)/m/n/12.045 ，| \TU/TeXGyreTermesX(
@@ -2511,27 +2477,26 @@ TermesX(0)/m/n/12.045 (a)\TU/SongtiSCLight(0)/m/n/12.045 ，| \TU/TeXGyreTermesX
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 669--670
+Underfull \hbox (badness 10000) in paragraph at lines 296--297
 \TU/TeXGyreTermesX(0)/m/n/12.045 (bc)\TU/SongtiSCLight(0)/m/n/12.045 ，|  以 此 类 
 推。|  根 据 上 述 概 念 计 算 得 到，|  这 个 例 子 中 的 闭 合 频 繁 序 列
  []
 
-[39]
 
-./body/introduction.tex:677: LaTeX Error: Environment algorithmic undefined.
+./body/part1.tex:304: LaTeX Error: Environment algorithmic undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.677 \begin{algorithmic}
+l.304 \begin{algorithmic}
                          
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-./body/introduction.tex:680: Undefined control sequence.
-l.680 \State
+./body/part1.tex:307: Undefined control sequence.
+l.307 \State
              $F_1 \gets \{\text{频繁 1-序列}\}$ \\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2539,10 +2504,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./body/introduction.tex:681: Undefined control sequence.
+./body/part1.tex:308: Undefined control sequence.
 <recently read> \State 
                        
-l.681 \State
+l.308 \State
              $FCC \gets \emptyset$, $FCS \gets \emptyset$  \\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2550,10 +2515,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./body/introduction.tex:686: Undefined control sequence.
+./body/part1.tex:313: Undefined control sequence.
 <argument>  \State 
                    $F_{ie} \gets \{\text {频繁 1-序列的长大于i的扩展序列 } \}$ \\ \State ...
-l.686 \EndFor
+l.313 \EndFor
              
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2561,10 +2526,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./body/introduction.tex:686: Undefined control sequence.
+./body/part1.tex:313: Undefined control sequence.
 <recently read> \State 
                        
-l.686 \EndFor
+l.313 \EndFor
              
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2572,10 +2537,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./body/introduction.tex:686: Undefined control sequence.
+./body/part1.tex:313: Undefined control sequence.
 <recently read> \State 
                        
-l.686 \EndFor
+l.313 \EndFor
              
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2583,10 +2548,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./body/introduction.tex:686: Undefined control sequence.
+./body/part1.tex:313: Undefined control sequence.
 <recently read> \EndFor 
                         
-l.686 \EndFor
+l.313 \EndFor
              
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2594,8 +2559,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./body/introduction.tex:687: Undefined control sequence.
-l.687 \State
+./body/part1.tex:314: Undefined control sequence.
+l.314 \State
              $FCS \gets \text{N-ClosedStep}(FCC)$
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2604,35 +2569,35 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-./body/introduction.tex:688: LaTeX Error: \begin{lrbox} on input line 676 ended
- by \end{algorithmic}.
+./body/part1.tex:315: LaTeX Error: \begin{lrbox} on input line 303 ended by \en
+d{algorithmic}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.688 \end{algorithmic}
+l.315 \end{algorithmic}
                        
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[40] [41] [42] [43] [44]
+[25] [26] [27] [28]
 
-./body/introduction.tex:797: LaTeX Error: Environment algorithmic undefined.
+./body/part1.tex:422: LaTeX Error: Environment algorithmic undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.797 \begin{algorithmic}
+l.422 \begin{algorithmic}
                          
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-./body/introduction.tex:800: Undefined control sequence.
-l.800 \State
+./body/part1.tex:425: Undefined control sequence.
+l.425 \State
              $F_1 \gets \emptyset$  \# 频繁1项集\\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2641,22 +2606,22 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-./body/introduction.tex:805: LaTeX Error: There's no line here to end.
+./body/part1.tex:430: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.805 } \\
+l.430 } \\
           
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-./body/introduction.tex:806: Undefined control sequence.
+./body/part1.tex:431: Undefined control sequence.
 <recently read> \State 
                        
-l.806 \State
+l.431 \State
              $F_2 \gets \emptyset$  \# 频繁2项集\\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2664,8 +2629,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./body/introduction.tex:813: Undefined control sequence.
-l.813 \State
+./body/part1.tex:438: Undefined control sequence.
+l.438 \State
              $change\_impact\_pairs \gets \emptyset$ \\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2674,37 +2639,89 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-./body/introduction.tex:820: LaTeX Error: \begin{lrbox} on input line 796 ended
- by \end{algorithmic}.
+./body/part1.tex:445: LaTeX Error: \begin{lrbox} on input line 421 ended by \en
+d{algorithmic}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.820 \end{algorithmic}
+l.445 \end{algorithmic}
                        
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[45
+[29] [30] [31] [32]
+File: figures/静态分析拒绝样例.jpg Graphic file (type bmp)
+<figures/静态分析拒绝样例.jpg>
+ [33]
+Overfull \hbox (28.35686pt too wide) in paragraph at lines 571--579
+ [][][] 
+ []
 
-] [46]
+
+Overfull \hbox (19.57756pt too wide) in paragraph at lines 605--614
+ [][][] 
+ []
+
+[34]
+File: figures/克隆代码示例.jpg Graphic file (type bmp)
+<figures/克隆代码示例.jpg>
+
+Underfull \hbox (badness 4013) in paragraph at lines 629--630
+[][]\TU/SongtiSCLight(0)/m/n/12.045 为 了 说 明 数 据 挖 掘 方 法 的 优 秀 潜 力，|  以 \TU/TeXG
+yreTermesX(0)/m/n/12.045 librdkafka \TU/SongtiSCLight(0)/m/n/12.045 项 目 中 挖 掘 到
+ 的 一
+ []
+
+
+Underfull \hbox (badness 2799) in paragraph at lines 629--630
+\TU/SongtiSCLight(0)/m/n/12.045 对 方 法 为 例，|  该 项 目 是 \TU/TeXGyreTermesX(0)/m/n/
+12.045 Apache Kafka \TU/SongtiSCLight(0)/m/n/12.045 的 一 个 高 性 能 \TU/TeXGyreTerm
+esX(0)/m/n/12.045 C/C++ \TU/SongtiSCLight(0)/m/n/12.045 客 户 端 库。|  图
+ []
+
+
+Underfull \hbox (badness 3078) in paragraph at lines 629--630
+\TU/TeXGyreTermesX(0)/m/n/12.045 3-7 \TU/SongtiSCLight(0)/m/n/12.045 展 示 了 通 过 
+数 据 挖 掘 技 术 发 现 的 一 对 存 在 变 更 影 响 关 系 的 方 法。|  左 侧
+ []
+
+[35]
+File: figures/incrdec.jpg Graphic file (type bmp)
+<figures/incrdec.jpg>
+File: figures/subscribe.jpg Graphic file (type bmp)
+<figures/subscribe.jpg>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[36] [37]
+第3章
+[38
+
+
+]
 File: figures/模型架构3.jpg Graphic file (type bmp)
 <figures/模型架构3.jpg>
- [47]
-./body/introduction.tex:919: Missing $ inserted.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[39] [40]
+./body/part1.tex:762: Missing $ inserted.
 <inserted text> 
                 $
-l.919 Adam \beta
+l.762 Adam \beta
                 _1  & 0.95  \\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./body/introduction.tex:919: Missing $ inserted.
+./body/part1.tex:762: Missing $ inserted.
 <inserted text> 
                 $
-l.919 Adam \beta_1  &
+l.762 Adam \beta_1  &
                       0.95  \\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2712,18 +2729,18 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./body/introduction.tex:920: Missing $ inserted.
+./body/part1.tex:763: Missing $ inserted.
 <inserted text> 
                 $
-l.920 Adam \beta
+l.763 Adam \beta
                 _2 & 0.999  \\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./body/introduction.tex:920: Missing $ inserted.
+./body/part1.tex:763: Missing $ inserted.
 <inserted text> 
                 $
-l.920 Adam \beta_2 &
+l.763 Adam \beta_2 &
                      0.999  \\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2731,88 +2748,67 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-[48] [49] [50]
-File: figures/静态分析拒绝样例.jpg Graphic file (type bmp)
-<figures/静态分析拒绝样例.jpg>
- [51]
-File: figures/倾向与正确率.jpg Graphic file (type bmp)
-<figures/倾向与正确率.jpg>
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[52]
-File: figures/克隆代码示例.jpg Graphic file (type bmp)
-<figures/克隆代码示例.jpg>
- [53]
-Underfull \hbox (badness 4013) in paragraph at lines 1039--1040
-[][]\TU/SongtiSCLight(0)/m/n/12.045 为 了 说 明 数 据 挖 掘 方 法 的 优 秀 潜 力，|  以 \TU/TeXG
-yreTermesX(0)/m/n/12.045 librdkafka \TU/SongtiSCLight(0)/m/n/12.045 项 目 中 挖 掘 到
- 的 一
- []
-
-
-Underfull \hbox (badness 2799) in paragraph at lines 1039--1040
-\TU/SongtiSCLight(0)/m/n/12.045 对 方 法 为 例，|  该 项 目 是 \TU/TeXGyreTermesX(0)/m/n/
-12.045 Apache Kafka \TU/SongtiSCLight(0)/m/n/12.045 的 一 个 高 性 能 \TU/TeXGyreTerm
-esX(0)/m/n/12.045 C/C++ \TU/SongtiSCLight(0)/m/n/12.045 客 户 端 库。|  图
- []
-
-
-Underfull \hbox (badness 3078) in paragraph at lines 1039--1040
-\TU/TeXGyreTermesX(0)/m/n/12.045 3-7 \TU/SongtiSCLight(0)/m/n/12.045 展 示 了 通 过 
-数 据 挖 掘 技 术 发 现 的 一 对 存 在 变 更 影 响 关 系 的 方 法。|  左 侧
- []
-
-File: figures/incrdec.jpg Graphic file (type bmp)
-<figures/incrdec.jpg>
-[54]
-File: figures/subscribe.jpg Graphic file (type bmp)
-<figures/subscribe.jpg>
- [55] [56]
-File: figures/克隆代码拒绝样例.jpg Graphic file (type bmp)
-<figures/克隆代码拒绝样例.jpg>
- [57]
-Underfull \hbox (badness 2269) in paragraph at lines 1156--1156
-[]|[]\TU/SongtiSCLight(0)/m/n/10.53937 由 于 代 码 克 隆 导 致 的 变
- []
-
-
-Underfull \hbox (badness 2269) in paragraph at lines 1156--1157
+[41]
+Underfull \hbox (badness 2269) in paragraph at lines 803--804
 []|\TU/SongtiSCLight(0)/m/n/10.53937 只 能 检 测 代 码 克 隆 一 种
  []
 
 
-Underfull \hbox (badness 2269) in paragraph at lines 1157--1158
+Underfull \hbox (badness 2269) in paragraph at lines 804--805
 []|\TU/SongtiSCLight(0)/m/n/10.53937 无 法 应 用 于 没 有 变 更 历
  []
 
 
-Underfull \hbox (badness 5417) in paragraph at lines 1157--1158
+Underfull \hbox (badness 5417) in paragraph at lines 804--805
 \TU/SongtiSCLight(0)/m/n/10.53937 史 的 项 目，|  如 果 不 频 繁
  []
 
-[58] [59]
-第4章
-[60
-
-
-]
-File: figures/大模型预测.png Graphic file (type bmp)
-<figures/大模型预测.png>
+[42]
+File: figures/克隆代码拒绝样例.jpg Graphic file (type bmp)
+<figures/克隆代码拒绝样例.jpg>
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[61]
-File: figures/分类示例.png Graphic file (type bmp)
-<figures/分类示例.png>
- [62] [63] [64]
+[43] [44] [45]
+第4章
+[46
+
+
+]
+File: figures/内聚度示例.jpg Graphic file (type bmp)
+<figures/内聚度示例.jpg>
+ [47]
+File: figures/LCOM3.jpg Graphic file (type bmp)
+<figures/LCOM3.jpg>
+File: figures/LCOM4.jpg Graphic file (type bmp)
+<figures/LCOM4.jpg>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[48]
+File: figures/TCCLCC.jpg Graphic file (type bmp)
+<figures/TCCLCC.jpg>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[49] [50]
+File: figures/扇入扇出.png Graphic file (type bmp)
+<figures/扇入扇出.png>
+ [51] [52] [53] [54]
 File: figures/G6图数据示例.jpg Graphic file (type bmp)
 <figures/G6图数据示例.jpg>
- [65] [66
+ [55] [56] [57] [58] [59] [60]
+Overfull \hbox (4.81847pt too wide) in paragraph at lines 1414--1424
+ [][][] 
+ []
 
-] [67] [68]
+[61]
+File: figures/扇出高例子.jpg Graphic file (type bmp)
+<figures/扇出高例子.jpg>
+ [62]
 File: figures/antiword审查图未上色.jpg Graphic file (type bmp)
 <figures/antiword审查图未上色.jpg>
 File: figures/aigri代码审查图-未上色.jpg Graphic file (type bmp)
@@ -2821,58 +2817,77 @@ File: figures/antiword代码审查图.jpg Graphic file (type bmp)
 <figures/antiword代码审查图.jpg>
 File: figures/aigri代码审查图.jpg Graphic file (type bmp)
 <figures/aigri代码审查图.jpg>
- [69]
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 File: figures/点击节点.png Graphic file (type bmp)
 <figures/点击节点.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[63] [64]
 File: figures/代码审查图子图.jpg Graphic file (type bmp)
 <figures/代码审查图子图.jpg>
+File: figures/内聚度差例子.jpg Graphic file (type bmp)
+<figures/内聚度差例子.jpg>
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[70]
-File: figures/内聚度差例子.jpg Graphic file (type bmp)
-<figures/内聚度差例子.jpg>
- [71]
+[65]
 File: figures/存在链式调用.jpg Graphic file (type bmp)
 <figures/存在链式调用.jpg>
 File: figures/内聚度好.jpg Graphic file (type bmp)
 <figures/内聚度好.jpg>
+ [66]
 File: figures/扇出度最高.jpg Graphic file (type bmp)
 <figures/扇出度最高.jpg>
+File: figures/模块分错.jpg Graphic file (type bmp)
+<figures/模块分错.jpg>
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[72]
-File: figures/模块分错.jpg Graphic file (type bmp)
-<figures/模块分错.jpg>
- [73]
+[67]
 File: figures/变更影响关系审查图.jpg Graphic file (type bmp)
 <figures/变更影响关系审查图.jpg>
- [74]
+ [68]
 File: figures/质量评估报告.jpg Graphic file (type bmp)
 <figures/质量评估报告.jpg>
 File: figures/应用展示审查图.jpg Graphic file (type bmp)
 <figures/应用展示审查图.jpg>
- [75
+ [69
 
 ]
 File: figures/应用查看节点信息.jpg Graphic file (type bmp)
 <figures/应用查看节点信息.jpg>
 File: figures/应用边信息.jpg Graphic file (type bmp)
 <figures/应用边信息.jpg>
- [76]) [77]
+ [70]) [71]
+\openout2 = `body/part2.aux'.
+
+ (./body/part2.tex)
+\openout2 = `body/part3.aux'.
+
+ (./body/part3.tex)
 \openout2 = `back/conclusion.aux'.
 
- (./back/conclusion.tex [78
+
+(./back/conclusion.tex [72
 
 
 
 
 
 
-]) [79] (./thesis.bbl
+
+
+
+
+
+
+]) [73] (./thesis.bbl
 ./thesis.bbl:17: Misplaced alignment tab character &.
 l.17 ...block Global Journal of Computer Science &
                                                    Technology, 2012.
@@ -2909,7 +2924,7 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-[80
+[74
 
 
 
@@ -2935,7 +2950,7 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-[81]
+[75]
 Underfull \hbox (badness 10000) in paragraph at lines 186--190
 [][]\TU/TeXGyreTermesX(0)/m/n/12.045 JITENDERKUMARCHHABRA, MRINAALMALHOTRA, JIT
 ENDERKU-
@@ -2961,7 +2976,7 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-[82]
+[76]
 ./thesis.bbl:320: Misplaced alignment tab character &.
 l.320 ...onal Conference on Software Engineering &
                                                    Knowledge Engineering.
@@ -2972,13 +2987,13 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-[83]) [84] [85
+[77]) [78] [79
 
 
 ]
 \openout2 = `back/acknowledgements.aux'.
 
- (./back/acknowledgements.tex) [86
+ (./back/acknowledgements.tex) [80
 
 
 
@@ -2992,8 +3007,8 @@ Package glossaries Warning: No \printglossary or \printglossaries found.
 (Remove \makeglossaries if you don't want any glossaries.) 
 This document will not have a glossary.
 
-(./thesis.aux (./body/regu.aux) (./body/introduction.aux)
-(./back/conclusion.aux) (./back/acknowledgements.aux))
+(./thesis.aux (./body/regu.aux) (./body/part1.aux) (./body/part2.aux)
+(./body/part3.aux) (./back/conclusion.aux) (./back/acknowledgements.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2022/08/05>
@@ -3004,15 +3019,15 @@ LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.47188pt have occurred.
 
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 032F93A9FCD9C27E8D2AE7E75B9077AE;10714.
+(rerunfilecheck)             Checksum: A14374178EEFD06F1CBA560FEDA625FB;10400.
  ) 
 Here is how much of TeX's memory you used:
- 45404 strings out of 474773
- 971479 string characters out of 5757723
- 1949839 words of memory out of 5000000
- 66639 multiletter control sequences out of 15000+600000
+ 45412 strings out of 474773
+ 971530 string characters out of 5757723
+ 1952839 words of memory out of 5000000
+ 66636 multiletter control sequences out of 15000+600000
  616692 words of font info for 242 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  107i,19n,111p,2550b,1125s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on thesis.pdf (96 pages).
+Output written on thesis.pdf (89 pages).

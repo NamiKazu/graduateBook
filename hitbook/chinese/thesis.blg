@@ -27,45 +27,45 @@ Repeated entry---line 959 of file reference.bib
  : @article{2005Mining
  :                    ,
 I'm skipping whatever remains of this entry
-You've used 57 entries,
+You've used 55 entries,
             5374 wiz_defined-function locations,
-            1388 strings with 18793 characters,
-and the built_in function-call counts, 489182 in all, are:
-= -- 9954
-> -- 56916
-< -- 71041
-+ -- 19955
-- -- 4177
-* -- 2658
-:= -- 67592
-add.period$ -- 181
-call.type$ -- 57
-change.case$ -- 451
-chr.to.int$ -- 17502
-cite$ -- 57
-duplicate$ -- 1439
-empty$ -- 4066
-format.name$ -- 1825
-if$ -- 127343
+            1373 strings with 18165 characters,
+and the built_in function-call counts, 467480 in all, are:
+= -- 9447
+> -- 54411
+< -- 67972
++ -- 19101
+- -- 3976
+* -- 2507
+:= -- 64560
+add.period$ -- 172
+call.type$ -- 55
+change.case$ -- 427
+chr.to.int$ -- 16752
+cite$ -- 55
+duplicate$ -- 1386
+empty$ -- 3864
+format.name$ -- 1732
+if$ -- 121731
 int.to.chr$ -- 1
-int.to.str$ -- 58
+int.to.str$ -- 56
 missing$ -- 0
-newline$ -- 325
-num.names$ -- 172
-pop$ -- 26073
+newline$ -- 311
+num.names$ -- 165
+pop$ -- 24996
 preamble$ -- 1
-purify$ -- 57
+purify$ -- 55
 quote$ -- 0
-skip$ -- 50367
+skip$ -- 48083
 stack$ -- 0
-substring$ -- 22754
-swap$ -- 57
-text.length$ -- 1326
+substring$ -- 21681
+swap$ -- 55
+text.length$ -- 1267
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 623
+type$ -- 601
 warning$ -- 0
-while$ -- 1377
+while$ -- 1315
 width$ -- 0
-write$ -- 777
+write$ -- 745
 (There were 2 error messages)
