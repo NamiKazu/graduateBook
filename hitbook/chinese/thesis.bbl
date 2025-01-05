@@ -1,4 +1,4 @@
-\begin{thebibliography}{55}
+\begin{thebibliography}{54}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{#1}
 \expandafter\ifx\csname urlstyle\endcsname\relax\else
@@ -294,13 +294,6 @@ HUANG Y, JIANG J, LUO X, et~al.
 \newblock IEEE Transactions on Software Engineering, 2021, PP\allowbreak (99):
   1-1.
 
-\bibitem[Lattner et~al.(2020)Lattner, Amini, Bondhugula, Cohen, Davis, Pienaar,
-  Riddle, Shpeisman, Vasilache, and Zinenko]{2020MLIR}
-LATTNER C, AMINI M, BONDHUGULA U, et~al.
-\newblock Mlir: A compiler infrastructure for the end of moore's
-  law\allowbreak[Z].
-\newblock 2020.
-
 \bibitem[llvm-admin team(2024)]{clang}
 LLVM-ADMIN TEAM.
 \newblock Clang, a c language family frontend for llvm.\allowbreak[EB/OL].
@@ -312,6 +305,18 @@ LLVM-ADMIN TEAM.
 \newblock libclang: C interface to clang.\allowbreak[EB/OL].
 \newblock 2024.
 \newblock \url{https://clang.llvm.org/doxygen/group__CINDEX.html}.
+
+\bibitem[Gomariz et~al.(2013)Gomariz, Campos, Marin, and Goethals]{2013ClaSP}
+GOMARIZ A, CAMPOS M, MARIN R, et~al.
+\newblock Clasp: An efficient algorithm for mining frequent closed
+  sequences\allowbreak[Z].
+\newblock 2013.
+
+\bibitem[花子涵\ 等(2024)花子涵, 杨立, 陆俊逸, and
+  左春]{花子涵2024代码审查自动化研究综述}
+花子涵, 杨立, 陆俊逸, 等.
+\newblock 代码审查自动化研究综述\allowbreak[J].
+\newblock 软件学报, 2024, 35\allowbreak (7): 3265-3290.
 
 \bibitem[Adjoyan et~al.(2014)Adjoyan, Seriai, and Shatnawi]{2014Service}
 ADJOYAN S, SERIAI A~D, SHATNAWI A.
@@ -358,17 +363,5 @@ Proceedings of the 1995 Symposium on Software reusability.
 迟曲.
 \newblock 关于软件设计的模块独立性分析\allowbreak[J].
 \newblock 数字技术与应用, 2011\allowbreak (3): 2.
-
-\bibitem[Gomariz et~al.(2013)Gomariz, Campos, Marin, and Goethals]{2013ClaSP}
-GOMARIZ A, CAMPOS M, MARIN R, et~al.
-\newblock Clasp: An efficient algorithm for mining frequent closed
-  sequences\allowbreak[Z].
-\newblock 2013.
-
-\bibitem[花子涵\ 等(2024)花子涵, 杨立, 陆俊逸, and
-  左春]{花子涵2024代码审查自动化研究综述}
-花子涵, 杨立, 陆俊逸, 等.
-\newblock 代码审查自动化研究综述\allowbreak[J].
-\newblock 软件学报, 2024, 35\allowbreak (7): 3265-3290.
 
 \end{thebibliography}

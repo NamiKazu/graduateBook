@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.11.30)  5 JAN 2025 16:17
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.11.30)  5 JAN 2025 21:29
 entering extended mode
  \write18 enabled.
  Source specials enabled.
@@ -2652,76 +2652,22 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[29] [30] [31] [32]
-File: figures/静态分析拒绝样例.jpg Graphic file (type bmp)
-<figures/静态分析拒绝样例.jpg>
- [33]
-Overfull \hbox (28.35686pt too wide) in paragraph at lines 571--579
- [][][] 
- []
-
-
-Overfull \hbox (19.57756pt too wide) in paragraph at lines 605--614
- [][][] 
- []
-
-[34]
-File: figures/克隆代码示例.jpg Graphic file (type bmp)
-<figures/克隆代码示例.jpg>
-
-Underfull \hbox (badness 4013) in paragraph at lines 629--630
-[][]\TU/SongtiSCLight(0)/m/n/12.045 为 了 说 明 数 据 挖 掘 方 法 的 优 秀 潜 力，|  以 \TU/TeXG
-yreTermesX(0)/m/n/12.045 librdkafka \TU/SongtiSCLight(0)/m/n/12.045 项 目 中 挖 掘 到
- 的 一
- []
-
-
-Underfull \hbox (badness 2799) in paragraph at lines 629--630
-\TU/SongtiSCLight(0)/m/n/12.045 对 方 法 为 例，|  该 项 目 是 \TU/TeXGyreTermesX(0)/m/n/
-12.045 Apache Kafka \TU/SongtiSCLight(0)/m/n/12.045 的 一 个 高 性 能 \TU/TeXGyreTerm
-esX(0)/m/n/12.045 C/C++ \TU/SongtiSCLight(0)/m/n/12.045 客 户 端 库。|  图
- []
-
-
-Underfull \hbox (badness 3078) in paragraph at lines 629--630
-\TU/TeXGyreTermesX(0)/m/n/12.045 3-7 \TU/SongtiSCLight(0)/m/n/12.045 展 示 了 通 过 
-数 据 挖 掘 技 术 发 现 的 一 对 存 在 变 更 影 响 关 系 的 方 法。|  左 侧
- []
-
-[35]
-File: figures/incrdec.jpg Graphic file (type bmp)
-<figures/incrdec.jpg>
-File: figures/subscribe.jpg Graphic file (type bmp)
-<figures/subscribe.jpg>
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[36] [37]
-第3章
-[38
-
-
-]
+[29] [30]
 File: figures/模型架构3.jpg Graphic file (type bmp)
 <figures/模型架构3.jpg>
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[39] [40]
-./body/part1.tex:762: Missing $ inserted.
+ [31] [32] [33]
+./body/part1.tex:599: Missing $ inserted.
 <inserted text> 
                 $
-l.762 Adam \beta
+l.599 Adam \beta
                 _1  & 0.95  \\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./body/part1.tex:762: Missing $ inserted.
+./body/part1.tex:599: Missing $ inserted.
 <inserted text> 
                 $
-l.762 Adam \beta_1  &
+l.599 Adam \beta_1  &
                       0.95  \\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2729,18 +2675,18 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./body/part1.tex:763: Missing $ inserted.
+./body/part1.tex:600: Missing $ inserted.
 <inserted text> 
                 $
-l.763 Adam \beta
+l.600 Adam \beta
                 _2 & 0.999  \\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./body/part1.tex:763: Missing $ inserted.
+./body/part1.tex:600: Missing $ inserted.
 <inserted text> 
                 $
-l.763 Adam \beta_2 &
+l.600 Adam \beta_2 &
                      0.999  \\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2748,37 +2694,90 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-[41]
-Underfull \hbox (badness 2269) in paragraph at lines 803--804
+[34] [35] [36]
+File: figures/静态分析拒绝样例.jpg Graphic file (type bmp)
+<figures/静态分析拒绝样例.jpg>
+ [37]
+Overfull \hbox (19.57756pt too wide) in paragraph at lines 687--696
+ [][][] 
+ []
+
+File: figures/克隆代码示例.jpg Graphic file (type bmp)
+<figures/克隆代码示例.jpg>
+[38]
+Underfull \hbox (badness 4013) in paragraph at lines 712--713
+[][]\TU/SongtiSCLight(0)/m/n/12.045 为 了 说 明 数 据 挖 掘 方 法 的 优 秀 潜 力，|  以 \TU/TeXG
+yreTermesX(0)/m/n/12.045 librdkafka \TU/SongtiSCLight(0)/m/n/12.045 项 目 中 挖 掘 到
+ 的 一
+ []
+
+
+Underfull \hbox (badness 2799) in paragraph at lines 712--713
+\TU/SongtiSCLight(0)/m/n/12.045 对 方 法 为 例，|  该 项 目 是 \TU/TeXGyreTermesX(0)/m/n/
+12.045 Apache Kafka \TU/SongtiSCLight(0)/m/n/12.045 的 一 个 高 性 能 \TU/TeXGyreTerm
+esX(0)/m/n/12.045 C/C++ \TU/SongtiSCLight(0)/m/n/12.045 客 户 端 库。|  图
+ []
+
+
+Underfull \hbox (badness 3078) in paragraph at lines 712--713
+\TU/TeXGyreTermesX(0)/m/n/12.045 3-7 \TU/SongtiSCLight(0)/m/n/12.045 展 示 了 通 过 
+数 据 挖 掘 技 术 发 现 的 一 对 存 在 变 更 影 响 关 系 的 方 法。|  左 侧
+ []
+
+File: figures/incrdec.jpg Graphic file (type bmp)
+<figures/incrdec.jpg>
+[39]
+File: figures/subscribe.jpg Graphic file (type bmp)
+<figures/subscribe.jpg>
+ [40]
+Overfull \hbox (28.35686pt too wide) in paragraph at lines 740--748
+ [][][] 
+ []
+
+
+Underfull \hbox (badness 2269) in paragraph at lines 761--762
 []|\TU/SongtiSCLight(0)/m/n/10.53937 只 能 检 测 代 码 克 隆 一 种
  []
 
 
-Underfull \hbox (badness 2269) in paragraph at lines 804--805
+Underfull \hbox (badness 2269) in paragraph at lines 762--763
 []|\TU/SongtiSCLight(0)/m/n/10.53937 无 法 应 用 于 没 有 变 更 历
  []
 
 
-Underfull \hbox (badness 5417) in paragraph at lines 804--805
+Underfull \hbox (badness 5417) in paragraph at lines 762--763
 \TU/SongtiSCLight(0)/m/n/10.53937 史 的 项 目，|  如 果 不 频 繁
  []
 
-[42]
+) [41]
+\openout2 = `body/part2.aux'.
+
+ (./body/part2.tex
+第3章
+[42
+
+
+
+
+
+]
 File: figures/克隆代码拒绝样例.jpg Graphic file (type bmp)
 <figures/克隆代码拒绝样例.jpg>
+ [43]) [44]
+\openout2 = `body/part3.aux'.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[43] [44] [45]
+ (./body/part3.tex
 第4章
-[46
+[45
+
+
+
 
 
 ]
 File: figures/内聚度示例.jpg Graphic file (type bmp)
 <figures/内聚度示例.jpg>
- [47]
+ [46]
 File: figures/LCOM3.jpg Graphic file (type bmp)
 <figures/LCOM3.jpg>
 File: figures/LCOM4.jpg Graphic file (type bmp)
@@ -2787,28 +2786,28 @@ File: figures/LCOM4.jpg Graphic file (type bmp)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[48]
+[47]
 File: figures/TCCLCC.jpg Graphic file (type bmp)
 <figures/TCCLCC.jpg>
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[49] [50]
+[48] [49]
 File: figures/扇入扇出.png Graphic file (type bmp)
 <figures/扇入扇出.png>
- [51] [52] [53] [54]
+ [50] [51] [52] [53]
 File: figures/G6图数据示例.jpg Graphic file (type bmp)
 <figures/G6图数据示例.jpg>
- [55] [56] [57] [58] [59] [60]
-Overfull \hbox (4.81847pt too wide) in paragraph at lines 1414--1424
+ [54] [55] [56] [57] [58] [59]
+Overfull \hbox (4.81847pt too wide) in paragraph at lines 532--542
  [][][] 
  []
 
-[61]
+[60]
 File: figures/扇出高例子.jpg Graphic file (type bmp)
 <figures/扇出高例子.jpg>
- [62]
+ [61]
 File: figures/antiword审查图未上色.jpg Graphic file (type bmp)
 <figures/antiword审查图未上色.jpg>
 File: figures/aigri代码审查图-未上色.jpg Graphic file (type bmp)
@@ -2826,7 +2825,7 @@ File: figures/点击节点.png Graphic file (type bmp)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[63] [64]
+[62] [63]
 File: figures/代码审查图子图.jpg Graphic file (type bmp)
 <figures/代码审查图子图.jpg>
 File: figures/内聚度差例子.jpg Graphic file (type bmp)
@@ -2835,12 +2834,12 @@ File: figures/内聚度差例子.jpg Graphic file (type bmp)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[65]
+[64]
 File: figures/存在链式调用.jpg Graphic file (type bmp)
 <figures/存在链式调用.jpg>
 File: figures/内聚度好.jpg Graphic file (type bmp)
 <figures/内聚度好.jpg>
- [66]
+ [65]
 File: figures/扇出度最高.jpg Graphic file (type bmp)
 <figures/扇出度最高.jpg>
 File: figures/模块分错.jpg Graphic file (type bmp)
@@ -2849,45 +2848,32 @@ File: figures/模块分错.jpg Graphic file (type bmp)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[67]
+[66]
 File: figures/变更影响关系审查图.jpg Graphic file (type bmp)
 <figures/变更影响关系审查图.jpg>
- [68]
+ [67]
 File: figures/质量评估报告.jpg Graphic file (type bmp)
 <figures/质量评估报告.jpg>
 File: figures/应用展示审查图.jpg Graphic file (type bmp)
 <figures/应用展示审查图.jpg>
- [69
+ [68
 
 ]
 File: figures/应用查看节点信息.jpg Graphic file (type bmp)
 <figures/应用查看节点信息.jpg>
 File: figures/应用边信息.jpg Graphic file (type bmp)
 <figures/应用边信息.jpg>
- [70]) [71]
-\openout2 = `body/part2.aux'.
-
- (./body/part2.tex)
-\openout2 = `body/part3.aux'.
-
- (./body/part3.tex)
+ [69]) [70]
 \openout2 = `back/conclusion.aux'.
 
-
-(./back/conclusion.tex [72
-
+ (./back/conclusion.tex [71
 
 
 
 
 
 
-
-
-
-
-
-]) [73] (./thesis.bbl
+]) [72] (./thesis.bbl
 ./thesis.bbl:17: Misplaced alignment tab character &.
 l.17 ...block Global Journal of Computer Science &
                                                    Technology, 2012.
@@ -2924,7 +2910,7 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-[74
+[73
 
 
 
@@ -2950,7 +2936,7 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-[75]
+[74]
 Underfull \hbox (badness 10000) in paragraph at lines 186--190
 [][]\TU/TeXGyreTermesX(0)/m/n/12.045 JITENDERKUMARCHHABRA, MRINAALMALHOTRA, JIT
 ENDERKU-
@@ -2976,9 +2962,9 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-[76]
-./thesis.bbl:320: Misplaced alignment tab character &.
-l.320 ...onal Conference on Software Engineering &
+[75]
+./thesis.bbl:325: Misplaced alignment tab character &.
+l.325 ...onal Conference on Software Engineering &
                                                    Knowledge Engineering.
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2987,13 +2973,13 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-[77]) [78] [79
+[76]) [77] [78
 
 
 ]
 \openout2 = `back/acknowledgements.aux'.
 
- (./back/acknowledgements.tex) [80
+ (./back/acknowledgements.tex) [79
 
 
 
@@ -3019,15 +3005,15 @@ LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.47188pt have occurred.
 
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: A14374178EEFD06F1CBA560FEDA625FB;10400.
+(rerunfilecheck)             Checksum: B6262A4899CF9275AE72D819EAD30552;10091.
  ) 
 Here is how much of TeX's memory you used:
- 45412 strings out of 474773
- 971530 string characters out of 5757723
+ 45408 strings out of 474773
+ 971469 string characters out of 5757723
  1952839 words of memory out of 5000000
- 66636 multiletter control sequences out of 15000+600000
+ 66632 multiletter control sequences out of 15000+600000
  616692 words of font info for 242 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  107i,19n,111p,2550b,1125s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on thesis.pdf (89 pages).
+Output written on thesis.pdf (88 pages).
