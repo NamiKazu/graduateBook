@@ -1,7 +1,7 @@
 \relax 
 \providecommand\hyper@newdestlabel[2]{}
-\pp@pagectr{footnote}{2}{22}{13}
-\@writefile{toc}{\contentsline {chapter}{\numberline {第2章}基于方法间关联关系的代码变更影响分析}{13}{chapter.2}\protected@file@percent }
+\pp@pagectr{footnote}{2}{23}{13}
+\@writefile{toc}{\contentsline {chapter}{\numberline {第2章}基于方法间关系和深度学习的代码变更影响分析}{13}{chapter.2}\protected@file@percent }
 \@writefile{lof}{\addvspace {10.0pt}}
 \@writefile{lot}{\addvspace {10.0pt}}
 \@writefile{loa}{\addvspace {10\p@ }}
@@ -10,79 +10,84 @@
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.2.1}基于clang的抽象语法树生成}{13}{subsection.2.2.1}\protected@file@percent }
 \citation{clang}
 \citation{libclang}
-\@writefile{lof}{\contentsline {figure}{\numberline {2-1}{\ignorespaces 示例代码}}{14}{figure.2.1}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {2-2}{\ignorespaces 示例代码对应的抽象语法树结构}}{15}{figure.2.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.2.2}方法调用链提取与分析}{16}{subsection.2.2.2}\protected@file@percent }
-\@writefile{loa}{\contentsline {algocf}{\numberline {2-1}{\ignorespaces 方法调用链提取}}{17}{algocf.2-1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.2.3}全局变量定义-使用链提取与分析}{18}{subsection.2.2.3}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {2-3}{\ignorespaces 全局变量提取流程图}}{18}{figure.2.3}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {2-1}{\ignorespaces 重要AST节点类型标识}}{14}{table.2.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2.2}方法调用链提取与分析}{14}{subsection.2.2.2}\protected@file@percent }
+\@writefile{loa}{\contentsline {algocf}{\numberline {2-1}{\ignorespaces 方法调用链提取}}{16}{algocf.2-1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2.3}全局变量定义-使用链提取与分析}{17}{subsection.2.2.3}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2-1}{\ignorespaces 全局变量提取流程图}}{17}{figure.2.1}\protected@file@percent }
 \citation{2021Improving}
-\@writefile{toc}{\contentsline {section}{\numberline {2.3}基于依赖关系的变更影响分析}{19}{section.2.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {paragraph}{构建依赖图}{19}{paragraph*.11}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {2-4}{\ignorespaces 依赖图示例}}{20}{figure.2.4}\protected@file@percent }
-\@writefile{toc}{\contentsline {paragraph}{执行变更影响分析}{20}{paragraph*.12}\protected@file@percent }
-\@writefile{loe}{\contentsline {equation}{\numberline {2-1}}{20}{equation.2.3.1}\protected@file@percent }
-\@writefile{loe}{\contentsline {equation}{\numberline {2-2}}{21}{equation.2.3.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {2.4}基于克隆关系的变更影响分析}{21}{section.2.4}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {2-5}{\ignorespaces 基于代码克隆的变更影响分析方法流程}}{22}{figure.2.5}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.4.1}代码预处理和分块}{22}{subsection.2.4.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {paragraph}{代码预处理}{22}{paragraph*.13}\protected@file@percent }
-\@writefile{toc}{\contentsline {paragraph}{代码分块}{23}{paragraph*.14}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2.3}基于依赖关系的变更影响分析}{18}{section.2.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{构建依赖图}{18}{paragraph*.11}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2-2}{\ignorespaces 依赖图示例}}{19}{figure.2.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{执行变更影响分析}{19}{paragraph*.12}\protected@file@percent }
+\@writefile{loe}{\contentsline {equation}{\numberline {2-1}}{19}{equation.2.3.1}\protected@file@percent }
+\@writefile{loe}{\contentsline {equation}{\numberline {2-2}}{20}{equation.2.3.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2.4}基于克隆关系的变更影响分析}{20}{section.2.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.4.1}代码预处理}{20}{subsection.2.4.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{词法分析}{20}{paragraph*.13}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2-3}{\ignorespaces 基于代码克隆的变更影响分析方法流程}}{21}{figure.2.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{代码分块}{21}{paragraph*.14}\protected@file@percent }
 \citation{2013ClaSP}
-\citation{2013ClaSP}
-\citation{2013ClaSP}
-\citation{2013ClaSP}
-\citation{2013ClaSP}
-\@writefile{toc}{\contentsline {paragraph}{代码指纹提取}{24}{paragraph*.15}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.4.2}基于代码克隆检测的变更影响关系提取}{24}{subsection.2.4.2}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {2-1}{\ignorespaces 序列数据库示例}}{25}{table.2.1}\protected@file@percent }
-\@writefile{loa}{\contentsline {algocf}{\numberline {2-2}{\ignorespaces ClaSP算法}}{26}{algocf.2-2}\protected@file@percent }
-\@writefile{loa}{\contentsline {algocf}{\numberline {2-3}{\ignorespaces DFS-Pruning算法}}{26}{algocf.2-3}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {2.5}基于变更历史和共现关联关系的变更影响分析}{27}{section.2.5}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.5.1}代码变更历史提取}{27}{subsection.2.5.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.5.2}基于共现关联挖掘的变更影响关系提取}{28}{subsection.2.5.2}\protected@file@percent }
-\@writefile{loe}{\contentsline {equation}{\numberline {2-3}}{29}{equation.2.5.3}\protected@file@percent }
-\@writefile{loe}{\contentsline {equation}{\numberline {2-4}}{29}{equation.2.5.4}\protected@file@percent }
-\@writefile{loa}{\contentsline {algocf}{\numberline {2-4}{\ignorespaces 变更影响方法对挖掘算法}}{30}{algocf.2-4}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {2.6}基于深度学习的变更影响分析}{30}{section.2.6}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.6.1}数据集来源和数据清洗}{30}{subsection.2.6.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.6.2}基于代码预训练模型的变更影响关系预测}{31}{subsection.2.6.2}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {2-6}{\ignorespaces 基于代码预训练的深度学习模型架构}}{32}{figure.2.6}\protected@file@percent }
-\@writefile{loe}{\contentsline {equation}{\numberline {2-5}}{32}{equation.2.6.5}\protected@file@percent }
-\@writefile{loe}{\contentsline {equation}{\numberline {2-6}}{32}{equation.2.6.6}\protected@file@percent }
-\@writefile{loe}{\contentsline {equation}{\numberline {2-7}}{32}{equation.2.6.7}\protected@file@percent }
-\@writefile{loe}{\contentsline {equation}{\numberline {2-8}}{32}{equation.2.6.8}\protected@file@percent }
-\@writefile{loe}{\contentsline {equation}{\numberline {2-9}}{32}{equation.2.6.9}\protected@file@percent }
-\@writefile{loe}{\contentsline {equation}{\numberline {2-10}}{32}{equation.2.6.10}\protected@file@percent }
-\@writefile{loe}{\contentsline {equation}{\numberline {2-11}}{32}{equation.2.6.11}\protected@file@percent }
-\@writefile{loe}{\contentsline {equation}{\numberline {2-12}}{33}{equation.2.6.12}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {2.7}实验结果与分析}{33}{section.2.7}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.7.1}实验数据与评价方式}{33}{subsection.2.7.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {paragraph}{实验数据}{33}{paragraph*.16}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {2-2}{\ignorespaces 被测项目}}{33}{table.2.2}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {2-3}{\ignorespaces 被测项目数据统计}}{33}{table.2.3}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {2-4}{\ignorespaces 数据集统计信息}}{34}{table.2.4}\protected@file@percent }
-\@writefile{toc}{\contentsline {paragraph}{评价指标}{34}{paragraph*.17}\protected@file@percent }
-\@writefile{loe}{\contentsline {equation}{\numberline {2-13}}{34}{equation.2.7.13}\protected@file@percent }
-\@writefile{loe}{\contentsline {equation}{\numberline {2-14}}{34}{equation.2.7.14}\protected@file@percent }
-\@writefile{loe}{\contentsline {equation}{\numberline {2-15}}{34}{equation.2.7.15}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.7.2}实验设置与实验过程}{34}{subsection.2.7.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {paragraph}{实验设置}{34}{paragraph*.18}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {2-5}{\ignorespaces 模型参数设置}}{35}{table.2.5}\protected@file@percent }
-\@writefile{toc}{\contentsline {paragraph}{实验过程}{35}{paragraph*.19}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {2-6}{\ignorespaces 基于代码预训练模型的变更影响关系在数据集上的实验结果}}{35}{table.2.6}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.7.3}实验结果与对比分析}{35}{subsection.2.7.3}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {2-7}{\ignorespaces 变更影响实验结果 - F-measure/召回率/精确度}}{36}{table.2.7}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {2-7}{\ignorespaces 依赖闭包方法迭代路径}}{37}{figure.2.7}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {2-8}{\ignorespaces 变更影响实验结果 - F-measure/召回率/精确度}}{37}{table.2.8}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {2-8}{\ignorespaces 包含克隆代码片段的一组方法实例}}{38}{figure.2.8}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {2-9}{\ignorespaces 逻辑上有变更影响关系的方法对示例-incr和decr}}{39}{figure.2.9}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {2-10}{\ignorespaces 逻辑上有变更影响关系的方法对示例-subscribe和unsubscribe}}{39}{figure.2.10}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {2-9}{\ignorespaces 变更影响实验结果 - F-measure/召回率/精确度}}{40}{table.2.9}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {2-10}{\ignorespaces 变更影响分析方法对比总结}}{40}{table.2.10}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {2.8}本章小结}{41}{section.2.8}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{代码指纹提取}{22}{paragraph*.15}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.4.2}基于代码克隆检测的变更影响关系提取}{22}{subsection.2.4.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{闭合序列挖掘——检测克隆代码片段}{22}{paragraph*.16}\protected@file@percent }
+\@writefile{loa}{\contentsline {algocf}{\numberline {2-2}{\ignorespaces ClaSP算法}}{22}{algocf.2-2}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{合并碎片——提取方法间的变更影响关系}{23}{paragraph*.17}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2.5}基于变更历史和共现关联关系的变更影响分析}{23}{section.2.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.5.1}代码变更历史提取}{23}{subsection.2.5.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{收集项目代码库及变更历史记录}{23}{paragraph*.18}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{提取每个提交的变更信息}{24}{paragraph*.19}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{定位变更代码行所属的方法}{24}{paragraph*.20}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{提取变更方法与提交的关系}{24}{paragraph*.21}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.5.2}基于共现关联挖掘的变更影响关系提取}{24}{subsection.2.5.2}\protected@file@percent }
+\@writefile{loe}{\contentsline {equation}{\numberline {2-3}}{24}{equation.2.5.3}\protected@file@percent }
+\@writefile{loe}{\contentsline {equation}{\numberline {2-4}}{25}{equation.2.5.4}\protected@file@percent }
+\@writefile{loa}{\contentsline {algocf}{\numberline {2-3}{\ignorespaces 变更影响方法对挖掘算法}}{25}{algocf.2-3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2.6}基于深度学习的变更影响分析}{26}{section.2.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.6.1}研究动机}{26}{subsection.2.6.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.6.2}数据集来源和数据清洗}{26}{subsection.2.6.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{数据集来源}{26}{paragraph*.22}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{数据清洗}{26}{paragraph*.23}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.6.3}基于代码预训练模型的变更影响关系预测}{27}{subsection.2.6.3}\protected@file@percent }
+\@writefile{loe}{\contentsline {equation}{\numberline {2-5}}{27}{equation.2.6.5}\protected@file@percent }
+\@writefile{loe}{\contentsline {equation}{\numberline {2-6}}{27}{equation.2.6.6}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2-4}{\ignorespaces 基于代码预训练的深度学习模型架构}}{28}{figure.2.4}\protected@file@percent }
+\@writefile{loe}{\contentsline {equation}{\numberline {2-7}}{28}{equation.2.6.7}\protected@file@percent }
+\@writefile{loe}{\contentsline {equation}{\numberline {2-8}}{28}{equation.2.6.8}\protected@file@percent }
+\@writefile{loe}{\contentsline {equation}{\numberline {2-9}}{28}{equation.2.6.9}\protected@file@percent }
+\@writefile{loe}{\contentsline {equation}{\numberline {2-10}}{28}{equation.2.6.10}\protected@file@percent }
+\@writefile{loe}{\contentsline {equation}{\numberline {2-11}}{28}{equation.2.6.11}\protected@file@percent }
+\@writefile{loe}{\contentsline {equation}{\numberline {2-12}}{28}{equation.2.6.12}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2.7}实验结果与分析}{28}{section.2.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.7.1}实验数据与评价方式}{28}{subsection.2.7.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{实验数据}{28}{paragraph*.24}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {2-2}{\ignorespaces 被测项目}}{29}{table.2.2}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {2-3}{\ignorespaces 被测项目数据统计}}{29}{table.2.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{评价指标}{29}{paragraph*.25}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {2-4}{\ignorespaces 数据集统计信息}}{30}{table.2.4}\protected@file@percent }
+\@writefile{loe}{\contentsline {equation}{\numberline {2-13}}{30}{equation.2.7.13}\protected@file@percent }
+\@writefile{loe}{\contentsline {equation}{\numberline {2-14}}{30}{equation.2.7.14}\protected@file@percent }
+\@writefile{loe}{\contentsline {equation}{\numberline {2-15}}{30}{equation.2.7.15}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.7.2}实验设置与实验过程}{30}{subsection.2.7.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{实验设置}{30}{paragraph*.26}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {2-5}{\ignorespaces 模型参数设置}}{30}{table.2.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{实验过程}{31}{paragraph*.27}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {2-6}{\ignorespaces 基于代码预训练模型的变更影响关系在数据集上的实验结果}}{31}{table.2.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.7.3}实验结果与对比分析}{31}{subsection.2.7.3}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {2-7}{\ignorespaces 变更影响实验结果 - F-measure/召回率/精确度}}{32}{table.2.7}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2-5}{\ignorespaces 依赖闭包方法迭代路径}}{32}{figure.2.5}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {2-8}{\ignorespaces 变更影响实验结果 - F-measure/召回率/精确度}}{33}{table.2.8}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{依赖关系闭包方法}{33}{paragraph*.28}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{克隆关系方法}{33}{paragraph*.29}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2-6}{\ignorespaces 包含克隆代码片段的一组方法实例}}{34}{figure.2.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{数据挖掘方法}{34}{paragraph*.30}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2-7}{\ignorespaces 逻辑上有变更影响关系的方法对示例-incr和decr}}{35}{figure.2.7}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {2-9}{\ignorespaces 变更影响实验结果 - F-measure/召回率/精确度}}{35}{table.2.9}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{深度学习方法}{35}{paragraph*.31}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {2-10}{\ignorespaces 变更影响分析方法对比总结}}{36}{table.2.10}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2.8}本章小结}{36}{section.2.8}\protected@file@percent }
 \@setckpt{body/part1}{
-\setcounter{page}{42}
+\setcounter{page}{37}
 \setcounter{equation}{15}
 \setcounter{enumi}{0}
 \setcounter{enumii}{0}
@@ -97,7 +102,7 @@
 \setcounter{subsubsection}{0}
 \setcounter{paragraph}{0}
 \setcounter{subparagraph}{0}
-\setcounter{figure}{10}
+\setcounter{figure}{7}
 \setcounter{table}{10}
 \setcounter{parentequation}{0}
 \setcounter{endNonectr}{22}
@@ -110,7 +115,7 @@
 \setcounter{Item}{0}
 \setcounter{Hfootnote}{0}
 \setcounter{Hy@AnnotLevel}{0}
-\setcounter{bookmark@seq@number}{36}
+\setcounter{bookmark@seq@number}{37}
 \setcounter{NAT@ctr}{0}
 \setcounter{cp@cntr}{0}
 \setcounter{subfigure}{0}
@@ -166,11 +171,14 @@
 \setcounter{fact}{0}
 \setcounter{r@tfl@t}{0}
 \setcounter{AlgoLine}{19}
-\setcounter{algocfline}{4}
-\setcounter{algocfproc}{4}
-\setcounter{algocf}{4}
+\setcounter{algocfline}{3}
+\setcounter{algocfproc}{3}
+\setcounter{algocf}{3}
 \setcounter{algoen}{0}
 \setcounter{aendepth}{1}
 \setcounter{lstnumber}{1}
+\setcounter{tcbbreakpart}{1}
+\setcounter{tcblayer}{0}
+\setcounter{tcolorbox@number}{1}
 \setcounter{lstlisting}{0}
 }

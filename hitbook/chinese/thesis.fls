@@ -437,6 +437,10 @@ INPUT /usr/local/texlive/2024/texmf-dist/tex/generic/pgf/libraries/pgflibraryplo
 INPUT /usr/local/texlive/2024/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 INPUT /usr/local/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
 INPUT /usr/local/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
+INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
+INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
+INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/tools/verbatim.sty
+INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/tools/verbatim.sty
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/graphics/color.sty
 INPUT ./thesis.aux
 INPUT ./thesis.aux
@@ -654,10 +658,6 @@ OUTPUT body/part1.aux
 INPUT ./body/part1.tex
 INPUT ./body/part1.tex
 INPUT body/part1.tex
-INPUT ./figures/代码示例.png
-INPUT ./figures/代码示例.png
-INPUT ./figures/ast示例.png
-INPUT ./figures/ast示例.png
 INPUT ./figures/全局变量提取流程图.jpg
 INPUT ./figures/全局变量提取流程图.jpg
 INPUT ./figures/依赖关系示例.png
@@ -672,8 +672,6 @@ INPUT ./figures/克隆代码示例.jpg
 INPUT ./figures/克隆代码示例.jpg
 INPUT ./figures/incrdec.jpg
 INPUT ./figures/incrdec.jpg
-INPUT ./figures/subscribe.jpg
-INPUT ./figures/subscribe.jpg
 INPUT ./body/part2.tex
 INPUT ./body/part2.tex
 OUTPUT body/part2.aux
