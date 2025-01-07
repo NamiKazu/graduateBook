@@ -1,25 +1,25 @@
 # Fdb version 4
-["bibtex thesis"] 1736147377.42835 "thesis.aux" "thesis.bbl" "thesis" 1736173488.59084 2
+["bibtex thesis"] 1736147377.42835 "thesis.aux" "thesis.bbl" "thesis" 1736258752.18019 2
   "./reference.bib" 1735916926.61319 24412 ed2bb2d2f7307c5940e4e28ff6798f87 ""
   "/usr/local/texlive/2024/texmf-dist/bibtex/bst/gbt7714/gbt7714-numerical.bst" 1664828645 46094 ad0aed08d79354f7f2e8883dbf55daa8 ""
-  "back/acknowledgements.aux" 1736173488.07481 2879 2c8b2648cf553ba1bbfd5f7c4271c0be "pdflatex"
-  "back/conclusion.aux" 1736173486.31845 2867 08576d737df66ad9f8a0d717cfdc4d58 "pdflatex"
-  "body/part1.aux" 1736173485.65125 12968 bbbf220ff146673739a2909c65ab8a5c "pdflatex"
-  "body/part2.aux" 1736173485.7376 5201 15826a70d6dc094b5337538e69ddf89e "pdflatex"
-  "body/part3.aux" 1736173486.30752 11819 56d628f785ca403ab7fd8f16ea3c3795 "pdflatex"
-  "body/regu.aux" 1736173485.01081 5656 ebd775692a044f92e031327b05cf8711 "pdflatex"
-  "thesis.aux" 1736173488.07534 6429 9a2d0410c642c46d0c20cfaca33098dc "pdflatex"
+  "back/acknowledgements.aux" 1736258751.69121 2879 a8983729e1adacc0510c31d78c000a62 "pdflatex"
+  "back/conclusion.aux" 1736258749.9438 2867 7f7d99a4f13e7f665fe7928af5b9edab "pdflatex"
+  "body/part1.aux" 1736258749.22594 13144 54cec16342a41f1c5773145c7ecce614 "pdflatex"
+  "body/part2.aux" 1736258749.6188 5726 b7eafde00739ac4805b4c7bccb095ef4 "pdflatex"
+  "body/part3.aux" 1736258749.93302 11819 f3c3e22858c71d953999e836fcc37139 "pdflatex"
+  "body/regu.aux" 1736258748.49363 5656 ebd775692a044f92e031327b05cf8711 "pdflatex"
+  "thesis.aux" 1736258751.69167 6429 98a9b8347db6114af665a410ec381e06 "pdflatex"
   (generated)
   "thesis.bbl"
   "thesis.blg"
   (rewritten before read)
-["makeindex thesis.idx"] 1733296880.73461 "thesis.idx" "thesis.ind" "thesis" 1736173488.58642 0
-  "thesis.idx" 1736173484.03255 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+["makeindex thesis.idx"] 1733296880.73461 "thesis.idx" "thesis.ind" "thesis" 1736258752.17299 0
+  "thesis.idx" 1736258747.32281 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   (generated)
   "thesis.ilg"
   "thesis.ind"
   (rewritten before read)
-["pdflatex"] 1736173483.16728 "thesis.tex" "thesis.pdf" "thesis" 1736173488.58652 2
+["pdflatex"] 1736258746.33751 "thesis.tex" "thesis.pdf" "thesis" 1736258752.17312 2
   "/System/Library/Fonts/PingFang.ttc" 1693640113 77871956 3d22e380c15f04df909e9b516b18342c ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
@@ -290,17 +290,17 @@
   "/usr/local/texlive/2024/texmf-dist/web2c/texmf.cnf" 1708706663 41649 5d6ae549fbbcb850a863f69aa41f3d10 ""
   "/usr/local/texlive/2024/texmf-var/web2c/xetex/xelatex.fmt" 1732957517 10850201 a17b7cee86e012b735fce629f0e981e6 ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "back/acknowledgements.aux" 1736173488.07481 2879 2c8b2648cf553ba1bbfd5f7c4271c0be "pdflatex"
+  "back/acknowledgements.aux" 1736258751.69121 2879 a8983729e1adacc0510c31d78c000a62 "pdflatex"
   "back/acknowledgements.tex" 1735527667.42575 1048 be565ed29627b816e08520ad57b61177 ""
-  "back/conclusion.aux" 1736173486.31845 2867 08576d737df66ad9f8a0d717cfdc4d58 "pdflatex"
+  "back/conclusion.aux" 1736258749.9438 2867 7f7d99a4f13e7f665fe7928af5b9edab "pdflatex"
   "back/conclusion.tex" 1735400173.7759 2896 1e57e72fa8a21e690efaa4f1fbe2a830 ""
-  "body/part1.aux" 1736173485.65125 12968 bbbf220ff146673739a2909c65ab8a5c "pdflatex"
-  "body/part1.tex" 1736161136.57398 50599 9248d120e19c57e51ffc027ddf51a6b1 ""
-  "body/part2.aux" 1736173485.7376 5201 15826a70d6dc094b5337538e69ddf89e "pdflatex"
-  "body/part2.tex" 1736173482.38971 10105 73ce6fa1f8bc21dd25bd1015a9bfbd53 ""
-  "body/part3.aux" 1736173486.30752 11819 56d628f785ca403ab7fd8f16ea3c3795 "pdflatex"
+  "body/part1.aux" 1736258749.22594 13144 54cec16342a41f1c5773145c7ecce614 "pdflatex"
+  "body/part1.tex" 1736230660.8174 51521 0f571616460504dd9bf841bad70881f6 ""
+  "body/part2.aux" 1736258749.6188 5726 b7eafde00739ac4805b4c7bccb095ef4 "pdflatex"
+  "body/part2.tex" 1736258745.56152 16321 73a91fcee079e1bf960decffa799f6f0 ""
+  "body/part3.aux" 1736258749.93302 11819 f3c3e22858c71d953999e836fcc37139 "pdflatex"
   "body/part3.tex" 1736065141.97316 56474 f7e3601ced128a863a631edb42bb2b41 ""
-  "body/regu.aux" 1736173485.01081 5656 ebd775692a044f92e031327b05cf8711 "pdflatex"
+  "body/regu.aux" 1736258748.49363 5656 ebd775692a044f92e031327b05cf8711 "pdflatex"
   "body/regu.tex" 1735723515.96984 32354 032a8e27c9f9b6871c19ecba63960443 ""
   "figures/G6图数据示例.jpg" 1734696988.83053 13053 53adf5166cef696efa57a73156df892d ""
   "figures/LCOM3.jpg" 1735218143.9297 32144 9f8cd205c6367af5e7d840baed416c70 ""
@@ -339,12 +339,12 @@
   "hithesis.sty" 1732960906.59099 12575 7589aec198a460ba0295ef44e01a76ff ""
   "hithesisbook.cfg" 1732960906.54576 16065 61ba19c25fc19a6be2ea5248e3d77b55 ""
   "hithesisbook.cls" 1732960906.54487 61124 724c962265ce8065682ae8c37f0393ce ""
-  "thesis.aux" 1736173488.07534 6429 9a2d0410c642c46d0c20cfaca33098dc "pdflatex"
+  "thesis.aux" 1736258751.69167 6429 98a9b8347db6114af665a410ec381e06 "pdflatex"
   "thesis.bbl" 1736147377.65156 15493 9a29188273cb38c510427c91939c3aef "bibtex thesis"
   "thesis.ind" 1733296880.8719 0 d41d8cd98f00b204e9800998ecf8427e "makeindex thesis.idx"
-  "thesis.out" 1736173488.08171 11438 feea44f4092390c8fcb0a984e65140bd "pdflatex"
+  "thesis.out" 1736258751.69613 11422 536d5b2002f089330a175ea99d046b30 "pdflatex"
   "thesis.tex" 1736147303.8692 9469 60ed03a3e7161e851fa1878ac0f5286a ""
-  "thesis.toc" 1736173488.08197 8357 1a5b2edc793932128b55524b2bfa898e "pdflatex"
+  "thesis.toc" 1736258751.69639 8612 b0ac6bba7bd289494d961454dad566f7 "pdflatex"
   (generated)
   "back/acknowledgements.aux"
   "back/conclusion.aux"
