@@ -66,35 +66,38 @@
 \contentsline {paragraph}{编码器数据}{39}{paragraph*.36}%
 \contentsline {subsection}{\numberline {3.3.3}检索模块}{40}{subsection.3.3.3}%
 \contentsline {subsection}{\numberline {3.3.4}推理增强}{40}{subsection.3.3.4}%
-\contentsline {section}{\numberline {3.4}实验结果与分析}{40}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}实验数据与评价方式}{40}{subsection.3.4.1}%
-\contentsline {paragraph}{实验数据}{40}{paragraph*.37}%
-\contentsline {paragraph}{评价方式}{41}{paragraph*.38}%
-\contentsline {subsection}{\numberline {3.4.2}实验结果与对比分析}{41}{subsection.3.4.2}%
-\contentsline {paragraph}{数量属性}{41}{paragraph*.39}%
-\contentsline {paragraph}{类型属性}{43}{paragraph*.40}%
-\contentsline {section}{\numberline {3.5}本章小结}{43}{section.3.5}%
-\contentsline {chapter}{\numberline {第4章}基于代码审查图的代码架构和质量信息可视化}{45}{chapter.4}%
-\contentsline {section}{\numberline {4.1}引言}{45}{section.4.1}%
-\contentsline {section}{\numberline {4.2}基于代码中间表示的代码质量度量提取}{46}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}基于内聚度缺乏度的内聚性分析}{46}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}基于连通性的内聚性分析}{47}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}方法间耦合性分析}{48}{subsection.4.2.3}%
-\contentsline {subsection}{\numberline {4.2.4}方法扇入扇出度量分析}{50}{subsection.4.2.4}%
-\contentsline {subsection}{\numberline {4.2.5}基于静态检测工具的代码缺陷检测}{51}{subsection.4.2.5}%
-\contentsline {section}{\numberline {4.3}代码审查图}{51}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}代码审查图构建}{51}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}代码审查图可视化}{54}{subsection.4.3.2}%
-\contentsline {subsection}{\numberline {4.3.3}代码审查报告生成}{54}{subsection.4.3.3}%
-\contentsline {section}{\numberline {4.4}实验结果与分析}{56}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}实验环境与评价方法}{56}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}实验结果分析}{56}{subsection.4.4.2}%
-\contentsline {section}{\numberline {4.5}代码审查图的实际应用}{68}{section.4.5}%
-\contentsline {paragraph}{辅助开发者的代码维护}{68}{paragraph*.42}%
-\contentsline {paragraph}{作为审查工具帮助审查者进行审查}{70}{paragraph*.43}%
-\contentsline {paragraph}{作为质量评估工具对软件代码进行整体的评估}{70}{paragraph*.44}%
-\contentsline {section}{\numberline {4.6}本章小结}{70}{section.4.6}%
-\contentsline {chapter}{\heiti 结\hspace {\ccwd }论}{71}{section*.45}%
-\contentsline {chapter}{\heiti 参考文献}{73}{section*.48}%
-\contentsline {chapter}{\heiti 哈尔滨工业大学学位论文原创性声明和使用权限}{78}{section*.50}%
-\contentsline {chapter}{\heiti 致\hspace {\ccwd }谢}{79}{section*.52}%
+\contentsline {paragraph}{多轮对话}{40}{paragraph*.37}%
+\contentsline {paragraph}{槽位填充}{41}{paragraph*.38}%
+\contentsline {section}{\numberline {3.4}实验结果与分析}{41}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}实验数据与评价方式}{41}{subsection.3.4.1}%
+\contentsline {paragraph}{实验数据}{41}{paragraph*.39}%
+\contentsline {paragraph}{评价指标}{41}{paragraph*.40}%
+\contentsline {subsection}{\numberline {3.4.2}实验设置}{42}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}实验结果与对比分析}{43}{subsection.3.4.3}%
+\contentsline {paragraph}{数量属性}{44}{paragraph*.41}%
+\contentsline {paragraph}{类型属性}{46}{paragraph*.42}%
+\contentsline {section}{\numberline {3.5}本章小结}{46}{section.3.5}%
+\contentsline {chapter}{\numberline {第4章}基于代码审查图的代码架构和质量信息可视化}{48}{chapter.4}%
+\contentsline {section}{\numberline {4.1}引言}{48}{section.4.1}%
+\contentsline {section}{\numberline {4.2}基于代码中间表示的代码质量度量提取}{49}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}基于内聚度缺乏度的内聚性分析}{49}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}基于连通性的内聚性分析}{50}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}方法间耦合性分析}{51}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.4}方法扇入扇出度量分析}{53}{subsection.4.2.4}%
+\contentsline {subsection}{\numberline {4.2.5}基于静态检测工具的代码缺陷检测}{54}{subsection.4.2.5}%
+\contentsline {section}{\numberline {4.3}代码审查图}{54}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}代码审查图构建}{54}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}代码审查图可视化}{57}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}代码审查报告生成}{57}{subsection.4.3.3}%
+\contentsline {section}{\numberline {4.4}实验结果与分析}{59}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}实验环境与评价方法}{59}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}实验结果分析}{59}{subsection.4.4.2}%
+\contentsline {section}{\numberline {4.5}代码审查图的实际应用}{71}{section.4.5}%
+\contentsline {paragraph}{辅助开发者的代码维护}{71}{paragraph*.44}%
+\contentsline {paragraph}{作为审查工具帮助审查者进行审查}{73}{paragraph*.45}%
+\contentsline {paragraph}{作为质量评估工具对软件代码进行整体的评估}{73}{paragraph*.46}%
+\contentsline {section}{\numberline {4.6}本章小结}{73}{section.4.6}%
+\contentsline {chapter}{\heiti 结\hspace {\ccwd }论}{74}{section*.47}%
+\contentsline {chapter}{\heiti 参考文献}{76}{section*.50}%
+\contentsline {chapter}{\heiti 哈尔滨工业大学学位论文原创性声明和使用权限}{81}{section*.52}%
+\contentsline {chapter}{\heiti 致\hspace {\ccwd }谢}{82}{section*.54}%

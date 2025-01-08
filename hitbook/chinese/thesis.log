@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.11.30)  7 JAN 2025 22:05
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.11.30)  8 JAN 2025 19:58
 entering extended mode
  \write18 enabled.
  Source specials enabled.
@@ -2295,19 +2295,23 @@ Underfull \hbox (badness 1448) in paragraph at lines 8--9
 
 
 
-] [38] [39] [40] [41]
+] [38] [39] [40]
+File: figures/提示词填充.jpg Graphic file (type bmp)
+<figures/提示词填充.jpg>
+ [41] [42]
+Overfull \hbox (19.57756pt too wide) in paragraph at lines 243--254
+ [][][] 
+ []
+
+[43] [44]
 File: figures/克隆代码拒绝样例.jpg Graphic file (type bmp)
 <figures/克隆代码拒绝样例.jpg>
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[42] [43]) [44]
+ [45] [46]) [47]
 \openout2 = `body/part3.aux'.
 
  (./body/part3.tex
 第4章
-[45
+[48
 
 
 
@@ -2316,7 +2320,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 ]
 File: figures/内聚度示例.jpg Graphic file (type bmp)
 <figures/内聚度示例.jpg>
- [46]
+ [49]
 File: figures/LCOM3.jpg Graphic file (type bmp)
 <figures/LCOM3.jpg>
 File: figures/LCOM4.jpg Graphic file (type bmp)
@@ -2325,28 +2329,28 @@ File: figures/LCOM4.jpg Graphic file (type bmp)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[47]
+[50]
 File: figures/TCCLCC.jpg Graphic file (type bmp)
 <figures/TCCLCC.jpg>
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[48] [49]
+[51] [52]
 File: figures/扇入扇出.png Graphic file (type bmp)
 <figures/扇入扇出.png>
- [50] [51] [52] [53]
+ [53] [54] [55] [56]
 File: figures/G6图数据示例.jpg Graphic file (type bmp)
 <figures/G6图数据示例.jpg>
- [54] [55] [56] [57] [58] [59]
+ [57] [58] [59] [60] [61] [62]
 Overfull \hbox (4.81847pt too wide) in paragraph at lines 532--542
  [][][] 
  []
 
-[60]
+[63]
 File: figures/扇出高例子.jpg Graphic file (type bmp)
 <figures/扇出高例子.jpg>
- [61]
+ [64]
 File: figures/antiword审查图未上色.jpg Graphic file (type bmp)
 <figures/antiword审查图未上色.jpg>
 File: figures/aigri代码审查图-未上色.jpg Graphic file (type bmp)
@@ -2364,7 +2368,7 @@ File: figures/点击节点.png Graphic file (type bmp)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[62] [63]
+[65] [66]
 File: figures/代码审查图子图.jpg Graphic file (type bmp)
 <figures/代码审查图子图.jpg>
 File: figures/内聚度差例子.jpg Graphic file (type bmp)
@@ -2373,12 +2377,12 @@ File: figures/内聚度差例子.jpg Graphic file (type bmp)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[64]
+[67]
 File: figures/存在链式调用.jpg Graphic file (type bmp)
 <figures/存在链式调用.jpg>
 File: figures/内聚度好.jpg Graphic file (type bmp)
 <figures/内聚度好.jpg>
- [65]
+ [68]
 File: figures/扇出度最高.jpg Graphic file (type bmp)
 <figures/扇出度最高.jpg>
 File: figures/模块分错.jpg Graphic file (type bmp)
@@ -2387,32 +2391,32 @@ File: figures/模块分错.jpg Graphic file (type bmp)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[66]
+[69]
 File: figures/变更影响关系审查图.jpg Graphic file (type bmp)
 <figures/变更影响关系审查图.jpg>
- [67]
+ [70]
 File: figures/质量评估报告.jpg Graphic file (type bmp)
 <figures/质量评估报告.jpg>
 File: figures/应用展示审查图.jpg Graphic file (type bmp)
 <figures/应用展示审查图.jpg>
- [68
+ [71
 
 ]
 File: figures/应用查看节点信息.jpg Graphic file (type bmp)
 <figures/应用查看节点信息.jpg>
 File: figures/应用边信息.jpg Graphic file (type bmp)
 <figures/应用边信息.jpg>
- [69]) [70]
+ [72]) [73]
 \openout2 = `back/conclusion.aux'.
 
- (./back/conclusion.tex [71
+ (./back/conclusion.tex [74
 
 
 
 
 
 
-]) [72] (./thesis.bbl
+]) [75] (./thesis.bbl
 ./thesis.bbl:17: Misplaced alignment tab character &.
 l.17 ...block Global Journal of Computer Science &
                                                    Technology, 2012.
@@ -2449,7 +2453,7 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-[73
+[76
 
 
 
@@ -2475,7 +2479,7 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-[74]
+[77]
 Underfull \hbox (badness 10000) in paragraph at lines 186--190
 [][]\TU/TeXGyreTermesX(0)/m/n/12.045 JITENDERKUMARCHHABRA, MRINAALMALHOTRA, JIT
 ENDERKU-
@@ -2501,7 +2505,7 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-[75]
+[78]
 ./thesis.bbl:325: Misplaced alignment tab character &.
 l.325 ...onal Conference on Software Engineering &
                                                    Knowledge Engineering.
@@ -2512,13 +2516,13 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-[76]) [77] [78
+[79]) [80] [81
 
 
 ]
 \openout2 = `back/acknowledgements.aux'.
 
- (./back/acknowledgements.tex) [79
+ (./back/acknowledgements.tex) [82
 
 
 
@@ -2544,15 +2548,15 @@ LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.47188pt have occurred.
 
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 536D5B2002F089330A175EA99D046B30;11422.
+(rerunfilecheck)             Checksum: 134C2F330E3397E3ABC2053706760A5A;11549.
  ) 
 Here is how much of TeX's memory you used:
- 47381 strings out of 474773
- 1025124 string characters out of 5757723
+ 47434 strings out of 474773
+ 1028385 string characters out of 5757723
  1951839 words of memory out of 5000000
- 68600 multiletter control sequences out of 15000+600000
+ 68652 multiletter control sequences out of 15000+600000
  616692 words of font info for 242 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  107i,19n,111p,2550b,1125s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on thesis.pdf (89 pages).
+Output written on thesis.pdf (92 pages).

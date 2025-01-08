@@ -678,6 +678,8 @@ OUTPUT body/part2.aux
 INPUT ./body/part2.tex
 INPUT ./body/part2.tex
 INPUT body/part2.tex
+INPUT ./figures/提示词填充.jpg
+INPUT ./figures/提示词填充.jpg
 INPUT ./figures/克隆代码拒绝样例.jpg
 INPUT ./figures/克隆代码拒绝样例.jpg
 INPUT ./body/part3.tex
