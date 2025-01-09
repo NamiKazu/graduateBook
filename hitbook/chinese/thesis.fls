@@ -688,6 +688,8 @@ OUTPUT body/part3.aux
 INPUT ./body/part3.tex
 INPUT ./body/part3.tex
 INPUT body/part3.tex
+INPUT ./figures/质量模型.jpg
+INPUT ./figures/质量模型.jpg
 INPUT ./figures/内聚度示例.jpg
 INPUT ./figures/内聚度示例.jpg
 INPUT ./figures/LCOM3.jpg
