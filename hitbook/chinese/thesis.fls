@@ -678,6 +678,9 @@ OUTPUT body/part2.aux
 INPUT ./body/part2.tex
 INPUT ./body/part2.tex
 INPUT body/part2.tex
+INPUT ./figures/结合依赖路径.jpg
+INPUT ./figures/结合依赖路径.jpg
+INPUT ./figures/结合依赖路径.jpg
 INPUT ./figures/提示词填充.jpg
 INPUT ./figures/提示词填充.jpg
 INPUT ./figures/克隆代码拒绝样例.jpg
@@ -702,8 +705,6 @@ INPUT ./figures/扇入扇出.png
 INPUT ./figures/扇入扇出.png
 INPUT ./figures/G6图数据示例.jpg
 INPUT ./figures/G6图数据示例.jpg
-INPUT ./figures/扇出高例子.jpg
-INPUT ./figures/扇出高例子.jpg
 INPUT ./figures/antiword审查图未上色.jpg
 INPUT ./figures/antiword审查图未上色.jpg
 INPUT ./figures/aigri代码审查图-未上色.jpg
