@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.11.30)  11 JAN 2025 22:43
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.11.30)  12 JAN 2025 21:54
 entering extended mode
  \write18 enabled.
  Source specials enabled.
@@ -2361,22 +2361,34 @@ File: figures/TCCLCC.jpg Graphic file (type bmp)
  [53]
 File: figures/扇入扇出.png Graphic file (type bmp)
 <figures/扇入扇出.png>
- [54] [55] [56] [57]
+ [54] [55]
+Underfull \hbox (badness 10000) in paragraph at lines 274--274
+[]|[]\TU/TeXGyreTermesX(0)/m/n/10.53937 LCOM1\TU/SongtiSCLight(0)/m/n/10.53937 
+、| \TU/TeXGyreTermesX(0)/m/n/10.53937 LCOM2\TU/SongtiSCLight(0)/m/n/10.53937 、|
+ \TU/TeXGyreTermesX(0)/m/n/10.53937 LCOM3\TU/SongtiSCLight(0)/m/n/10.53937 、|
+ []
+
+
+Overfull \hbox (15.83476pt too wide) in paragraph at lines 268--282
+ [][][] 
+ []
+
+[56] [57]
 File: figures/G6图数据示例.jpg Graphic file (type bmp)
 <figures/G6图数据示例.jpg>
- [58] [59]
-Underfull \hbox (badness 10000) in paragraph at lines 413--414
+ [58]
+Underfull \hbox (badness 10000) in paragraph at lines 392--393
 [][]\TU/SongtiSCLight(0)/m/n/12.045 这 里 我 们 关 注 那 些 提 交 信 息 中 包 含 以 下 关 键 词 的 提
  交
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 413--414
+Underfull \hbox (badness 10000) in paragraph at lines 392--393
 \TU/TeXGyreTermesX(0)/m/n/12.045 fix,refactor,Fix,Refactor\TU/SongtiSCLight(0)/
 m/n/12.045 ，|  这 样 的 提 交 通 常 是 对 缺 陷 的 修 复 或 对 代 码 的 重 构，|
  []
 
-[60] [61]
+[59] [60]
 File: figures/antiword审查图未上色.jpg Graphic file (type bmp)
 <figures/antiword审查图未上色.jpg>
 File: figures/aigri代码审查图-未上色.jpg Graphic file (type bmp)
@@ -2385,35 +2397,44 @@ File: figures/antiword代码审查图.jpg Graphic file (type bmp)
 <figures/antiword代码审查图.jpg>
 File: figures/aigri代码审查图.jpg Graphic file (type bmp)
 <figures/aigri代码审查图.jpg>
- [62]
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[61]
 File: figures/点击节点.png Graphic file (type bmp)
 <figures/点击节点.png>
+ [62]
 File: figures/代码审查图子图.jpg Graphic file (type bmp)
 <figures/代码审查图子图.jpg>
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[63]
-File: figures/内聚度差例子.jpg Graphic file (type bmp)
-<figures/内聚度差例子.jpg>
- [64]
+ [63]
+File: figures/孤立节点图模式.pdf Graphic file (type pdf)
+<use figures/孤立节点图模式.pdf>
+File: figures/孤立节点实例.jpg Graphic file (type bmp)
+<figures/孤立节点实例.jpg>
+File: figures/链式调用模式图.pdf Graphic file (type pdf)
+<use figures/链式调用模式图.pdf>
 File: figures/存在链式调用.jpg Graphic file (type bmp)
 <figures/存在链式调用.jpg>
-File: figures/内聚度好.jpg Graphic file (type bmp)
-<figures/内聚度好.jpg>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[64]
+File: figures/复杂方法.pdf Graphic file (type pdf)
+<use figures/复杂方法.pdf>
 File: figures/扇出度最高.jpg Graphic file (type bmp)
 <figures/扇出度最高.jpg>
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[65]
-File: figures/模块分错.jpg Graphic file (type bmp)
-<figures/模块分错.jpg>
+ [65]
+File: figures/职责不匹配.pdf Graphic file (type pdf)
+<use figures/职责不匹配.pdf>
+File: figures/职责不匹配.png Graphic file (type bmp)
+<figures/职责不匹配.png>
+File: figures/不良变更影响.pdf Graphic file (type pdf)
+<use figures/不良变更影响.pdf>
+File: figures/不良变更影响关系.png Graphic file (type bmp)
+<figures/不良变更影响关系.png>
  [66]
-File: figures/变更影响关系审查图.jpg Graphic file (type bmp)
-<figures/变更影响关系审查图.jpg>
 File: figures/质量评估报告.jpg Graphic file (type bmp)
 <figures/质量评估报告.jpg>
 
@@ -2581,14 +2602,17 @@ L3 programming layer <2022/08/05>
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.47188pt have occurred.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: F386B5608E33B1DFE94BF45084B9BDB5;11700.
+(rerunfilecheck)             Checksum: 05FB84617400432295409A858F73B852;11700.
  ) 
 Here is how much of TeX's memory you used:
- 47471 strings out of 474773
- 1030448 string characters out of 5757723
- 1950839 words of memory out of 5000000
- 68687 multiletter control sequences out of 15000+600000
+ 47481 strings out of 474773
+ 1029704 string characters out of 5757723
+ 1948839 words of memory out of 5000000
+ 68694 multiletter control sequences out of 15000+600000
  616700 words of font info for 243 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  107i,19n,111p,2550b,1125s stack positions out of 10000i,1000n,20000p,200000b,200000s
