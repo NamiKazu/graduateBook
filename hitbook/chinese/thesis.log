@@ -2490,4 +2490,115 @@ here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
 up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
-might try typing `S' no
+might try typing `S' now just to see what is salvageable.
+
+[73
+
+
+
+
+]
+./thesis.bbl:113: Misplaced alignment tab character &.
+l.113 ...nal Conference on Computational Science &
+                                                   Its Applications.
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./thesis.bbl:156: Misplaced alignment tab character &.
+l.156 \newblock Journal of Systems &
+                                     Software, 1993, 23\allowbreak (2): 111-...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+[74]
+Underfull \hbox (badness 10000) in paragraph at lines 186--190
+[][]\TU/TeXGyreTermesX(0)/m/n/12.045 JITENDERKUMARCHHABRA, MRINAALMALHOTRA, JIT
+ENDERKU-
+ []
+
+./thesis.bbl:202: Misplaced alignment tab character &.
+l.202 ...ational Journal of Software Engineering &
+                                                   Knowledge
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./thesis.bbl:245: Misplaced alignment tab character &.
+l.245 ...ational Conference on Software Security &
+                                                   Reliability.
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+[75]
+./thesis.bbl:325: Misplaced alignment tab character &.
+l.325 ...onal Conference on Software Engineering &
+                                                   Knowledge Engineering.
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+[76]) [77] [78
+
+
+]
+\openout2 = `back/acknowledgements.aux'.
+
+ (./back/acknowledgements.tex) [79
+
+
+
+]
+\tf@thm=\write9
+\openout9 = `thesis.thm'.
+
+
+
+Package natbib Warning: There were undefined citations.
+
+
+Package glossaries Warning: No \printglossary or \printglossaries found. 
+(Remove \makeglossaries if you don't want any glossaries.) 
+This document will not have a glossary.
+
+(./thesis.aux (./body/regu.aux) (./body/part1.aux) (./body/part2.aux)
+(./body/part3.aux) (./back/conclusion.aux) (./back/acknowledgements.aux))
+ ***********
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2022/08/05>
+ ***********
+
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 0.47188pt have occurred.
+
+Package rerunfilecheck Info: File `thesis.out' has not changed.
+(rerunfilecheck)             Checksum: ECA034FE47865D76ED5A92648C1E2923;11803.
+ ) 
+Here is how much of TeX's memory you used:
+ 47472 strings out of 474773
+ 1029475 string characters out of 5757723
+ 1949839 words of memory out of 5000000
+ 68687 multiletter control sequences out of 15000+600000
+ 616700 words of font info for 243 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 107i,19n,111p,2550b,1125s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+Output written on thesis.pdf (89 pages).
