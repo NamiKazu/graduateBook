@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.11.30)  13 JAN 2025 21:05
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.11.30)  14 JAN 2025 22:14
 entering extended mode
  \write18 enabled.
  Source specials enabled.
@@ -1824,7 +1824,11 @@ Package translations Info: No language package found. I am going to use `englis
 h' as default language. on input line 107.
 
 (./thesis.aux (./body/regu.aux) (./body/part1.aux) (./body/part2.aux)
-(./body/part3.aux) (./back/conclusion.aux) (./back/acknowledgements.aux))
+(./body/part3.aux
+
+LaTeX Warning: Label `1_代码审查图' multiply defined.
+
+) (./back/conclusion.aux) (./back/acknowledgements.aux))
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 107.
@@ -2125,47 +2129,21 @@ File: figures/代码开发流程.png Graphic file (type bmp)
 
 
 
-] [2] [3]
-./body/regu.tex:62: Misplaced alignment tab character &.
-<recently read> &
-                 
-l.62 ...damber and Kemerer套件（CK套件）和Li and Henry（L&
-                                                  H）套件。
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-[4]
-./body/regu.tex:84: Misplaced alignment tab character &.
-<recently read> &
-                 
-l.84 ...1993Object}的，用于评估程序的复杂度、维护性以及开发成本等的度量套件。L&
-                                                  H套件中有一部分度量和CK套件是一样的,除此之外，还...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-[5] [6] [7] [8] [9] [10]
+] [2] [3] [4] [5] [6] [7]
 File: figures/章节安排.png Graphic file (type bmp)
 <figures/章节安排.png>
- [11]) [12]
+ [8]) [9]
 \openout2 = `body/part1.aux'.
 
  (./body/part1.tex
 第2章
-[13
+[10
 
 
 
 
 
-] [14]
+] [11]
 
 Package fontspec Warning: Font "STFangsong" does not contain requested Script
 (fontspec)                "CJK".
@@ -2197,39 +2175,39 @@ Package fontspec Info: Font family 'STFangsong(0)' created for font
 (fontspec)             <->"STFangsong/OT:language=dflt;embolden=2;"
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 
-[15] [16]
+[12] [13]
 File: figures/全局变量提取流程图.jpg Graphic file (type bmp)
 <figures/全局变量提取流程图.jpg>
- [17
+ [14
 
-] [18]
+] [15]
 File: figures/依赖关系示例.png Graphic file (type bmp)
 <figures/依赖关系示例.png>
 Package hyperref Info: bookmark level for unknown equation defaults to 0 on inp
 ut line 163.
- [19]
+ [16]
 File: figures/代码克隆流程.png Graphic file (type bmp)
 <figures/代码克隆流程.png>
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[20] [21] [22] [23] [24] [25] [26]
+[17] [18] [19] [20] [21] [22] [23]
 File: figures/模型架构3.jpg Graphic file (type bmp)
 <figures/模型架构3.jpg>
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[27] [28] [29] [30] [31]
+[24] [25] [26] [27] [28]
 File: figures/静态分析拒绝样例.jpg Graphic file (type bmp)
 <figures/静态分析拒绝样例.jpg>
- [32]
+ [29]
 Overfull \hbox (19.57756pt too wide) in paragraph at lines 596--606
  [][][] 
  []
 
-[33]
+[30]
 File: figures/克隆代码示例.jpg Graphic file (type bmp)
 <figures/克隆代码示例.jpg>
 File: figures/incrdec.jpg Graphic file (type bmp)
@@ -2238,7 +2216,7 @@ File: figures/incrdec.jpg Graphic file (type bmp)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[34]
+[31]
 
 Package enumitem Warning: Negative labelwidth. This does not make much
 (enumitem)                sense, on input line 661.
@@ -2248,7 +2226,7 @@ Overfull \hbox (28.35686pt too wide) in paragraph at lines 667--675
  [][][] 
  []
 
-[35]
+[32]
 Underfull \hbox (badness 5417) in paragraph at lines 720--721
 []|\TU/SongtiSCLight(0)/m/n/10.53937 依 赖 型 误 报 高，|  且 仅 能
  []
@@ -2278,22 +2256,18 @@ Underfull \hbox (badness 5417) in paragraph at lines 723--724
 []|\TU/SongtiSCLight(0)/m/n/10.53937 计 算 性 能 差，|  间 接 依 赖
  []
 
-) [36]
+) [33]
 \openout2 = `body/part2.aux'.
 
  (./body/part2.tex
 第3章
-
-Package natbib Warning: Citation `2020Retrieval' on page 37 undefined on input 
-line 6.
-
 
 Underfull \hbox (badness 1448) in paragraph at lines 10--11
 [][]\TU/SongtiSCLight(0)/m/n/12.045 为 了 解 决 上 述 问 题，|  本 文 提 出 结 合 依 赖 路 径 和 检 
 索 增 强 生 成  |（\TU/TeXGyreTermesX(0)/m/n/12.045 Retrieval
  []
 
-[37
+[34
 
 
 
@@ -2302,32 +2276,32 @@ Underfull \hbox (badness 1448) in paragraph at lines 10--11
 ]
 File: figures/结合依赖路径.jpg Graphic file (type bmp)
 <figures/结合依赖路径.jpg>
- [38] [39] [40]
+ [35] [36] [37]
 File: figures/提示词填充.jpg Graphic file (type bmp)
 <figures/提示词填充.jpg>
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[41] [42] [43]
+[38] [39] [40]
 Overfull \hbox (19.57756pt too wide) in paragraph at lines 252--263
  [][][] 
  []
 
-[44]
+[41]
 Overfull \hbox (96.96817pt too wide) in paragraph at lines 276--286
  [][][] 
  []
 
-[45]
+[42]
 File: figures/克隆代码拒绝样例.jpg Graphic file (type bmp)
 <figures/克隆代码拒绝样例.jpg>
- [46]) [47]
+ [43]) [44]
 \openout2 = `body/part3.aux'.
 
  (./body/part3.tex
 第4章
-[48
+[45
 
 
 
@@ -2336,12 +2310,7 @@ File: figures/克隆代码拒绝样例.jpg Graphic file (type bmp)
 ]
 File: figures/质量模型.jpg Graphic file (type bmp)
 <figures/质量模型.jpg>
-
-
-Package natbib Warning: Citation `黄沛杰2011代码质量静态度量的研究与应用' on page 49 undefined o
-n input line 23.
-
-[49] [50]
+ [46] [47]
 File: figures/内聚度示例.jpg Graphic file (type bmp)
 <figures/内聚度示例.jpg>
 File: figures/LCOM3.jpg Graphic file (type bmp)
@@ -2355,13 +2324,17 @@ File: figures/LCOM4.jpg Graphic file (type bmp)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[51] [52]
+[48] [49]
 File: figures/TCCLCC.jpg Graphic file (type bmp)
 <figures/TCCLCC.jpg>
- [53]
+ [50]
 File: figures/扇入扇出.png Graphic file (type bmp)
 <figures/扇入扇出.png>
- [54] [55]
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[51] [52]
 Underfull \hbox (badness 10000) in paragraph at lines 274--274
 []|[]\TU/TeXGyreTermesX(0)/m/n/10.53937 LCOM1\TU/SongtiSCLight(0)/m/n/10.53937 
 、| \TU/TeXGyreTermesX(0)/m/n/10.53937 LCOM2\TU/SongtiSCLight(0)/m/n/10.53937 、|
@@ -2373,18 +2346,18 @@ Overfull \hbox (15.83476pt too wide) in paragraph at lines 268--282
  [][][] 
  []
 
-[56] [57]
+[53] [54]
 File: figures/G6图数据示例.jpg Graphic file (type bmp)
 <figures/G6图数据示例.jpg>
- [58]
+ [55]
 File: figures/孤立节点图模式.pdf Graphic file (type pdf)
 <use figures/孤立节点图模式.pdf>
- [59]
+ [56]
 File: figures/链式调用模式图.pdf Graphic file (type pdf)
 <use figures/链式调用模式图.pdf>
 File: figures/复杂方法.pdf Graphic file (type pdf)
 <use figures/复杂方法.pdf>
- [60]
+ [57]
 File: figures/职责不匹配.pdf Graphic file (type pdf)
 <use figures/职责不匹配.pdf>
 File: figures/不良变更影响.pdf Graphic file (type pdf)
@@ -2393,20 +2366,64 @@ File: figures/不良变更影响.pdf Graphic file (type pdf)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[61] [62] [63]
-File: figures/孤立节点实例.jpg Graphic file (type bmp)
-<figures/孤立节点实例.jpg>
+[58] [59]
+File: figures/3_度量模型分析实验.pdf Graphic file (type pdf)
+<use figures/3_度量模型分析实验.pdf>
+ [60]
+File: figures/冗余代码.jpg Graphic file (type bmp)
+<figures/冗余代码.jpg>
 File: figures/存在链式调用.jpg Graphic file (type bmp)
 <figures/存在链式调用.jpg>
 File: figures/复杂方法.png Graphic file (type bmp)
 <figures/复杂方法.png>
-File: figures/职责不匹配.png Graphic file (type bmp)
-<figures/职责不匹配.png>
- [64]
-File: figures/不良变更影响.pdf Graphic file (type pdf)
-<use figures/不良变更影响.pdf>
-File: figures/不良变更影响关系.png Graphic file (type bmp)
-<figures/不良变更影响关系.png>
+File: figures/职责不匹配实例.jpg Graphic file (type bmp)
+<figures/职责不匹配实例.jpg>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 576--577
+[][]\TU/SongtiSCLight(0)/m/n/12.045 图  |（\TU/TeXGyreTermesX(0)/m/n/12.045 b\TU/
+SongtiSCLight(0)/m/n/12.045 ）|  是 \TU/TeXGyreTermesX(0)/m/n/12.045 TheAlgorithm
+s \TU/SongtiSCLight(0)/m/n/12.045 项 目 中 \TU/TeXGyreTermesX(0)/m/n/12.045 cipher
+/affine.c \TU/SongtiSCLight(0)/m/n/12.045 文 件 和 \TU/TeXGyreTermesX(0)/m/n/12.04
+5 math/eu-
+ []
+
+
+Underfull \hbox (badness 6961) in paragraph at lines 576--577
+\TU/TeXGyreTermesX(0)/m/n/12.045 clidean_algorithm_extended.c \TU/SongtiSCLight
+(0)/m/n/12.045 文 件 的 部 分 子 图，|  这 两 个 文 件 内 均 出 现 了 长 嵌
+ []
+
+[61]
+Underfull \hbox (badness 10000) in paragraph at lines 580--581
+[][]\TU/SongtiSCLight(0)/m/n/12.045 图  |（\TU/TeXGyreTermesX(0)/m/n/12.045 d\TU/
+SongtiSCLight(0)/m/n/12.045 ）|  是 \TU/TeXGyreTermesX(0)/m/n/12.045 jemalloc \TU
+/SongtiSCLight(0)/m/n/12.045 项 目 中 \TU/TeXGyreTermesX(0)/m/n/12.045 src/hpa.c \
+TU/SongtiSCLight(0)/m/n/12.045 文 件 声 明 的 方 法 \TU/TeXGyreTermesX(0)/m/n/12.045 h
+pa_supported\TU/SongtiSCLight(0)/m/n/12.045 ，|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 580--581
+\TU/SongtiSCLight(0)/m/n/12.045 而 它 并 未 与 其 所 在 文 件 的 其 他 方 法 产 生 联 系，|  而 是 更 
+多 地 服 务 于
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 580--581
+\TU/TeXGyreTermesX(0)/m/n/12.045 unit/hpa_background_thread.c \TU/SongtiSCLight
+(0)/m/n/12.045 文 件 内 的 方 法，|  因 此 出 现 了 职 责 不 匹 配 的 现
+ []
+
+File: figures/不良变更影响.png Graphic file (type bmp)
+<figures/不良变更影响.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[62]
 File: figures/antiword审查图未上色.jpg Graphic file (type bmp)
 <figures/antiword审查图未上色.jpg>
 File: figures/aigri代码审查图-未上色.jpg Graphic file (type bmp)
@@ -2415,153 +2432,99 @@ File: figures/antiword代码审查图.jpg Graphic file (type bmp)
 <figures/antiword代码审查图.jpg>
 File: figures/aigri代码审查图.jpg Graphic file (type bmp)
 <figures/aigri代码审查图.jpg>
+ [63]
+File: figures/点击节点.png Graphic file (type bmp)
+<figures/点击节点.png>
+File: figures/孤立节点实例.jpg Graphic file (type bmp)
+<figures/孤立节点实例.jpg>
+File: figures/扇出度最高.jpg Graphic file (type bmp)
+<figures/扇出度最高.jpg>
+
+Underfull \hbox (badness 1769) in paragraph at lines 658--658
+[][]\TU/TeXGyreTermesX(0)/m/n/10.53937 (b) \TU/SongtiSCLight(0)/m/n/10.53937 复 
+杂 方 法 \TU/TeXGyreTermesX(0)/m/n/10.53937 - properties.c \TU/SongtiSCLight(0)/m/
+n/10.53937 文 件 中
+ []
+
+File: figures/职责不匹配.png Graphic file (type bmp)
+<figures/职责不匹配.png>
+File: figures/不良变更影响关系.png Graphic file (type bmp)
+<figures/不良变更影响关系.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 665--665
+[][]\TU/TeXGyreTermesX(0)/m/n/10.53937 (d) \TU/SongtiSCLight(0)/m/n/10.53937 模 
+块 间 不 良 的 逻 辑 型 影 响\TU/TeXGyreTermesX(0)/m/n/10.53937 -
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 665--665
+\TU/TeXGyreTermesX(0)/m/n/10.53937 stylelist.c \TU/SongtiSCLight(0)/m/n/10.5393
+7 中 方 法 \TU/TeXGyreTermesX(0)/m/n/10.53937 pGetNextStyle-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 665--665
+\TU/TeXGyreTermesX(0)/m/n/10.53937 InfoListItem \TU/SongtiSCLight(0)/m/n/10.539
+37 和 \TU/TeXGyreTermesX(0)/m/n/10.53937 fontlist.c \TU/SongtiSCLight(0)/m/n/10.
+53937 中 方 法
+ []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+[64]
+File: figures/开发1.jpg Graphic file (type bmp)
+<figures/开发1.jpg>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: figures/开发2.jpg Graphic file (type bmp)
+<figures/开发2.jpg>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 [65] [66]
-File: figures/点击节点.png Graphic file (type bmp)
-<figures/点击节点.png>
+File: figures/开发3.jpg Graphic file (type bmp)
+<figures/开发3.jpg>
 File: figures/代码审查图子图.jpg Graphic file (type bmp)
 <figures/代码审查图子图.jpg>
+ [67
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-File: figures/应用展示审查图.jpg Graphic file (type bmp)
-<figures/应用展示审查图.jpg>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-File: figures/应用查看节点信息.jpg Graphic file (type bmp)
-<figures/应用查看节点信息.jpg>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[67]
-File: figures/应用边信息.jpg Graphic file (type bmp)
-<figures/应用边信息.jpg>
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[68]) [69] [70]
+]) [68]
 \openout2 = `back/conclusion.aux'.
 
- (./back/conclusion.tex [71
+ (./back/conclusion.tex [69
 
 
 
 
 
 
-]) [72] (./thesis.bbl
-./thesis.bbl:17: Misplaced alignment tab character &.
-l.17 ...block Global Journal of Computer Science &
-                                                   Technology, 2012.
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-
-Underfull \hbox (badness 6125) in paragraph at lines 20--23
-[][]\TU/TeXGyreTermesX(0)/m/n/12.045 PAHL C, JAMSHIDI P.  Microservices: A syst
-ematic mapping study[J].
- []
-
-./thesis.bbl:50: Misplaced alignment tab character &.
-l.50 International Conference on Applications &
-                                                Techniques in Information Se...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-./thesis.bbl:95: Misplaced alignment tab character &.
-l.95 \newblock Journal of Systems &
-                                    Software, 2015, 108\allowbreak (oct.): 1...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-[73
-
-
-
-
-]
-./thesis.bbl:113: Misplaced alignment tab character &.
-l.113 ...nal Conference on Computational Science &
-                                                   Its Applications.
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-./thesis.bbl:156: Misplaced alignment tab character &.
-l.156 \newblock Journal of Systems &
-                                     Software, 1993, 23\allowbreak (2): 111-...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-[74]
-Underfull \hbox (badness 10000) in paragraph at lines 186--190
+]) [70] (./thesis.bbl
+Underfull \hbox (badness 10000) in paragraph at lines 53--57
 [][]\TU/TeXGyreTermesX(0)/m/n/12.045 JITENDERKUMARCHHABRA, MRINAALMALHOTRA, JIT
 ENDERKU-
  []
 
-./thesis.bbl:202: Misplaced alignment tab character &.
-l.202 ...ational Journal of Software Engineering &
-                                                   Knowledge
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
+[71
 
-./thesis.bbl:245: Misplaced alignment tab character &.
-l.245 ...ational Conference on Software Security &
-                                                   Reliability.
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
 
-[75]
-./thesis.bbl:325: Misplaced alignment tab character &.
-l.325 ...onal Conference on Software Engineering &
-                                                   Knowledge Engineering.
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
 
-[76]) [77] [78
+
+] [72]
+Underfull \hbox (badness 1052) in paragraph at lines 218--222
+[][]\TU/TeXGyreTermesX(0)/m/n/12.045 LEWIS P, PEREZ E, PIKTUS A, et al.  Retrie
+val-augmented generation for
+ []
+
+) [73] [74] [75
 
 
 ]
 \openout2 = `back/acknowledgements.aux'.
 
- (./back/acknowledgements.tex) [79
+ (./back/acknowledgements.tex) [76
 
 
 
@@ -2569,9 +2532,6 @@ might try typing `S' now just to see what is salvageable.
 \tf@thm=\write9
 \openout9 = `thesis.thm'.
 
-
-
-Package natbib Warning: There were undefined citations.
 
 
 Package glossaries Warning: No \printglossary or \printglossaries found. 
@@ -2589,16 +2549,19 @@ L3 programming layer <2022/08/05>
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.47188pt have occurred.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: ECA034FE47865D76ED5A92648C1E2923;11803.
+(rerunfilecheck)             Checksum: EB3C89A39850414FC14E22EE4D1304BB;11739.
  ) 
 Here is how much of TeX's memory you used:
- 47472 strings out of 474773
- 1029475 string characters out of 5757723
- 1949839 words of memory out of 5000000
- 68687 multiletter control sequences out of 15000+600000
- 616700 words of font info for 243 fonts, out of 8000000 for 9000
+ 47456 strings out of 474773
+ 1029283 string characters out of 5757723
+ 1948839 words of memory out of 5000000
+ 68668 multiletter control sequences out of 15000+600000
+ 616692 words of font info for 242 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 107i,19n,111p,2550b,1125s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 107i,19n,111p,2550b,1068s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on thesis.pdf (89 pages).
+Output written on thesis.pdf (86 pages).

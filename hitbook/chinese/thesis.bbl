@@ -1,4 +1,4 @@
-\begin{thebibliography}{54}
+\begin{thebibliography}{36}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{#1}
 \expandafter\ifx\csname urlstyle\endcsname\relax\else
@@ -14,146 +14,13 @@
 \bibitem[Kumar et~al.(2012)Kumar and Gill]{2012Maintenance}
 KUMAR A, GILL B~S.
 \newblock Maintenance vs. reengineering software systems\allowbreak[J].
-\newblock Global Journal of Computer Science & Technology, 2012.
-
-\bibitem[Pahl et~al.(2016)Pahl and Jamshidi]{2016Microservices}
-PAHL C, JAMSHIDI P.
-\newblock Microservices: A systematic mapping study\allowbreak[J].
-\newblock SCITEPRESS - Science and Technology Publications, Lda, 2016.
+\newblock Global Journal of Computer Science \& Technology, 2012.
 
 \bibitem[Dai et~al.(2022)Dai, Wang, Jin, Gong, and Yang]{2022An}
 DAI P, WANG Y, JIN D, et~al.
 \newblock An improving approach to analyzing change impact of c
   programs\allowbreak[J].
 \newblock Computer communications, 2022\allowbreak (Jan.): 182.
-
-\bibitem[Nuñez-Varela et~al.(2017)Nuñez-Varela, Pérez-Gonzalez,
-  Martínez-Perez, and Soubervielle-Montalvo]{NUNEZVARELA2017164}
-NUñEZ-VARELA A~S, PéREZ-GONZALEZ H~G, MARTíNEZ-PEREZ F~E, et~al.
-\newblock Source code metrics: A systematic mapping study\allowbreak[J/OL].
-\newblock Journal of Systems and Software, 2017, 128: 164-197.
-\newblock
-  \url{https://www.sciencedirect.com/science/article/pii/S0164121217300663}.
-\newblock DOI: \doi{https://doi.org/10.1016/j.jss.2017.03.044}.
-
-\bibitem[Sheneamer et~al.(2018)Sheneamer, Abdullah, Roy, Swarup, Kalita, and
-  Jugal]{Sheneamer2018A}
-SHENEAMER, ABDULLAH, ROY, et~al.
-\newblock A detection framework for semantic code clones and obfuscated
-  code\allowbreak[J].
-\newblock Expert Systems with Application, 2018.
-
-\bibitem[Li et~al.(2014)Li, Kwon, Kwon, and Lee]{2014A}
-LI H, KWON H, KWON J, et~al.
-\newblock A scalable approach for vulnerability discovery based on security
-  patches\allowbreak[C]//\allowbreak
-International Conference on Applications & Techniques in Information Security.
-\newblock 2014.
-
-\bibitem[Shahriar et~al.(2012)Shahriar and Zulkernine]{2012Mitigating}
-SHAHRIAR H, ZULKERNINE M.
-\newblock Mitigating program security vulnerabilities: Approaches and
-  challenges\allowbreak[J].
-\newblock ACM Computing Surveys, 2012, 44\allowbreak (3): 1-46.
-
-\bibitem[Baset et~al.(2017)Baset and Denning]{2017IDE}
-BASET A~Z, DENNING T.
-\newblock Ide plugins for detecting input-validation
-  vulnerabilities\allowbreak[J].
-\newblock IEEE, 2017.
-
-\bibitem[Baloglu(2016)]{2016How}
-BALOGLU B.
-\newblock How to find and fix software vulnerabilities with coverity static
-  analysis\allowbreak[C]//\allowbreak
-Cybersecurity Development.
-\newblock 2016.
-
-\bibitem[Spanos et~al.(2017)Spanos, Angelis, and Toloudis]{2017Assessment}
-SPANOS G, ANGELIS L, TOLOUDIS D.
-\newblock Assessment of vulnerability severity using text mining\allowbreak[J].
-\newblock ACM, 2017: 1-6.
-
-\bibitem[Spanos et~al.(2018)Spanos and Angelis]{2018A}
-SPANOS G, ANGELIS L.
-\newblock A multi-target approach to estimate software vulnerability
-  characteristics and severity scores\allowbreak[J].
-\newblock Journal of Systems and Software, 2018, 146\allowbreak (DEC.):
-  152-166.
-
-\bibitem[Kudjo et~al.(2020)Kudjo, Chen, Mensah, Amankwah, and Kudjo]{2020The}
-KUDJO P~K, CHEN J, MENSAH S, et~al.
-\newblock The effect of bellwether analysis on software vulnerability severity
-  prediction models\allowbreak[J].
-\newblock Software Quality Journal, 2020, 28\allowbreak (1): 1-34.
-
-\bibitem[Qu et~al.(2015)Qu, Guan, Zheng, Liu, Wang, Hou, and
-  Yang]{2015Exploring}
-QU Y, GUAN X, ZHENG Q, et~al.
-\newblock Exploring community structure of software call graph and its
-  applications in class cohesion measurement\allowbreak[J].
-\newblock Journal of Systems & Software, 2015, 108\allowbreak (oct.): 193-210.
-
-\bibitem[Nakamura et~al.(2012)Nakamura and Hamagami]{2012A}
-NAKAMURA M, HAMAGAMI T.
-\newblock A software quality evaluation method using the change of source code
-  metrics\allowbreak[J].
-\newblock IEEE, 2012.
-
-\bibitem[Misra et~al.(2012)Misra, Akman, and Colomo-Palacios]{2012Framework}
-MISRA S, AKMAN I, COLOMO-PALACIOS R.
-\newblock Framework for evaluation and validation of software complexity
-  measures\allowbreak[J].
-\newblock Iet Software, 2012, 6\allowbreak (4): 323-334.
-
-\bibitem[Misra et~al.(2012)Misra, Koyuncu, Crasso, Mateos, and
-  Zunino]{2012Asuite}
-MISRA S, KOYUNCU M, CRASSO M, et~al.
-\newblock A suite of cognitive complexity metrics\allowbreak[C]//\allowbreak
-International Conference on Computational Science & Its Applications.
-\newblock 2012.
-
-\bibitem[Concas et~al.(2010)Concas, Marchesi, Murgia, Pinna, and
-  Tonelli]{2010Assessing}
-CONCAS G, MARCHESI M, MURGIA A, et~al.
-\newblock Assessing traditional and new metrics for object-oriented
-  systems\allowbreak[J].
-\newblock ACM, 2010.
-
-\bibitem[陈振强\ 等(2003)陈振强 and 徐宝文]{陈振强2003}
-陈振强, 徐宝文.
-\newblock 一种基于依赖性分析的类内聚度度量方法\allowbreak[J].
-\newblock 软件学报, 2003, 14\allowbreak (11): 8.
-
-\bibitem[Briand et~al.(1997)Briand, Morasca, and Basili]{1997Property}
-BRIAND L~C, MORASCA S, BASILI V~R.
-\newblock Property-based software engineering measurement\allowbreak[J].
-\newblock IEEE Press, 1997.
-
-\bibitem[Qu et~al.(2015)Qu, Guan, Zheng, Liu, Wang, Hou, and Yang]{QU2015193}
-QU Y, GUAN X, ZHENG Q, et~al.
-\newblock Exploring community structure of software call graph and its
-  applications in class cohesion measurement\allowbreak[J/OL].
-\newblock Journal of Systems and Software, 2015, 108: 193-210.
-\newblock
-  \url{https://www.sciencedirect.com/science/article/pii/S0164121215001259}.
-\newblock DOI: \doi{https://doi.org/10.1016/j.jss.2015.06.015}.
-
-\bibitem[马健\ 等(2018)马健, 刘峰, and 樊建平]{马健2018}
-马健, 刘峰, 樊建平.
-\newblock 面向对象软件耦合度量方法\allowbreak[J].
-\newblock 北京邮电大学学报, 2018, 41\allowbreak (1): 6.
-
-\bibitem[Ardito et~al.(2020)Ardito, Coppola, Barbato, and Verga]{Ardito2020}
-ARDITO L, COPPOLA R, BARBATO L, et~al.
-\newblock A tool-based perspective on software code maintainability metrics: A
-  systematic literature review\allowbreak[J].
-\newblock Scientific Programming, 2020\allowbreak (8840389).
-
-\bibitem[Li et~al.(1993)Li and Henry]{1993Object}
-LI W, HENRY S.
-\newblock Object-oriented metrics that predict maintainability\allowbreak[J].
-\newblock Journal of Systems & Software, 1993, 23\allowbreak (2): 111-122.
 
 \bibitem[Chen et~al.(2013)Chen, Iqbal, Abdrakhmanov, Parlar, and
   Wassyng]{2013Large}
@@ -199,7 +66,7 @@ IEEE/ACM International Conference on Automated Software Engineering.
 SUN X, LI B, WEN W, et~al.
 \newblock Analyzing impact rules of different change types to support change
   impact analysis\allowbreak[J].
-\newblock International Journal of Software Engineering & Knowledge
+\newblock International Journal of Software Engineering \& Knowledge
   Engineering, 2013, 23\allowbreak (03): 259-288.
 
 \bibitem[Department et~al.(2013)Department, of, Software, Engineering,
@@ -217,6 +84,32 @@ SUN X, LI B, TAO C, et~al.
 2010 IEEE 34th Annual Computer Software and Applications Conference.
 \newblock 2010: 373-382.
 \newblock DOI: \doi{10.1109/COMPSAC.2010.45}.
+
+\bibitem[Ufuktepe et~al.(2021)Ufuktepe and Tuglular]{2021Code}
+UFUKTEPE E, TUGLULAR T.
+\newblock Code change sniffer: Predicting future code changes with markov
+  chain\allowbreak[C]//\allowbreak
+IEEE Annual Computers, Software, and Applications Conference.
+\newblock 2021.
+
+\bibitem[Zheheng et~al.(2023)Zheheng, Jianming, Wuqiang, Chaosheng, and
+  Lulu]{10430003}
+ZHEHENG L, JIANMING C, WUQIANG S, et~al.
+\newblock Ecia: Elaborate change impact analysis based on sub-statement level
+  dependency graph\allowbreak[C/OL]//\allowbreak
+2023 IEEE 23rd International Conference on Software Quality, Reliability, and
+  Security Companion (QRS-C).
+\newblock 2023: 471-480.
+\newblock DOI: \doi{10.1109/QRS-C60940.2023.00032}.
+
+\bibitem[Zhang et~al.(2023)Zhang, Liu, Chang, Wang, and Liao]{10366673}
+ZHANG Z, LIU L, CHANG J, et~al.
+\newblock Commit classification via diff-code gcn based on system dependency
+  graph\allowbreak[C/OL]//\allowbreak
+2023 IEEE 23rd International Conference on Software Quality, Reliability, and
+  Security (QRS).
+\newblock 2023: 476-487.
+\newblock DOI: \doi{10.1109/QRS60937.2023.00053}.
 
 \bibitem[Shakirat et~al.(2021)Shakirat, Bajeh, Aro, Adewole, and
   Mathematical]{2021Improving}
@@ -242,7 +135,7 @@ CAI H, SANTELICES R.
 CAI H, SANTELICES R, XU T.
 \newblock Estimating the accuracy of dynamic change-impact analysis using
   sensitivity analysis\allowbreak[C]//\allowbreak
-Eighth International Conference on Software Security & Reliability.
+Eighth International Conference on Software Security \& Reliability.
 \newblock 2014.
 
 \bibitem[Cai et~al.(2016)Cai and Thain]{2016DistIA}
@@ -251,6 +144,12 @@ CAI H, THAIN D.
   programs\allowbreak[C]//\allowbreak
 the 31st IEEE/ACM International Conference.
 \newblock 2016.
+
+\bibitem[王海龙\ 等()王海龙, 姜华, and
+  吴晓雯]{王海龙0一种基于代码树分析的代码影响范围分析方法}
+王海龙, 姜华, 吴晓雯.
+\newblock
+  一种基于代码树分析的代码影响范围分析方法\allowbreak[Z].
 
 \bibitem[Markus et~al.(2017)Markus, Borg, Krzysztof, Wnuk, Björn, Regnell,
   Per, and Runeson]{Markus2017Supporting}
@@ -309,8 +208,17 @@ LLVM-ADMIN TEAM.
 \bibitem[Gomariz et~al.(2013)Gomariz, Campos, Marin, and Goethals]{2013ClaSP}
 GOMARIZ A, CAMPOS M, MARIN R, et~al.
 \newblock Clasp: An efficient algorithm for mining frequent closed
-  sequences\allowbreak[Z].
-\newblock 2013.
+  sequences\allowbreak[C]//\allowbreak
+Advances in Knowledge Discovery and Data Mining: 17th Pacific-Asia Conference,
+  PAKDD 2013, Gold Coast, Australia, April 14-17, 2013, Proceedings, Part I 17.
+\newblock Springer, 2013: 50-61.
+
+\bibitem[Lewis et~al.(2020)Lewis, Perez, Piktus, Petroni, and
+  Kiela]{2020Retrieval}
+LEWIS P, PEREZ E, PIKTUS A, et~al.
+\newblock Retrieval-augmented generation for knowledge-intensive nlp
+  tasks\allowbreak[Z].
+\newblock 2020.
 
 \bibitem[花子涵\ 等(2024)花子涵, 杨立, 陆俊逸, and
   左春]{花子涵2024代码审查自动化研究综述}
@@ -318,19 +226,11 @@ GOMARIZ A, CAMPOS M, MARIN R, et~al.
 \newblock 代码审查自动化研究综述\allowbreak[J].
 \newblock 软件学报, 2024, 35\allowbreak (7): 3265-3290.
 
-\bibitem[Adjoyan et~al.(2014)Adjoyan, Seriai, and Shatnawi]{2014Service}
-ADJOYAN S, SERIAI A~D, SHATNAWI A.
-\newblock Service identification based on quality metrics object - oriented
-  legacy system migration towards soa\allowbreak[C]//\allowbreak
-International Conference on Software Engineering & Knowledge Engineering.
-\newblock 2014.
-
-\bibitem[Abdelkader et~al.(2013)Abdelkader, Malki, and Benslimane]{2013Ahe}
-ABDELKADER M, MALKI M, BENSLIMANE S~M.
-\newblock A heuristic approach to locate candidate web service in legacy
-  software\allowbreak[J].
-\newblock International Journal of Computer Applications in Technology, 2013,
-  47\allowbreak (2/3): 152-161.
+\bibitem[黄沛杰\ 等(2011)黄沛杰 and
+  杨铭铨]{黄沛杰2011代码质量静态度量的研究与应用}
+黄沛杰, 杨铭铨.
+\newblock 代码质量静态度量的研究与应用\allowbreak[J].
+\newblock 计算机工程与应用, 2011, 47\allowbreak (23): 61-63.
 
 \bibitem[Chidamber et~al.(1994)Chidamber and Kemerer]{1994Ametr}
 CHIDAMBER S~R, KEMERER C~F.
@@ -358,10 +258,5 @@ BIEMAN J~M, KANG B~K.
   system\allowbreak[C]//\allowbreak
 Proceedings of the 1995 Symposium on Software reusability.
 \newblock 1995.
-
-\bibitem[迟曲(2011)]{迟曲2011关于软件设计的模块独立性分析}
-迟曲.
-\newblock 关于软件设计的模块独立性分析\allowbreak[J].
-\newblock 数字技术与应用, 2011\allowbreak (3): 2.
 
 \end{thebibliography}

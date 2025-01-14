@@ -21,53 +21,49 @@ Reallocated global_strs (elt_size=200001) to 20 items from 10.
 Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: reference.bib
-Repeated entry---line 641 of file reference.bib
- : @inproceedings{2011An
- :                      ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 959 of file reference.bib
- : @article{2005Mining
- :                    ,
-I'm skipping whatever remains of this entry
-You've used 54 entries,
+Warning--empty year in 王海龙0一种基于代码树分析的代码影响范围分析方法
+Warning--empty year in 王海龙0一种基于代码树分析的代码影响范围分析方法
+Warning--empty year in 王海龙0一种基于代码树分析的代码影响范围分析方法
+Warning--empty year in 王海龙0一种基于代码树分析的代码影响范围分析方法
+You've used 36 entries,
             5374 wiz_defined-function locations,
-            1371 strings with 17918 characters,
-and the built_in function-call counts, 452563 in all, are:
-= -- 9211
-> -- 52584
-< -- 65727
-+ -- 18491
-- -- 3838
-* -- 2452
-:= -- 62515
-add.period$ -- 169
-call.type$ -- 54
-change.case$ -- 418
-chr.to.int$ -- 16200
-cite$ -- 54
-duplicate$ -- 1362
-empty$ -- 3791
-format.name$ -- 1683
-if$ -- 117856
+            1270 strings with 15096 characters,
+and the built_in function-call counts, 299703 in all, are:
+= -- 6195
+> -- 34699
+< -- 43385
++ -- 12249
+- -- 2562
+* -- 1658
+:= -- 41497
+add.period$ -- 112
+call.type$ -- 36
+change.case$ -- 270
+chr.to.int$ -- 10718
+cite$ -- 40
+duplicate$ -- 908
+empty$ -- 2619
+format.name$ -- 1139
+if$ -- 78094
 int.to.chr$ -- 1
-int.to.str$ -- 55
+int.to.str$ -- 37
 missing$ -- 0
-newline$ -- 306
-num.names$ -- 162
-pop$ -- 24188
+newline$ -- 213
+num.names$ -- 108
+pop$ -- 15880
 preamble$ -- 1
-purify$ -- 54
+purify$ -- 36
 quote$ -- 0
-skip$ -- 46497
+skip$ -- 30716
 stack$ -- 0
-substring$ -- 20996
-swap$ -- 54
-text.length$ -- 1236
+substring$ -- 13926
+swap$ -- 36
+text.length$ -- 828
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 590
-warning$ -- 0
-while$ -- 1284
+type$ -- 392
+warning$ -- 4
+while$ -- 861
 width$ -- 0
-write$ -- 734
-(There were 2 error messages)
+write$ -- 483
+(There were 4 warnings)
