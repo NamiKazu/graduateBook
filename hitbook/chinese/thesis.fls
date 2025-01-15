@@ -691,8 +691,8 @@ OUTPUT body/part3.aux
 INPUT ./body/part3.tex
 INPUT ./body/part3.tex
 INPUT body/part3.tex
-INPUT ./figures/质量模型.jpg
-INPUT ./figures/质量模型.jpg
+INPUT ./figures/质量模型2.jpg
+INPUT ./figures/质量模型2.jpg
 INPUT ./figures/内聚度示例.jpg
 INPUT ./figures/内聚度示例.jpg
 INPUT ./figures/LCOM3.jpg
@@ -701,8 +701,9 @@ INPUT ./figures/LCOM4.jpg
 INPUT ./figures/LCOM4.jpg
 INPUT ./figures/TCCLCC.jpg
 INPUT ./figures/TCCLCC.jpg
-INPUT ./figures/扇入扇出.png
-INPUT ./figures/扇入扇出.png
+INPUT ./figures/扇出介绍.jpg
+INPUT ./figures/扇出介绍.jpg
+INPUT ./figures/扇出介绍.jpg
 INPUT ./figures/G6图数据示例.jpg
 INPUT ./figures/G6图数据示例.jpg
 INPUT ./figures/孤立节点图模式.pdf

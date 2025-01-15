@@ -77,7 +77,7 @@
 \contentsline {paragraph}{数量属性}{42}{paragraph*.41}%
 \contentsline {paragraph}{类型属性}{44}{paragraph*.42}%
 \contentsline {section}{\numberline {3.5}本章小结}{44}{section.3.5}%
-\contentsline {chapter}{\numberline {第4章}基于代码审查图的代码结构可视化和质量评估}{45}{chapter.4}%
+\contentsline {chapter}{\numberline {第4章}基于代码审查图的代码结构可视化和质量分析}{45}{chapter.4}%
 \contentsline {section}{\numberline {4.1}引言}{45}{section.4.1}%
 \contentsline {section}{\numberline {4.2}基于代码度量的代码质量度量模型}{46}{section.4.2}%
 \contentsline {subsection}{\numberline {4.2.1}代码质量度量模型}{46}{subsection.4.2.1}%
@@ -85,37 +85,35 @@
 \contentsline {paragraph}{质量子属性度量}{47}{paragraph*.45}%
 \contentsline {paragraph}{质量属性度量}{47}{paragraph*.46}%
 \contentsline {subsection}{\numberline {4.2.2}基于内聚度缺乏度和连通性的的内聚性度量}{47}{subsection.4.2.2}%
-\contentsline {paragraph}{基于内聚度缺乏度的内聚度计算}{47}{paragraph*.47}%
-\contentsline {paragraph}{基于连通性的内聚度计算}{49}{paragraph*.48}%
 \contentsline {subsection}{\numberline {4.2.3}方法间耦合性度量}{50}{subsection.4.2.3}%
 \contentsline {subsection}{\numberline {4.2.4}方法扇入扇出度量}{51}{subsection.4.2.4}%
-\contentsline {subsection}{\numberline {4.2.5}基于静态检测工具的潜在缺陷度量}{52}{subsection.4.2.5}%
+\contentsline {subsection}{\numberline {4.2.5}基于静态检测工具的度量}{52}{subsection.4.2.5}%
 \contentsline {section}{\numberline {4.3}代码审查图的构建和代码结构的可视化}{53}{section.4.3}%
 \contentsline {subsection}{\numberline {4.3.1}代码审查图构建}{53}{subsection.4.3.1}%
-\contentsline {paragraph}{节点构建}{53}{paragraph*.49}%
-\contentsline {paragraph}{边的设计}{54}{paragraph*.50}%
+\contentsline {paragraph}{节点构建}{53}{paragraph*.47}%
+\contentsline {paragraph}{边的设计}{55}{paragraph*.48}%
 \contentsline {subsection}{\numberline {4.3.2}代码审查图可视化}{55}{subsection.4.3.2}%
-\contentsline {paragraph}{可视化方案}{55}{paragraph*.51}%
-\contentsline {paragraph}{交互方案}{55}{paragraph*.52}%
+\contentsline {paragraph}{可视化方案}{55}{paragraph*.49}%
+\contentsline {paragraph}{交互方案}{56}{paragraph*.50}%
 \contentsline {section}{\numberline {4.4}基于代码审查图的代码质量分析}{56}{section.4.4}%
-\contentsline {paragraph}{冗余代码元素}{56}{paragraph*.53}%
-\contentsline {paragraph}{长嵌套调用}{56}{paragraph*.54}%
-\contentsline {paragraph}{复杂方法}{57}{paragraph*.55}%
-\contentsline {paragraph}{职责不匹配}{58}{paragraph*.56}%
-\contentsline {paragraph}{模块间不良的逻辑型变更影响}{58}{paragraph*.57}%
+\contentsline {paragraph}{1.冗余代码元素}{56}{paragraph*.51}%
+\contentsline {paragraph}{2.长嵌套调用}{57}{paragraph*.52}%
+\contentsline {paragraph}{3.复杂方法}{57}{paragraph*.53}%
+\contentsline {paragraph}{4.职责不匹配}{58}{paragraph*.54}%
+\contentsline {paragraph}{5.模块间不良的逻辑型变更影响}{59}{paragraph*.55}%
 \contentsline {section}{\numberline {4.5}实验结果与分析}{59}{section.4.5}%
-\contentsline {subsection}{\numberline {4.5.1}实验设计和实验数据}{59}{subsection.4.5.1}%
-\contentsline {paragraph}{验证代码质量度量模型的实验设计}{59}{paragraph*.58}%
-\contentsline {paragraph}{验证代码审查图的实验设计}{60}{paragraph*.59}%
-\contentsline {paragraph}{实验数据}{60}{paragraph*.60}%
+\contentsline {subsection}{\numberline {4.5.1}实验数据和实验设计}{59}{subsection.4.5.1}%
+\contentsline {paragraph}{1.实验数据}{59}{paragraph*.56}%
+\contentsline {paragraph}{2.验证代码质量度量模型的实验设计}{60}{paragraph*.57}%
+\contentsline {paragraph}{3.验证代码审查图的实验设计}{60}{paragraph*.58}%
 \contentsline {subsection}{\numberline {4.5.2}实验环境}{60}{subsection.4.5.2}%
 \contentsline {subsection}{\numberline {4.5.3}实验结果分析}{60}{subsection.4.5.3}%
 \contentsline {section}{\numberline {4.6}代码审查图的应用案例分析}{63}{section.4.6}%
-\contentsline {paragraph}{作为静态分析工具对软件代码进行结构可视化和质量分析}{63}{paragraph*.61}%
-\contentsline {paragraph}{作为开发工具辅助开发者的代码维护}{65}{paragraph*.62}%
-\contentsline {paragraph}{作为审查工具帮助审查者进行审查}{68}{paragraph*.63}%
-\contentsline {section}{\numberline {4.7}本章小结}{68}{section.4.7}%
-\contentsline {chapter}{\heiti 结\hspace {\ccwd }论}{69}{section*.64}%
-\contentsline {chapter}{\heiti 参考文献}{71}{section*.67}%
-\contentsline {chapter}{\heiti 哈尔滨工业大学学位论文原创性声明和使用权限}{75}{section*.69}%
-\contentsline {chapter}{\heiti 致\hspace {\ccwd }谢}{76}{section*.71}%
+\contentsline {paragraph}{作为静态分析工具对软件代码进行结构可视化和质量分析}{63}{paragraph*.59}%
+\contentsline {paragraph}{作为开发工具辅助开发者的代码维护}{66}{paragraph*.60}%
+\contentsline {paragraph}{作为审查工具帮助审查者进行审查}{69}{paragraph*.61}%
+\contentsline {section}{\numberline {4.7}本章小结}{69}{section.4.7}%
+\contentsline {chapter}{\heiti 结\hspace {\ccwd }论}{70}{section*.62}%
+\contentsline {chapter}{\heiti 参考文献}{72}{section*.65}%
+\contentsline {chapter}{\heiti 哈尔滨工业大学学位论文原创性声明和使用权限}{76}{section*.67}%
+\contentsline {chapter}{\heiti 致\hspace {\ccwd }谢}{77}{section*.69}%

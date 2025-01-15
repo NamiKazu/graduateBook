@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.11.30)  14 JAN 2025 22:14
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.11.30)  15 JAN 2025 22:16
 entering extended mode
  \write18 enabled.
  Source specials enabled.
@@ -2308,8 +2308,8 @@ File: figures/克隆代码拒绝样例.jpg Graphic file (type bmp)
 
 
 ]
-File: figures/质量模型.jpg Graphic file (type bmp)
-<figures/质量模型.jpg>
+File: figures/质量模型2.jpg Graphic file (type bmp)
+<figures/质量模型2.jpg>
  [46] [47]
 File: figures/内聚度示例.jpg Graphic file (type bmp)
 <figures/内聚度示例.jpg>
@@ -2327,22 +2327,11 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [48] [49]
 File: figures/TCCLCC.jpg Graphic file (type bmp)
 <figures/TCCLCC.jpg>
- [50]
-File: figures/扇入扇出.png Graphic file (type bmp)
-<figures/扇入扇出.png>
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[51] [52]
-Underfull \hbox (badness 10000) in paragraph at lines 274--274
-[]|[]\TU/TeXGyreTermesX(0)/m/n/10.53937 LCOM1\TU/SongtiSCLight(0)/m/n/10.53937 
-、| \TU/TeXGyreTermesX(0)/m/n/10.53937 LCOM2\TU/SongtiSCLight(0)/m/n/10.53937 、|
- \TU/TeXGyreTermesX(0)/m/n/10.53937 LCOM3\TU/SongtiSCLight(0)/m/n/10.53937 、|
- []
-
-
-Overfull \hbox (15.83476pt too wide) in paragraph at lines 268--282
+ [50] [51]
+File: figures/扇出介绍.jpg Graphic file (type bmp)
+<figures/扇出介绍.jpg>
+ [52]
+Overfull \hbox (5.69098pt too wide) in paragraph at lines 271--285
  [][][] 
  []
 
@@ -2352,24 +2341,29 @@ File: figures/G6图数据示例.jpg Graphic file (type bmp)
  [55]
 File: figures/孤立节点图模式.pdf Graphic file (type pdf)
 <use figures/孤立节点图模式.pdf>
- [56]
-File: figures/链式调用模式图.pdf Graphic file (type pdf)
-<use figures/链式调用模式图.pdf>
-File: figures/复杂方法.pdf Graphic file (type pdf)
-<use figures/复杂方法.pdf>
- [57]
-File: figures/职责不匹配.pdf Graphic file (type pdf)
-<use figures/职责不匹配.pdf>
-File: figures/不良变更影响.pdf Graphic file (type pdf)
-<use figures/不良变更影响.pdf>
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[58] [59]
+[56]
+File: figures/链式调用模式图.pdf Graphic file (type pdf)
+<use figures/链式调用模式图.pdf>
+File: figures/复杂方法.pdf Graphic file (type pdf)
+<use figures/复杂方法.pdf>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[57]
+File: figures/职责不匹配.pdf Graphic file (type pdf)
+<use figures/职责不匹配.pdf>
+ [58]
+File: figures/不良变更影响.pdf Graphic file (type pdf)
+<use figures/不良变更影响.pdf>
+ [59] [60]
 File: figures/3_度量模型分析实验.pdf Graphic file (type pdf)
 <use figures/3_度量模型分析实验.pdf>
- [60]
+ [61]
 File: figures/冗余代码.jpg Graphic file (type bmp)
 <figures/冗余代码.jpg>
 File: figures/存在链式调用.jpg Graphic file (type bmp)
@@ -2379,11 +2373,7 @@ File: figures/复杂方法.png Graphic file (type bmp)
 File: figures/职责不匹配实例.jpg Graphic file (type bmp)
 <figures/职责不匹配实例.jpg>
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 576--577
+Underfull \hbox (badness 10000) in paragraph at lines 583--584
 [][]\TU/SongtiSCLight(0)/m/n/12.045 图  |（\TU/TeXGyreTermesX(0)/m/n/12.045 b\TU/
 SongtiSCLight(0)/m/n/12.045 ）|  是 \TU/TeXGyreTermesX(0)/m/n/12.045 TheAlgorithm
 s \TU/SongtiSCLight(0)/m/n/12.045 项 目 中 \TU/TeXGyreTermesX(0)/m/n/12.045 cipher
@@ -2392,13 +2382,13 @@ s \TU/SongtiSCLight(0)/m/n/12.045 项 目 中 \TU/TeXGyreTermesX(0)/m/n/12.045 c
  []
 
 
-Underfull \hbox (badness 6961) in paragraph at lines 576--577
+Underfull \hbox (badness 6961) in paragraph at lines 583--584
 \TU/TeXGyreTermesX(0)/m/n/12.045 clidean_algorithm_extended.c \TU/SongtiSCLight
 (0)/m/n/12.045 文 件 的 部 分 子 图，|  这 两 个 文 件 内 均 出 现 了 长 嵌
  []
 
-[61]
-Underfull \hbox (badness 10000) in paragraph at lines 580--581
+
+Underfull \hbox (badness 10000) in paragraph at lines 587--588
 [][]\TU/SongtiSCLight(0)/m/n/12.045 图  |（\TU/TeXGyreTermesX(0)/m/n/12.045 d\TU/
 SongtiSCLight(0)/m/n/12.045 ）|  是 \TU/TeXGyreTermesX(0)/m/n/12.045 jemalloc \TU
 /SongtiSCLight(0)/m/n/12.045 项 目 中 \TU/TeXGyreTermesX(0)/m/n/12.045 src/hpa.c \
@@ -2407,23 +2397,20 @@ pa_supported\TU/SongtiSCLight(0)/m/n/12.045 ，|
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 580--581
+Underfull \hbox (badness 10000) in paragraph at lines 587--588
 \TU/SongtiSCLight(0)/m/n/12.045 而 它 并 未 与 其 所 在 文 件 的 其 他 方 法 产 生 联 系，|  而 是 更 
 多 地 服 务 于
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 580--581
+Underfull \hbox (badness 10000) in paragraph at lines 587--588
 \TU/TeXGyreTermesX(0)/m/n/12.045 unit/hpa_background_thread.c \TU/SongtiSCLight
 (0)/m/n/12.045 文 件 内 的 方 法，|  因 此 出 现 了 职 责 不 匹 配 的 现
  []
 
+[62]
 File: figures/不良变更影响.png Graphic file (type bmp)
 <figures/不良变更影响.png>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[62]
 File: figures/antiword审查图未上色.jpg Graphic file (type bmp)
 <figures/antiword审查图未上色.jpg>
 File: figures/aigri代码审查图-未上色.jpg Graphic file (type bmp)
@@ -2432,15 +2419,24 @@ File: figures/antiword代码审查图.jpg Graphic file (type bmp)
 <figures/antiword代码审查图.jpg>
 File: figures/aigri代码审查图.jpg Graphic file (type bmp)
 <figures/aigri代码审查图.jpg>
- [63]
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[63]
 File: figures/点击节点.png Graphic file (type bmp)
 <figures/点击节点.png>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[64]
 File: figures/孤立节点实例.jpg Graphic file (type bmp)
 <figures/孤立节点实例.jpg>
 File: figures/扇出度最高.jpg Graphic file (type bmp)
 <figures/扇出度最高.jpg>
 
-Underfull \hbox (badness 1769) in paragraph at lines 658--658
+Underfull \hbox (badness 1769) in paragraph at lines 665--665
 [][]\TU/TeXGyreTermesX(0)/m/n/10.53937 (b) \TU/SongtiSCLight(0)/m/n/10.53937 复 
 杂 方 法 \TU/TeXGyreTermesX(0)/m/n/10.53937 - properties.c \TU/SongtiSCLight(0)/m/
 n/10.53937 文 件 中
@@ -2451,80 +2447,70 @@ File: figures/职责不匹配.png Graphic file (type bmp)
 File: figures/不良变更影响关系.png Graphic file (type bmp)
 <figures/不良变更影响关系.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 665--665
+Underfull \hbox (badness 10000) in paragraph at lines 672--672
 [][]\TU/TeXGyreTermesX(0)/m/n/10.53937 (d) \TU/SongtiSCLight(0)/m/n/10.53937 模 
 块 间 不 良 的 逻 辑 型 影 响\TU/TeXGyreTermesX(0)/m/n/10.53937 -
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 665--665
+Underfull \hbox (badness 10000) in paragraph at lines 672--672
 \TU/TeXGyreTermesX(0)/m/n/10.53937 stylelist.c \TU/SongtiSCLight(0)/m/n/10.5393
 7 中 方 法 \TU/TeXGyreTermesX(0)/m/n/10.53937 pGetNextStyle-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 665--665
+Underfull \hbox (badness 10000) in paragraph at lines 672--672
 \TU/TeXGyreTermesX(0)/m/n/10.53937 InfoListItem \TU/SongtiSCLight(0)/m/n/10.539
 37 和 \TU/TeXGyreTermesX(0)/m/n/10.53937 fontlist.c \TU/SongtiSCLight(0)/m/n/10.
 53937 中 方 法
  []
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[64]
+[65]
 File: figures/开发1.jpg Graphic file (type bmp)
 <figures/开发1.jpg>
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 File: figures/开发2.jpg Graphic file (type bmp)
 <figures/开发2.jpg>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[65] [66]
+ [66] [67]
 File: figures/开发3.jpg Graphic file (type bmp)
 <figures/开发3.jpg>
 File: figures/代码审查图子图.jpg Graphic file (type bmp)
 <figures/代码审查图子图.jpg>
- [67
+ [68
 
-]) [68]
+]) [69]
 \openout2 = `back/conclusion.aux'.
 
- (./back/conclusion.tex [69
+ (./back/conclusion.tex [70
 
 
 
 
 
 
-]) [70] (./thesis.bbl
+]) [71] (./thesis.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 53--57
 [][]\TU/TeXGyreTermesX(0)/m/n/12.045 JITENDERKUMARCHHABRA, MRINAALMALHOTRA, JIT
 ENDERKU-
  []
 
-[71
+[72
 
 
 
 
-] [72]
+] [73]
 Underfull \hbox (badness 1052) in paragraph at lines 218--222
 [][]\TU/TeXGyreTermesX(0)/m/n/12.045 LEWIS P, PEREZ E, PIKTUS A, et al.  Retrie
 val-augmented generation for
  []
 
-) [73] [74] [75
+) [74] [75] [76
 
 
 ]
 \openout2 = `back/acknowledgements.aux'.
 
- (./back/acknowledgements.tex) [76
+ (./back/acknowledgements.tex) [77
 
 
 
@@ -2552,16 +2538,22 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: EB3C89A39850414FC14E22EE4D1304BB;11739.
+
+Package rerunfilecheck Warning: File `thesis.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `thesis.out':
+(rerunfilecheck)             Before: EB3C89A39850414FC14E22EE4D1304BB;11739
+(rerunfilecheck)             After:  FB682123022142958F91D3CA929EEAD2;11707.
  ) 
 Here is how much of TeX's memory you used:
- 47456 strings out of 474773
- 1029283 string characters out of 5757723
- 1948839 words of memory out of 5000000
- 68668 multiletter control sequences out of 15000+600000
+ 47454 strings out of 474773
+ 1029266 string characters out of 5757723
+ 1952839 words of memory out of 5000000
+ 68666 multiletter control sequences out of 15000+600000
  616692 words of font info for 242 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  107i,19n,111p,2550b,1068s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on thesis.pdf (86 pages).
+Output written on thesis.pdf (87 pages).
