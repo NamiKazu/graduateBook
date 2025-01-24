@@ -1,4 +1,4 @@
-\begin{thebibliography}{36}
+\begin{thebibliography}{41}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{#1}
 \expandafter\ifx\csname urlstyle\endcsname\relax\else
@@ -21,6 +21,22 @@ DAI P, WANG Y, JIN D, et~al.
 \newblock An improving approach to analyzing change impact of c
   programs\allowbreak[J].
 \newblock Computer communications, 2022\allowbreak (Jan.): 182.
+
+\bibitem[Kretsou et~al.(2021)Kretsou, Arvanitou, Ampatzoglou, Deligiannis, and
+  Gerogiannis]{KRETSOU2021110892}
+KRETSOU M, ARVANITOU E~M, AMPATZOGLOU A, et~al.
+\newblock Change impact analysis: A systematic mapping study\allowbreak[J/OL].
+\newblock Journal of Systems and Software, 2021, 174: 110892.
+\newblock
+  \url{https://www.sciencedirect.com/science/article/pii/S016412122030282X}.
+\newblock DOI: \doi{https://doi.org/10.1016/j.jss.2020.110892}.
+
+\bibitem[Lelovic et~al.(2025)Lelovic, Huzinga, Goulis, Kaur, Boone, Muzrapov,
+  Abdelfattah, and Cerny]{2025Change}
+LELOVIC L, HUZINGA A, GOULIS G, et~al.
+\newblock Change impact analysis in microservice systems: A systematic
+  literature review\allowbreak[J].
+\newblock The Journal of Systems \& Software, 2025, 219.
 
 \bibitem[Chen et~al.(2013)Chen, Iqbal, Abdrakhmanov, Parlar, and
   Wassyng]{2013Large}
@@ -85,13 +101,6 @@ SUN X, LI B, TAO C, et~al.
 \newblock 2010: 373-382.
 \newblock DOI: \doi{10.1109/COMPSAC.2010.45}.
 
-\bibitem[Ufuktepe et~al.(2021)Ufuktepe and Tuglular]{2021Code}
-UFUKTEPE E, TUGLULAR T.
-\newblock Code change sniffer: Predicting future code changes with markov
-  chain\allowbreak[C]//\allowbreak
-IEEE Annual Computers, Software, and Applications Conference.
-\newblock 2021.
-
 \bibitem[Zheheng et~al.(2023)Zheheng, Jianming, Wuqiang, Chaosheng, and
   Lulu]{10430003}
 ZHEHENG L, JIANMING C, WUQIANG S, et~al.
@@ -102,6 +111,20 @@ ZHEHENG L, JIANMING C, WUQIANG S, et~al.
 \newblock 2023: 471-480.
 \newblock DOI: \doi{10.1109/QRS-C60940.2023.00032}.
 
+\bibitem[Ufuktepe et~al.(2021)Ufuktepe and Tuglular]{2021Code}
+UFUKTEPE E, TUGLULAR T.
+\newblock Code change sniffer: Predicting future code changes with markov
+  chain\allowbreak[C]//\allowbreak
+IEEE Annual Computers, Software, and Applications Conference.
+\newblock 2021.
+
+\bibitem[Yadav et~al.(2022)Yadav, Azad, and Adhikary]{2022CIAFP}
+YADAV D~K, AZAD C, ADHIKARY S~D~R~D.
+\newblock Ciafp:a change impact analysis with fault prediction for
+  object-oriented software\allowbreak[J].
+\newblock International journal of software innovation, 2022, 10\allowbreak
+  (Pt.3): 933-951.
+
 \bibitem[Zhang et~al.(2023)Zhang, Liu, Chang, Wang, and Liao]{10366673}
 ZHANG Z, LIU L, CHANG J, et~al.
 \newblock Commit classification via diff-code gcn based on system dependency
@@ -110,6 +133,12 @@ ZHANG Z, LIU L, CHANG J, et~al.
   Security (QRS).
 \newblock 2023: 476-487.
 \newblock DOI: \doi{10.1109/QRS60937.2023.00053}.
+
+\bibitem[姜瑛\ 等(2024)姜瑛, 黄培凤, and
+  顾加伟]{姜瑛2024基于动态}
+姜瑛, 黄培凤, 顾加伟.
+\newblock 基于动态AST与GCN的代码变更影响范围分析\allowbreak[J].
+\newblock 昆明理工大学学报(自然科学版), 2024\allowbreak (4).
 
 \bibitem[Shakirat et~al.(2021)Shakirat, Bajeh, Aro, Adewole, and
   Mathematical]{2021Improving}
@@ -180,18 +209,17 @@ ROLFSNES T, ALESIO S~D, BEHJATI R, et~al.
 IEEE International Conference on Software Analysis.
 \newblock 2016.
 
-\bibitem[Zimmermann et~al.(2005)Zimmermann, Zeller, Weissgerber, and
-  Diehl]{2005Mining}
-ZIMMERMANN T, ZELLER A, WEISSGERBER P, et~al.
-\newblock Mining version histories to guide software changes\allowbreak[J].
-\newblock IEEE Transactions on Software Engineering, 2005.
-
 \bibitem[Huang et~al.(2021)Huang, Jiang, Luo, Chen, and Huang]{2021Change}
 HUANG Y, JIANG J, LUO X, et~al.
 \newblock Change-patterns mapping: A boosting way for change impact
   analysis\allowbreak[J].
 \newblock IEEE Transactions on Software Engineering, 2021, PP\allowbreak (99):
   1-1.
+
+\bibitem[戴鹏(2024)]{daipeng2024software}
+戴鹏.
+\newblock 软件变更影响分析关键技术研究\allowbreak[D].
+\newblock 北京邮电大学, 2024.
 
 \bibitem[llvm-admin team(2024)]{clang}
 LLVM-ADMIN TEAM.
@@ -204,6 +232,11 @@ LLVM-ADMIN TEAM.
 \newblock libclang: C interface to clang.\allowbreak[EB/OL].
 \newblock 2024.
 \newblock \url{https://clang.llvm.org/doxygen/group__CINDEX.html}.
+
+\bibitem[于长钺\ 等(2021)于长钺 and 贺宏良]{DZBZ202104016}
+于长钺, 贺宏良.
+\newblock 面向对象软件变更影响域分析方法\allowbreak[J].
+\newblock 信息技术与标准化, 2021\allowbreak (04): 41-46.
 
 \bibitem[Gomariz et~al.(2013)Gomariz, Campos, Marin, and Goethals]{2013ClaSP}
 GOMARIZ A, CAMPOS M, MARIN R, et~al.
