@@ -1,4 +1,4 @@
-\begin{thebibliography}{41}
+\begin{thebibliography}{58}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{#1}
 \expandafter\ifx\csname urlstyle\endcsname\relax\else
@@ -246,12 +246,125 @@ Advances in Knowledge Discovery and Data Mining: 17th Pacific-Asia Conference,
   PAKDD 2013, Gold Coast, Australia, April 14-17, 2013, Proceedings, Part I 17.
 \newblock Springer, 2013: 50-61.
 
+\bibitem[Husain et~al.(2019)Husain, Wu, Gazit, Allamanis, and
+  Brockschmidt]{husain_codesearchnet_2019}
+HUSAIN H, WU H~H, GAZIT T, et~al.
+\newblock {CodeSearchNet} {Challenge}: {Evaluating} the {State} of {Semantic}
+  {Code} {Search}\allowbreak[A/OL].
+\newblock 2019\allowbreak[2020-03-12].
+\newblock \url{http://arxiv.org/abs/1909.09436}.
+
+\bibitem[Feng et~al.(2020)Feng, Guo, Tang, Duan, Feng, Gong, Shou, Qin, Liu,
+  Jiang, et~al.]{feng2020codebert}
+FENG Z, GUO D, TANG D, et~al.
+\newblock Codebert: A pre-trained model for programming and natural
+  languages\allowbreak[A].
+\newblock 2020.
+
+\bibitem[Paszke et~al.(2019)Paszke, Gross, Massa, Lerer, Bradbury, Chanan,
+  Killeen, Lin, Gimelshein, Antiga, et~al.]{paszke2019pytorch}
+PASZKE A, GROSS S, MASSA F, et~al.
+\newblock Pytorch: An imperative style, high-performance deep learning
+  library\allowbreak[J].
+\newblock Advances in neural information processing systems, 2019, 32.
+
+\bibitem[Wolf et~al.(2020)Wolf, Debut, Sanh, Chaumond, Delangue, Moi, Cistac,
+  Rault, Louf, Funtowicz, et~al.]{wolf2020transformers}
+WOLF T, DEBUT L, SANH V, et~al.
+\newblock Transformers: State-of-the-art natural language
+  processing\allowbreak[C]//\allowbreak
+Proceedings of the 2020 conference on empirical methods in natural language
+  processing: system demonstrations.
+\newblock 2020: 38-45.
+
 \bibitem[Lewis et~al.(2020)Lewis, Perez, Piktus, Petroni, and
   Kiela]{2020Retrieval}
 LEWIS P, PEREZ E, PIKTUS A, et~al.
 \newblock Retrieval-augmented generation for knowledge-intensive nlp
   tasks\allowbreak[Z].
 \newblock 2020.
+
+\bibitem[He et~al.(2019)He, Fan, Wu, Xie, and Girshick]{2019Momentum}
+HE K, FAN H, WU Y, et~al.
+\newblock Momentum contrast for unsupervised visual representation
+  learning\allowbreak[Z].
+\newblock 2019.
+
+\bibitem[MetaAI(2024)]{meta2024faiss}
+METAAI.
+\newblock Facebookresearch/faiss\allowbreak[EB/OL].
+\newblock 2024.
+\newblock \url{https://github.com/facebookresearch/faiss}.
+
+\bibitem[Muennighoff et~al.(2022)Muennighoff, Tazi, Magne, and
+  Reimers]{muennighoff2022mteb}
+MUENNIGHOFF N, TAZI N, MAGNE L, et~al.
+\newblock Mteb: Massive text embedding benchmark\allowbreak[A/OL].
+\newblock 2022.
+\newblock \url{https://arxiv.org/abs/2210.07316}.
+
+\bibitem[Zhang et~al.(2024)Zhang, Zhang, Long, Xie, Dai, Tang, Lin, Yang, Xie,
+  and Huang]{2024mGTE}
+ZHANG X, ZHANG Y, LONG D, et~al.
+\newblock mgte: Generalized long-context text representation and reranking
+  models for multilingual text retrieval\allowbreak[Z].
+\newblock 2024.
+
+\bibitem[Hu et~al.(2025)Hu, Shan, Zhao, Sun, Liu, Li, Ye, Wei, Chen, Hu, Wang,
+  Yu, and Zhang]{hu2025kalmembeddingsuperiortrainingdata}
+HU X, SHAN Z, ZHAO X, et~al.
+\newblock Kalm-embedding: Superior training data brings a stronger embedding
+  model\allowbreak[A/OL].
+\newblock 2025.
+\newblock arXiv: \eprint{https://arxiv.org/abs/2501.01028}{2501.01028}.
+\newblock \url{https://arxiv.org/abs/2501.01028}.
+
+\bibitem[Sturua et~al.(2024)Sturua, Mohr, Akram, Günther, Wang, Krimmel, Wang,
+  Mastrapas, Koukounas, Wang, and
+  Xiao]{sturua2024jinaembeddingsv3multilingualembeddingstask}
+STURUA S, MOHR I, AKRAM M~K, et~al.
+\newblock jina-embeddings-v3: Multilingual embeddings with task
+  lora\allowbreak[A/OL].
+\newblock 2024.
+\newblock arXiv: \eprint{https://arxiv.org/abs/2409.10173}{2409.10173}.
+\newblock \url{https://arxiv.org/abs/2409.10173}.
+
+\bibitem[He et~al.(2020)He, Fan, Wu, Xie, and Girshick]{he2020momentum}
+HE K, FAN H, WU Y, et~al.
+\newblock Momentum contrast for unsupervised visual representation
+  learning\allowbreak[C]//\allowbreak
+Proceedings of the IEEE/CVF conference on computer vision and pattern
+  recognition.
+\newblock 2020: 9729-9738.
+
+\bibitem[Kingma(2014)]{kingma2014adam}
+KINGMA D~P.
+\newblock Adam: A method for stochastic optimization\allowbreak[A].
+\newblock 2014.
+
+\bibitem[Hurst et~al.(2024)Hurst, Lerer, Goucher, Perelman, Ramesh, Clark,
+  Ostrow, Welihinda, Hayes, Radford, et~al.]{hurst2024gpt4o}
+HURST A, LERER A, GOUCHER A~P, et~al.
+\newblock Gpt-4o system card\allowbreak[A].
+\newblock 2024.
+
+\bibitem[Hui et~al.(2024)Hui, Yang, Cui, Yang, Liu, Zhang, Liu, Zhang, Yu, Lu,
+  et~al.]{hui2024qwen2coder}
+HUI B, YANG J, CUI Z, et~al.
+\newblock Qwen2. 5-coder technical report\allowbreak[A].
+\newblock 2024.
+
+\bibitem[Yang et~al.(2024)Yang, Yang, Zhang, Hui, Zheng, Yu, Li, Liu, Huang,
+  Wei, et~al.]{yang2024qwen2}
+YANG A, YANG B, ZHANG B, et~al.
+\newblock Qwen2. 5 technical report\allowbreak[A].
+\newblock 2024.
+
+\bibitem[Dubey et~al.(2024)Dubey, Jauhri, Pandey, Kadian, Al-Dahle, Letman,
+  Mathur, Schelten, Yang, Fan, et~al.]{dubey2024llama}
+DUBEY A, JAUHRI A, PANDEY A, et~al.
+\newblock The llama 3 herd of models\allowbreak[A].
+\newblock 2024.
 
 \bibitem[花子涵\ 等(2024)花子涵, 杨立, 陆俊逸, and
   左春]{花子涵2024代码审查自动化研究综述}
@@ -291,5 +404,10 @@ BIEMAN J~M, KANG B~K.
   system\allowbreak[C]//\allowbreak
 Proceedings of the 1995 Symposium on Software reusability.
 \newblock 1995.
+
+\bibitem[林丽英(2007)]{DNZS200722064}
+林丽英.
+\newblock 对象模块耦合度度量模型的初步研究\allowbreak[J].
+\newblock 电脑知识与技术(学术交流), 2007\allowbreak (22): 1061-1065.
 
 \end{thebibliography}

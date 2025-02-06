@@ -25,45 +25,45 @@ Warning--empty year in 王海龙0一种基于代码树分析的代码影响范�
 Warning--empty year in 王海龙0一种基于代码树分析的代码影响范围分析方法
 Warning--empty year in 王海龙0一种基于代码树分析的代码影响范围分析方法
 Warning--empty year in 王海龙0一种基于代码树分析的代码影响范围分析方法
-You've used 41 entries,
+You've used 58 entries,
             5374 wiz_defined-function locations,
-            1302 strings with 16176 characters,
-and the built_in function-call counts, 339265 in all, are:
-= -- 7122
-> -- 39061
-< -- 48999
-+ -- 13926
-- -- 2968
-* -- 1914
-:= -- 47094
-add.period$ -- 129
-call.type$ -- 41
-change.case$ -- 294
-chr.to.int$ -- 12188
-cite$ -- 45
-duplicate$ -- 1032
-empty$ -- 3032
-format.name$ -- 1276
-if$ -- 88295
+            1385 strings with 20327 characters,
+and the built_in function-call counts, 521768 in all, are:
+= -- 10318
+> -- 60905
+< -- 76105
++ -- 21468
+- -- 4520
+* -- 2781
+:= -- 72431
+add.period$ -- 187
+call.type$ -- 58
+change.case$ -- 439
+chr.to.int$ -- 18851
+cite$ -- 62
+duplicate$ -- 1440
+empty$ -- 4173
+format.name$ -- 1982
+if$ -- 135619
 int.to.chr$ -- 1
-int.to.str$ -- 42
+int.to.str$ -- 59
 missing$ -- 0
-newline$ -- 240
-num.names$ -- 123
-pop$ -- 17791
+newline$ -- 334
+num.names$ -- 174
+pop$ -- 27231
 preamble$ -- 1
-purify$ -- 41
+purify$ -- 58
 quote$ -- 0
-skip$ -- 34633
+skip$ -- 53959
 stack$ -- 0
-substring$ -- 16010
-swap$ -- 41
-text.length$ -- 940
+substring$ -- 24289
+swap$ -- 58
+text.length$ -- 1406
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 447
+type$ -- 634
 warning$ -- 4
-while$ -- 979
+while$ -- 1454
 width$ -- 0
-write$ -- 556
+write$ -- 767
 (There were 4 warnings)
