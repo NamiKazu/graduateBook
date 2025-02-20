@@ -367,30 +367,31 @@ RAG  & \textbf{72.6} & \textbf{73.5} & \textbf{71.7} \\
 
 \textbf{4.针对于RQ4的实验}
 
-为了验证基于RAG的方法在跨项目场景下的泛化能力和知识迁移能力，本章设计了类似第二章的跨项目实验。数据集划分同上一章节一样，将项目分为四个分布内项目和两个分布外项目。在跨项目的实验设置下，模型仅在分布内项目上进行训练，测试时分别计算分布内和分布外项目的性能。
+为了验证基于RAG的方法在跨项目场景下的泛化能力和知识迁移能力，本章设计了类似第二章的跨项目实验。训练集划分同上一章节一样，将项目分为四个分布内项目和两个分布外项目。在跨项目的实验设置下，模型仅在分布内项目上进行训练，测试集则与其他实验保持一致。
 
 \begin{table}[htbp]
 \caption{跨项目迁移能力分析（F-measure(\%)）}
 \label{2_跨项目迁移能力分析}
 \vspace{0.5em}\centering\wuhao
-\begin{tabular}{c|cccc|cc}
+\begin{tabular}{c|cccccc}
 \toprule
 方法& TheAlgorithms & antiword & librdkafka & FFmpegKit & jemalloc & libbpf\\
 \midrule
-train on 6 datasets & train &train &train &train &train &train \\
+train on 6 datasets & \multicolumn{6}{c}{Intra-Project Testing} \\
 \midrule
 CodeBERTa  &  60.23 & 59.64 & 60.18 & 57.87 & 60.99 & 58.22 \\
 Just Retrieval   & 32.4 & 32.91 & 31.81 & 36.57 & 33.78 & 35.07  \\
 RAG & 76.0 & 78.45 & 76.46 & 77.66 & 79.04 & 76.29  \\
 \midrule
-train on 4 datasets & train &train &train &train &test &test\\
+train on 4 datasets & \multicolumn{4}{c|}{Intra-Project Testing} & \multicolumn{2}{c}{Inter-Project Testing} \\
 \midrule
-CodeBERTa  &  62.28 & 65.24 & 63.45 & 62.19 & 41.92$^*$ & 40.8$^*$\\
-Just Retrieval   & 33.33 & 34.2 & 34.77 & 36.89 & 29.74$^*$ & 31.09$^*$ \\
-RAG & 78.24 & 79.21 & 78.59 & 77.98 & 71.08$^*$ & 69.66$^*$ \\
+CodeBERTa  &  62.28 & 65.24 & 63.45 & \multicolumn{1}{c|}{62.19} & 41.92$^*$ & 40.8$^*$\\
+Just Retrieval   & 33.33 & 34.2 & 34.77 & \multicolumn{1}{c|}{36.89} & 29.74$^*$ & 31.09$^*$ \\
+RAG & 78.24 & 79.21 & 78.59 & \multicolumn{1}{c|}{77.98} & 71.08$^*$ & 69.66$^*$ \\
 \bottomrule
 \end{tabular}
 \end{table}
+
 
 实验结果如表\ref{2_跨项目迁移能力分析}所示。通过对比分析，上一章节基于代码预训练模型的方法在跨项目测试时，性能下降幅度在28.9\%到31.7\%之间，显示出较为明显的性能衰减。而本章所提出的基于依赖链和检索增强生成的变更影响分析方法，在跨项目测试时性能下降幅度仅为9.2\%到11.4\%，显著低于基于代码预训练模型的方法。
 

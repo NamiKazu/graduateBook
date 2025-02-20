@@ -61,8 +61,8 @@
   estudenttype={Master of Art},
   %
   % 关键词用“英文逗号”分割
-  ckeywords={代码质量, 检索增强生成, 变更影响分析, 代码度量, 代码结构可视化},
-  ekeywords={code quality, retrieval-augmented generation, change impact analysis, code metrics, code structure visualization},
+  ckeywords={代码质量, 变更影响分析, 检索增强生成, 代码度量, 代码结构可视化, 代码审查图},
+  ekeywords={code quality, change impact analysis, retrieval-augmented generation,  code metrics, code structure visualization, code review graph},
 }
 
 \begin{cabstract}
@@ -75,7 +75,7 @@
 
 其次，针对基于代码预训练模型方法在实际应用中在计算效率和依赖信息丢失方面的缺陷，本文进一步提出了基于依赖链和检索增强生成的变更影响分析方法。通过依赖链弥补了间接依赖信息的缺失，通过离线构建知识库和在线检索的方式，结合大语言模型在代码语义理解上的优越性能，有效提高了计算效率和检测性能。实验结果表明，该方法进一步提高了变更影响的检测性能，尤其是在间接依赖型变更影响关系上的性能得到了显著提升。
 
-最后，本文提出代码审查图的概念，以代码中的关键元素作为节点，元素间关系作为边，将变更影响分析结果结合代码质量和软件代码结构直观地展示给用户，帮助开发者和审查人员更直观地理解整个项目的质量情况和代码结构，优化项目的持续维护过程，提高代码维护过程的安全性和效率。此外，还生成了详细的代码质量分析报告。实验结果表明，代码审查图能够帮助开发人员快速聚焦于特定开发模块，有助于其发现不良的代码模式。同时，代码质量检测报告以清单形式展示了项目中各项质量度量，为开发人员提供了清晰的项目质量状况概览。
+最后，本文提出代码审查图的概念，以代码中的关键元素作为节点，元素间关系作为边，将变更影响分析结果结合代码质量和软件代码结构展示给用户，帮助开发者和审查人员更直观地理解整个项目的质量情况和代码结构，优化项目的持续维护过程，提高代码维护过程的安全性和效率。此外，还生成了详细的代码质量分析报告，实现了代码审查图可视化系统，帮助用户更好地与代码审查图进行交互。实验结果表明，代码审查图能够帮助开发人员快速聚焦于特定开发模块，有助于其发现不良的代码模式。同时，代码质量检测报告以清单形式展示了项目中各项质量度量，为开发人员提供了清晰的项目质量状况概览。
 
 \end{cabstract}
 
@@ -88,5 +88,5 @@ First, this study implements a change impact analysis method based on dependency
 
 Second, to address the limitations of the pretrained code model-based approach—such as computational efficiency issues and dependency information loss—this study further proposes a change impact analysis method based on dependency chains and retrieval-augmented generation (RAG). By leveraging dependency chains, the method compensates for missing indirect dependency information. Additionally, through offline knowledge base construction and online retrieval, combined with the superior semantic understanding capabilities of large language models, the proposed method significantly enhances computational efficiency and detection performance. Experimental results show that this approach further improves the accuracy of change impact detection, particularly in identifying indirect dependency impact relationships.
 
-Finally, this study introduces the concept of a code review graph, where key elements in the code are represented as nodes, and relationships between elements are represented as edges. By integrating change impact analysis results with code quality and software structure, the code review graph provides an intuitive visualization for developers and reviewers, enabling them to better understand the overall project quality and structure. This visualization helps optimize the continuous maintenance process, improving both the safety and efficiency of code maintenance. Additionally, a detailed code quality analysis report is generated. Experimental results demonstrate that code review graphs enable developers to quickly focus on specific development modules, facilitating the identification of problematic code patterns. Meanwhile, the code quality report presents various quality metrics in a checklist format, providing a clear overview of the project's quality status for developers.
+Finally, this study introduces the concept of a code review graph, where key elements in the code are represented as nodes, and relationships between elements are represented as edges. By integrating change impact analysis results with code quality and software structure, the code review graph provides an intuitive visualization for developers and reviewers, enabling them to better understand the overall project quality and structure. This visualization helps optimize the continuous maintenance process, improving both the safety and efficiency of code maintenance. Additionally, a detailed code quality analysis report is generated, providing comprehensive insights into various code metrics. A code review graph visualization system was also implemented, enabling users to interact more effectively with the code review graph. Experimental results demonstrate that code review graphs enable developers to quickly focus on specific development modules, facilitating the identification of problematic code patterns. Meanwhile, the code quality report presents various quality metrics in a checklist format, providing a clear overview of the project's quality status for developers.
 \end{eabstract}
